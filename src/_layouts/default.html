@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            <a class="t-link-inherit" href="/faq/"><h3>Trafikito FAQ</h3></a>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark navigation-top">
+            <a href="https://trafikito.com/faq/" class="mdl-layout__tab">FAQ</a>
+            <a href="https://trafikito.com/widgets-store" class="mdl-layout__tab">Widgets</a>
+            <a href="https://trafikito.com/price" class="mdl-layout__tab t-menu-price">Price</a>
+            <div class="mdl-layout-spacer"></div>
+            <a
+                    href="https://trafikito.com/servers"
+                    class="mdl-layout__tab"
+            >
+                <span class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+                Dashboard
+                </span>
+            </a>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+
+        <div>{{ content }}</div>
+
+        {%- include footer.html -%}
+    </main>
+</div>
+<script src="{{ '/assets/trafikito.js' | relative_url }}"></script>
+</body>
+</html>
