@@ -1,7 +1,7 @@
 Check live site at https://trafikito.com/faq/
 
 
-#Run locally:
+# Run locally:
 
 ```
 cd ./src/
@@ -13,7 +13,7 @@ cd ./src/
 bundle exec jekyll serve --livereload
 ```
 
-#Build site for production:
+# Build site for production:
 
 ```
 cd ./src/
