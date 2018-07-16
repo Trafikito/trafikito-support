@@ -1,6 +1,3 @@
-Check live site at https://trafikito.com/faq/
-
-
 # Run locally:
 
 ```
