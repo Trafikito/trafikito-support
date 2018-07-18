@@ -1,7 +1,10 @@
-jekyll:
-    image: jekyll/jekyll:pages
-    command: jekyll serve --watch --incremental
-    ports:
-        - 4000:4000
+version: '3'
+
+services:
+  faq-site:
+    build: ./faq
     volumes:
-        - ./src:/srv/jekyll
+      - ./faq:/srv/faq
+    ports:
+      - "4000:4000"
+      - "35729:35729"

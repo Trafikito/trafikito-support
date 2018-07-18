@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole faq, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Trafikito.com FAQ
+email: info@trafikito.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Trafikito.com initially monitors for free RAM, disk space, CPU and sends email when something wrong but it
+  also can monitor output of any command and execute any API call when something happens.
+baseurl: "/faq" # the subpath of your site, e.g. /faq
+url: "https://trafikito.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: /:title:output_ext
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      excerpt_separator: <!--more-->
+
+paginate: 10
+paginate_path: "/page/:num/"
+
+disqus: trafikito
+google_analytics:
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

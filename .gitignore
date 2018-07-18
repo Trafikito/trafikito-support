@@ -1,5 +1,5 @@
 .idea
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+faq/_site/
+faq/.sass-cache/
+faq/.jekyll-cache/
+faq/.jekyll-metadata

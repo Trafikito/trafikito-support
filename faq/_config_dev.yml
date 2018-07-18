@@ -29,7 +29,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
 defaults:
   -
     scope:
@@ -40,6 +39,9 @@ defaults:
 
 paginate: 10
 paginate_path: "/page/:num/"
+
+disqus: trafikito
+google_analytics: 
 
 
 # Exclude from processing.
