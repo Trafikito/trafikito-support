@@ -7,6 +7,7 @@ RUN gem install jekyll bundler
 RUN gem install jekyll-feed
 RUN gem install jekyll-paginate
 RUN gem install minima
+RUN gem install sass -v 3.5.6
 
 RUN bundle -v
 RUN gem -v
