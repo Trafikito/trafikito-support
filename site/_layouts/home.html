@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="mdl-grid">
+<div class="mdl-grid" style="max-width: 1000px">
 
     {%- for post in paginator.posts -%}
 
     {%- if post.featured_image -%}
     {% capture imgFeatured %}/images/featured-image/{{post.featured_image}}{% endcapture %}
     {%- endif -%}
-    <div class="mdl-cell mdl-cell--3-col">
+    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
         <div class="t-post-card-full mdl-card mdl-shadow--2dp">
             <div class="mdl-card__title">
                 <a class="post-link" href="{{ post.url | relative_url }}">

@@ -10,6 +10,7 @@ RUN gem install jekyll-paginate
 RUN gem install minima
 RUN gem install sass -v 3.5.6
 RUN gem install rouge -v 3.1.1
+RUN gem install jekyll-livereload -v 0.2.1
 
 RUN bundle -v
 RUN gem -v
@@ -17,4 +18,4 @@ RUN jekyll -v
 
 COPY ./ /srv/help
 WORKDIR /srv/help
-CMD ["bundle", "exec", "jekyll", "serve", "--livereload", "--host", "0.0.0.0"]
+CMD ["bundle", "exec", "jekyll", "serve",  "--host", "0.0.0.0", "--force_polling"]
