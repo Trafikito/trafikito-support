@@ -1,10 +1,10 @@
 version: '3'
 
 services:
-  faq-site:
-    build: ./faq
+  help-site:
+    build: ./site
     volumes:
-      - ./faq:/srv/faq
+      - ./site:/srv/help
     ports:
       - "4000:4000"
       - "35729:35729"

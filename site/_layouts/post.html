@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="t-post-container">
+    <div class="t-post mdl-shadow--2dp" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="t-post-title" itemprop="name headline">
+            {{ page.title | escape }}
+        </h1>
+        <div class="t-date">
+            Published
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+            </time>
+        </div>
+
+        <div class="t-post-content">
+            <div itemprop="articleBody">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="t-center t-m24">
+    <a
+            href="https://trafikito.com/help"
+    >
+                <span class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+                View more questions
+                </span>
+    </a>
+</div>
