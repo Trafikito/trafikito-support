@@ -195,3 +195,39 @@ blockquote {
 .t-pagination-current {
   margin: 0 12px;
 }
+
+.t-normal {
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin: 3px;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.t-warn {
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin: 3px;
+  display: inline-block;
+  background-color: #FFC107;
+  color: #ffffff;
+}
+
+.t-error {
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin: 3px;
+  display: inline-block;
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.t-neutral {
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin: 3px;
+  display: inline-block;
+  background-color: #9E9E9E;
+  color: #ffffff;
+}
