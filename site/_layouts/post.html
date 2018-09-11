@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="t-post-container">
+    {%- include search.html -%}
     <div class="t-post mdl-shadow--2dp" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="t-post-title" itemprop="name headline">
             {{ page.title | escape }}
@@ -25,10 +26,10 @@ layout: default
 
 <div class="t-center t-m24">
     <a
-            href="https://trafikito.com/help"
+            href="/help/"
     >
                 <span class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
-                View more questions
+                View all questions
                 </span>
     </a>
 </div>
