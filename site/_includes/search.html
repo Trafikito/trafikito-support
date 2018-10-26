@@ -13,7 +13,7 @@
       searchJson = null;
     }
     if (searchJson === null) {
-      $.getJSON('/help/search.json', (data) => {
+      $.getJSON('/support/search.json', (data) => {
         if (data) {
           localStorage.setItem('searchJson', JSON.stringify(data));
           localStorage.setItem('searchJsonTTL', Date.now() + (24 * 60 * 60 * 1000));

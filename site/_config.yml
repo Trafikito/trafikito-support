@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trafikito.com Help
+title: Trafikito.com Support
 email: info@trafikito.com
 description: >- # this means to ignore newlines until "baseurl:"
   Trafikito.com initially monitors for free RAM, disk space, CPU and sends email when something wrong but it
   also can monitor output of any command and execute any API call when something happens.
-baseurl: "/help" # the subpath of your site, e.g. /help
+baseurl: "/support" # the subpath of your site, e.g. /support
 url: "https://trafikito.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: /:title:output_ext
