@@ -36,6 +36,7 @@
     "react-typography": "^0.16.18",
     "typeface-merriweather": "0.0.54",
     "typeface-montserrat": "0.0.54",
+    "typeface-roboto": "0.0.54",
     "typography": "^0.16.18",
     "typography-theme-wordpress-2016": "^0.16.18"
   },
@@ -51,6 +52,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "postbuild": "cd public && echo 'trafikito.surge.sh' > CNAME && surge && cd ..",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",

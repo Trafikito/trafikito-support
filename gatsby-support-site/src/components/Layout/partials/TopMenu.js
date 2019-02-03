@@ -27,7 +27,7 @@ class TopMenu extends React.Component {
               <MenuIcon/>
             </IconButton>
             <Typography variant="h6" color="inherit" style={{flexGrow: 1}} noWrap>
-              Knowledge base
+              Help & Support
             </Typography>
             <IconButton color="inherit" aria-label="Search" style={{marginLeft: 3}}>
               <SearchIcon/>

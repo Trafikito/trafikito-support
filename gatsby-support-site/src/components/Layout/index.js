@@ -10,9 +10,6 @@ class Layout extends React.Component {
         <div className={css.content_holder}>
           <div style={{padding: 6}}>
             <main>{this.props.children}</main>
-            <footer>
-              © {new Date().getFullYear()}, <a href="https://trafikito.com">Trafikito.com</a>
-            </footer>
           </div>
         </div>
       </div>
