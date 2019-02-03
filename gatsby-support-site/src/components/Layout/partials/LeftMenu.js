@@ -10,6 +10,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import LeftMenuItem from './LeftMenuItem';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import HomeIcon from '@material-ui/icons/Home';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import StorageIcon from '@material-ui/icons/Storage';
 
 class LeftMenu extends React.Component {
@@ -44,7 +45,7 @@ class LeftMenu extends React.Component {
           <a href={'https://trafikito.com/user/account/update-details'} onClick={handleClose}>
             <LeftMenuItem
               isActive={false}
-              icon={<StorageIcon/>}
+              icon={<AccountBoxIcon/>}
               title={'My Account'}
             />
           </a>
