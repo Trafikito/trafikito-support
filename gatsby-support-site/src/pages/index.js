@@ -2,7 +2,8 @@ import React from 'react';
 import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
-import {rhythm} from '../utils/typography';
+import Helmet from 'react-helmet';
+import {withPrefix} from 'gatsby';
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,15 +17,12 @@ class BlogIndex extends React.Component {
           title="Help & Support"
           keywords={[`knowledge`, `help`, `support`, `trafikito`, `monitoring`]}
         />
+
         {posts.map(({node}) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
             <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
+              <h3>
                 <Link style={{boxShadow: `none`}} to={node.fields.slug}>
                   {title}
                 </Link>

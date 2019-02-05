@@ -32,9 +32,12 @@ class TopMenu extends React.Component {
             <IconButton color="inherit" aria-label="Search" style={{marginLeft: 3}}>
               <SearchIcon/>
             </IconButton>
-            <IconButton color="inherit" aria-label="Account" style={{marginRight: -12}}>
-              <AccountCircleIcon/>
-            </IconButton>
+
+            <a className="lnu a-white" href={'https://trafikito.com/user/account/update-details'}>
+              <IconButton color="inherit" aria-label="Account" style={{marginRight: -12}}>
+                <AccountCircleIcon/>
+              </IconButton>
+            </a>
           </Toolbar>
         </AppBar>
         <LeftMenu

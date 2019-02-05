@@ -3,7 +3,7 @@ module.exports = {
     title: `Trafikito - monitor output of any command`,
     author: `Lukas Liesis`,
     description: `Trafikito is monitoring solution. It runs super light POSIX opens ource agent on linux machine and executes commands you select. Then Trafikito servers will parse the output and do all the magic of monitoring - charts, notifications etc.`,
-    siteUrl: `https://trafikito.com/`,
+    siteUrl: `https://trafikito.com/support`,
     social: {
       twitter: `trafikito`,
       youtube: `https://www.youtube.com/channel/UCofioaADtesyD75204ngeoQ`,
@@ -31,6 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        'excerpt_separator': `<!-- more -->`,
         plugins: [
           {
             resolve: `gatsby-remark-images`,
@@ -52,19 +53,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-sitemap`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        output: `/sitemap.xml`,
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
   ],
 };
