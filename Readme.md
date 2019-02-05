@@ -1,14 +1,7 @@
-# Run locally:
+# How to run & build
 
-```
-docker-compose up --build
-```
+1. install gatsby `npm i -g gatsby`
+2. Develop: `npm run develop`
+3. Build production:  `npm run build`
 
-# Build site for production:
-
-Login to docker and run:
-
-```
-cd /srv/support
-JEKYLL_ENV=production bundle exec jekyll build -d ./public_html/
-```
+Build step will also deploy to http://trafikito.surge.sh
