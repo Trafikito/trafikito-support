@@ -1,9 +1,12 @@
 import React from 'react';
 import {Link, graphql} from 'gatsby';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
+import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardContent from '@material-ui/core/CardContent';
+import CardActions from '@material-ui/core/CardActions';
+import Button from '@material-ui/core/Button';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -14,35 +17,33 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt}/>
-        <Paper style={{padding: 12}}>
-          <Typography variant={'h5'}>{post.frontmatter.title}</Typography>
-          <div dangerouslySetInnerHTML={{__html: post.html}}/>
-          <hr/>
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
-            <li>
-              {previous && (
-                <Link to={`${previous.frontmatter.uri}.html`} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={`${next.frontmatter.uri}.html`} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </Paper>
+        <Card>
+          <CardHeader
+            title={post.frontmatter.title}
+            subheader=""
+          />
+          <CardContent>
+            <div dangerouslySetInnerHTML={{__html: post.html}}/>
+          </CardContent>
+
+          <CardActions>
+            {previous && (
+              <Link to={`${previous.frontmatter.uri}.html`} rel="prev">
+                <Button size="small" color="primary">
+                  {previous.frontmatter.title}
+                </Button>
+              </Link>
+            )}
+
+            {next && (
+              <Link to={`${next.frontmatter.uri}.html`} rel="next">
+                <Button size="small" color="primary">
+                  {next.frontmatter.title}
+                </Button>
+              </Link>
+            )}
+          </CardActions>
+        </Card>
       </Layout>
     );
   }

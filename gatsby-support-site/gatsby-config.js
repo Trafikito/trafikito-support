@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/support`,
   siteMetadata: {
     title: `Trafikito - monitor output of any command`,
     author: `Lukas Liesis`,

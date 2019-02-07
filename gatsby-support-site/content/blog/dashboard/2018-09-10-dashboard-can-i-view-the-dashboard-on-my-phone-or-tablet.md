@@ -5,7 +5,7 @@ uri: can-i-view-the-dashboard-on-my-phone-or-tablet
 tags: [dashboard]
 ---
 
-**Yes**. Trafikito is fully compatible with phones and tablets.
+**Yes** Trafikito is fully compatible with phones and tablets.
 
 <!--more-->
 
