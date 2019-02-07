@@ -2,6 +2,12 @@
 
 1. install gatsby `npm i -g gatsby`
 2. Develop: `npm run develop`
-3. Build production:  `npm run build`
+
+
+# Production
+
+1. Build production:  `npm run build`
 
 Build step will also deploy to http://trafikito.surge.sh
+
+Test at this link before deploying to https://trafikito.com/support/ 
