@@ -9,16 +9,15 @@ exports.createPages = ({graphql, actions}) => {
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { fields: [frontmatter___sort], order: DESC }
           limit: 10000
         ) {
           edges {
             node {
-              fields {
-                slug
-              }
               frontmatter {
                 title
+                uri
+                tags
               }
             }
           }
@@ -38,10 +37,10 @@ exports.createPages = ({graphql, actions}) => {
       const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
-        path: post.node.fields.slug,
+        path: `/${post.node.frontmatter.uri}`,
         component: blogPost,
         context: {
-          slug: post.node.fields.slug,
+          uri: post.node.frontmatter.uri,
           previous,
           next,
         },
@@ -50,15 +49,3 @@ exports.createPages = ({graphql, actions}) => {
   });
 };
 
-exports.onCreateNode = ({node, actions, getNode}) => {
-  const {createNodeField} = actions;
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({node, getNode});
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    });
-  }
-};

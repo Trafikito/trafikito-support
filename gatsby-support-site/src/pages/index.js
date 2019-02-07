@@ -2,8 +2,7 @@ import React from 'react';
 import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
-import Helmet from 'react-helmet';
-import {withPrefix} from 'gatsby';
+import Typography from '@material-ui/core/Typography';
 
 class BlogIndex extends React.Component {
   render() {
@@ -19,15 +18,14 @@ class BlogIndex extends React.Component {
         />
 
         {posts.map(({node}) => {
-          const title = node.frontmatter.title || node.fields.slug;
+          const title = node.frontmatter.title || node.frontmatter.uri;
           return (
-            <div key={node.fields.slug}>
-              <h3>
-                <Link style={{boxShadow: `none`}} to={node.fields.slug}>
+            <div key={node.frontmatter.uri}>
+              <Typography variant={'title'}>
+                <Link style={{boxShadow: `none`}} to={node.frontmatter.uri}>
                   {title}
                 </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
+              </Typography>
               <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
             </div>
           );
@@ -46,16 +44,14 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___sort], order: DESC }) {
       edges {
         node {
-          excerpt
-          fields {
-            slug
-          }
+          excerpt(pruneLength: 160)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             title
+            uri
+            tags
           }
         }
       }
