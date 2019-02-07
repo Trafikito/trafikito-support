@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "How to add notifications?"
+uri: how-to-add-notifications
+tags: [notifications]
+---
+
+<p>
+    You can add many notifications for each server for free. This is the list of all actions needed to add new
+    notifications:
+</p>
+
+<!--more-->
+
+<ol>
+    <li>
+        Open the main menu on the top left [menu icon]
+    </li>
+    <li>
+        Select <strong>Dashboard</strong>
+    </li>
+    <li>
+        In the servers list find the server you want to edit and click <strong>Open</strong> next to it
+    </li>
+    <li>
+        On the top right click <strong>Settings</strong>
+    </li>
+    <li>
+        Make sure <strong>Notifications</strong> are expanded
+    </li>
+    <li>
+        On the <strong>bottom right</strong> click the round <strong>yellow button</strong> with the plus sign.
+    </li>
+    <li>
+        Make sure <strong>Notification</strong> is selected
+    </li>
+    <li>
+        Enter a notification <strong>name</strong>
+    </li>
+    <li>
+        Click <strong>Add new notification</strong> to save
+    </li>
+</ol>

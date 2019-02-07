@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "How to change member roles?"
+uri: how-to-change-member-roles
+tags: [workspace]
+---
+
+<p>
+    There are 3 member roles: owner, admin, and member. Owners and admins can switch the role of any user between an
+    admin and member. Members cannot make any updates. Only the owner can set a new owner. To change the role of any
+    member, follow these steps:
+</p>
+
+<!--more-->
+
+<ol>
+    <li>Open the main menu on the top left [menu icon]</li>
+    <li>Select <strong>Dashboard</strong></li>
+    <li>On top of the servers list, you can see the name of the selected workspace. Click it to open more details</li>
+    <li>On the top select the <strong>Members</strong> tab</li>
+    <li>On the member’s list find the email of the member you want to change</li>
+    <li>Click on the current role of the member to see the selection of roles and select a new role</li>
+</ol>

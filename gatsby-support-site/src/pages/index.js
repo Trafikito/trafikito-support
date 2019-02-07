@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
           return (
             <div key={node.frontmatter.uri}>
               <Typography variant={'title'}>
-                <Link style={{boxShadow: `none`}} to={node.frontmatter.uri}>
+                <Link style={{boxShadow: `none`}} to={`${node.frontmatter.uri}.html`}>
                   {title}
                 </Link>
               </Typography>

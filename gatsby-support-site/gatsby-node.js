@@ -37,7 +37,7 @@ exports.createPages = ({graphql, actions}) => {
       const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
-        path: `/${post.node.frontmatter.uri}`,
+        path: `/${post.node.frontmatter.uri}.html`,
         component: blogPost,
         context: {
           uri: post.node.frontmatter.uri,
