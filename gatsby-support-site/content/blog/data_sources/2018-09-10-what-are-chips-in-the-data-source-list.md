@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "What are chips in the data source list?"
+uri: what-are-chips-in-the-data-source-list
+tags: [data sources]
+---
+
+<p>
+    These chips show all variables configured for each data source. You can see the name of it and the range the current
+    value is.
+</p>
+
+<!--more-->
+
+<ol>
+    <li><span class="t-normal">normal range</span></li>
+    <li><span class="t-warn">warning range</span></li>
+    <li><span class="t-error">error range</span></li>
+</ol>
+
+<p>
+    Hover on any to see the current value
+</p>
+
+<!-- todo couple imgs/gifs -->

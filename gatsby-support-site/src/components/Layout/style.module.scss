@@ -1,0 +1,13 @@
+body {
+}
+
+.main_holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content_holder {
+  margin: 0 auto;
+  max-width: 700px;
+}

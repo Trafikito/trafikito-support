@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Who owns the workspace?"
+uri: who-owns-the-workspace
+tags: [workspace]
+---
+
+<p>
+    When you register for the first time, an initial workspace is created for you and you are the owner of it. You can
+    always see who is the owner of an active workspace.
+</p>
+
+<!--more-->
+
+<ol>
+    <li>Open the main menu on the top left [menu icon]</li>
+    <li>Select <strong>Dashboard</strong></li>
+    <li>On top of the servers list, you can see the name of the selected workspace. Click it to open more details</li>
+    <li>On the top select <strong>Members</strong> tab</li>
+    <li>Find the member with the role “owner” next to it. This member is an owner of the selected workspace.</li>
+</ol>
+
+<p>
+    There can only be one owner at a time. Only the owner can select another member to become the new owner.
+</p>
