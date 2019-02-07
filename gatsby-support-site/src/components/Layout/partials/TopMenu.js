@@ -4,9 +4,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import LeftMenu from './LeftMenu';
+import Search from './../../Search';
 import {Link} from 'gatsby';
 
 class TopMenu extends React.Component {
@@ -32,9 +32,7 @@ class TopMenu extends React.Component {
                 Help & Support
               </Link>
             </Typography>
-            <IconButton color="inherit" aria-label="Search" style={{marginLeft: 3}}>
-              <SearchIcon/>
-            </IconButton>
+            <Search/>
 
             <a className="lnu a-white" href={'https://trafikito.com/user/account/update-details'}>
               <IconButton color="inherit" aria-label="Account" style={{marginRight: -12}}>
