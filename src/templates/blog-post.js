@@ -24,11 +24,14 @@ class BlogPostTemplate extends React.Component {
           />
           <CardContent>
             <div dangerouslySetInnerHTML={{__html: post.html}}/>
+            <div>
+              <div id="emojics-root"></div>
+            </div>
           </CardContent>
 
           <CardActions>
             {previous && (
-              <Link to={`${previous.frontmatter.uri}.html`} rel="prev">
+              <Link to={`/${previous.frontmatter.uri}.html`} rel="prev">
                 <Button size="small" color="primary">
                   {previous.frontmatter.title}
                 </Button>
@@ -36,7 +39,7 @@ class BlogPostTemplate extends React.Component {
             )}
 
             {next && (
-              <Link to={`${next.frontmatter.uri}.html`} rel="next">
+              <Link to={`/${next.frontmatter.uri}.html`} rel="next">
                 <Button size="small" color="primary">
                   {next.frontmatter.title}
                 </Button>

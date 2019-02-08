@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94a482ae-3539-4270-9bb4-03669bdaea81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/assets/gatsby-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/assets/profile-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-can-i-change-my-email.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-do-i-need-a-credit-card-to-register.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-change-my-password.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-delete-all-my-data-and-account.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-register.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-i-forgot-my-password-how-can-i-get-a-new-one.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-can-i-view-the-dashboard-on-my-phone-or-tablet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-many-hours-of-logs-do-i-need.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-often-is-the-data-in-trafikito-s-dashboard-updated.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-color-of-the-chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-default-visibility-on-charts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-text-in-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-the-layout-of-the-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-the-title-or-y-axis-of-the-chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-y-axis-of-the-chart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-edit-the-text-or-chart-box-in-single-server-view.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-navigate-in-time.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-remove-boxes-from-the-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-switch-server-on-the-single-server-view-without-going-back-to-the-servers-list.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-view-more-than-1-hour-of-logs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-are-the-servers-list-view-on-trafikito-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-data-is-displayed-in-the-single-server-view-of-trafikito-s-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-is-available-in-the-default-single-server-view.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-is-edit-mode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-is-single-server-view-on-trafikito-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-is-trafikito-s-dashboard.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-why-is-the-dashboard-important.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-can-i-change-the-name-of-used-variables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-can-i-change-warn-and-error-ranges.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-can-i-have-several-variables-showing-the-same-thing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-does-options-of-the-display-type-base-work.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-the-display-types-string-number-base-and-percent-are-different.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-add-a-new-command.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-add-a-new-data-source.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-add-new-variables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-add-or-update-warning-and-error-ranges.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-change-the-name-of-a-current-command.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-delete-data-sources.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-monitor-a-single-number-from-the-output-of-command.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-how-to-see-data-sources.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-are-chips-in-the-data-source-list.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-are-data-sources.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-are-min-and-max-values-for-percent-display-types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-are-variables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-are-warning-and-error-ranges.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-happens-if-an-output-is-more-than-your-plan-limit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-happens-if-i-change-the-data-parsing-settings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-happens-when-new-data-arrives-at-trafikito.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-is-a-regex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-is-data-parsing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-is-data-splitting-inside-data-source-configuration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-is-the-display-type-for-the-variable.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-what-will-happen-if-i-delete-a-data-source-which-is-in-use.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-when-to-use-base-display-types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-when-to-use-number-display-types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-when-to-use-percent-display-types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-when-to-use-string-display-types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-why-do-all-commands-start-with-trafikito.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-why-is-there-no-sample-output.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-can-i-get-the-current-value-of-a-variable-to-my-email.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-can-i-turn-on-off-the-notification-for-a-single-when-case.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-can-i-send-json-to-api-endpoint-with-notifications-settings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-long-will-notification-logs-for-api-calls-be-available.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-many-when-cases-notifications-may-i-have.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-add-a-new-when-case-to-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-add-new-variables-in-the-notification-options.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-add-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-change-stay-in-range-value-for-all-notifications-at-once.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-change-wait-before-firing-again-value-for-all-notifications-at-once.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-delete-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-delete-several-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-make-a-custom-api-call-after-an-event.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-see-notification-logs-of-api-calls.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-test-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-turn-off-all-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-turn-off-several-notifications-at-once.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-how-to-turn-on-all-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-options-when-the-action-type-for-the-when-case-is-getting-or-not-getting-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-options-when-the-action-type-for-when-cases-are-variables-in-ranges.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-api-call-headers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-mass-actions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-notifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-possible-range-changes-to-detect.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-the-options-for-an-action-type-getting-and-not-getting-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-the-options-for-an-action-type-variable-in-ranges.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-are-when-cases-how-do-they-work.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-happens-if-i-delete-a-notification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-happens-if-i-delete-a-when-case-in-notification-settings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-a-notification-action-method.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-a-notification-name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-a-notification-url.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-an-action-body.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-an-api-call.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-email-templates.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-the-difference-between-action-types-getting-data-not-getting-data-and-variable-in-ranges.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-what-is-the-difference-between-html-and-raw-body.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-why-are-some-notifications-red.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-a-workspace-have-several-owners-admins.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-i-be-a-member-of-several-workspaces-at-once.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-i-edit-a-paid-invoice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-i-get-a-refund.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-i-get-an-invoice-for-a-company.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-i-use-trafikito-for-free.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-not-login-to-the-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-can-i-get-a-discount-coupon.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-can-i-get-my-invoice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-does-the-loyalty-program-work.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-activate-deactivate-a-member-from-the-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-add-a-new-member-to-the-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-add-a-new-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-change-a-default-notification-email.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-change-member-roles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-change-the-billing-profile.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-change-the-workspace-name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-change-the-workspace-settings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-quickly-earn-personal-discounts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-remove-a-member-from-the-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-remove-a-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-how-to-switch-a-price-plan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-what-are-the-benefits-of-paid-plans.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-what-are-the-member-roles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-what-does-insufficient-role-mean.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-what-happens-when-a-paid-plan-expires.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-what-is-a-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-where-is-the-workspace-switcher-and-how-to-make-changes-to-an-active-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-which-price-plan-is-best-for-me.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-who-can-change-the-workspace-settings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-who-can-pay-for-the-invoice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-who-can-see-workspace-invoices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-who-owns-the-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-why-create-a-workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-why-does-it-say-must-be-owner-or-admin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/gatsby-README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/gatsby-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/gatsby-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/gatsby-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/LeftMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/LeftMenuItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/TopMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/style.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Search/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Search/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/Search/style.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/components/seo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/templates/blog-post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/src/utils/ajax/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/static/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-support-site/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_config_dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_drafts/cheatsheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/disqus_comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/google-analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_includes/youtube.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_layouts/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_plugins/lightbox.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-can-i-change-my-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-do-i-need-a-credit-card-to-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-how-to-change-my-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-how-to-delete-all-my-data-and-account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-how-to-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-i-forgot-my-password-how-can-i-get-a-new-one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-can-i-view-the-dashboard-on-my-phone-or-tablet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-many-hours-of-logs-do-i-need.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-often-is-the-data-in-trafikito-s-dashboard-updated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-change-color-of-the-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-change-default-visibility-on-charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-change-text-in-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-change-the-layout-of-the-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-change-the-title-or-y-axis-of-the-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-change-y-axis-of-the-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-edit-the-text-or-chart-box-in-single-server-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-navigate-in-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-remove-boxes-from-the-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-switch-server-on-the-single-server-view-without-going-back-to-the-servers-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-how-to-view-more-than-1-hour-of-logs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-what-are-the-servers-list-view-on-trafikito-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-what-data-is-displayed-in-the-single-server-view-of-trafikito-s-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-what-is-available-in-the-default-single-server-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-what-is-edit-mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-what-is-single-server-view-on-trafikito-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-what-is-trafikito-s-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/dashboard/2018-09-10-dashboard-why-is-the-dashboard-important.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-can-i-change-the-name-of-used-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-can-i-change-warn-and-error-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-can-i-have-several-variables-showing-the-same-thing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-does-options-of-the-display-type-base-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-the-display-types-string-number-base-and-percent-are-different.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-add-a-new-command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-add-a-new-data-source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-add-new-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-add-or-update-warning-and-error-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-change-the-name-of-a-current-command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-delete-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-monitor-a-single-number-from-the-output-of-command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-how-to-see-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-are-chips-in-the-data-source-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-are-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-are-min-and-max-values-for-percent-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-are-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-are-warning-and-error-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-happens-if-an-output-is-more-than-your-plan-limit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-happens-if-i-change-the-data-parsing-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-happens-when-new-data-arrives-at-trafikito.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-is-a-regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-is-data-parsing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-is-data-splitting-inside-data-source-configuration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-is-the-display-type-for-the-variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-what-will-happen-if-i-delete-a-data-source-which-is-in-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-when-to-use-base-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-when-to-use-number-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-when-to-use-percent-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-when-to-use-string-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-why-do-all-commands-start-with-trafikito.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/data_sources/2018-09-10-why-is-there-no-sample-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-can-i-get-the-current-value-of-a-variable-to-my-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-can-i-turn-on-off-the-notification-for-a-single-when-case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-can-i-send-json-to-api-endpoint-with-notifications-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-long-will-notification-logs-for-api-calls-be-available.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-many-when-cases-notifications-may-i-have.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-add-a-new-when-case-to-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-add-new-variables-in-the-notification-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-add-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-change-stay-in-range-value-for-all-notifications-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-change-wait-before-firing-again-value-for-all-notifications-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-delete-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-delete-several-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-make-a-custom-api-call-after-an-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-see-notification-logs-of-api-calls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-test-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-turn-off-all-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-turn-off-several-notifications-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-how-to-turn-on-all-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-options-when-the-action-type-for-the-when-case-is-getting-or-not-getting-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-options-when-the-action-type-for-when-cases-are-variables-in-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-api-call-headers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-mass-actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-possible-range-changes-to-detect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-the-options-for-an-action-type-getting-and-not-getting-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-the-options-for-an-action-type-variable-in-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-are-when-cases-how-do-they-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-happens-if-i-delete-a-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-happens-if-i-delete-a-when-case-in-notification-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-a-notification-action-method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-a-notification-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-a-notification-url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-an-action-body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-an-api-call.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-email-templates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-the-difference-between-action-types-getting-data-not-getting-data-and-variable-in-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-what-is-the-difference-between-html-and-raw-body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/notifications/2018-09-10-notifications-why-are-some-notifications-red.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-a-workspace-have-several-owners-admins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-i-be-a-member-of-several-workspaces-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-i-edit-a-paid-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-i-get-a-refund.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-i-get-an-invoice-for-a-company.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-i-use-trafikito-for-free.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-can-not-login-to-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-can-i-get-a-discount-coupon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-can-i-get-my-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-does-the-loyalty-program-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-activate-deactivate-a-member-from-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-add-a-new-member-to-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-add-a-new-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-change-a-default-notification-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-change-member-roles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-change-the-billing-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-change-the-workspace-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-change-the-workspace-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-quickly-earn-personal-discounts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-remove-a-member-from-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-remove-a-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-how-to-switch-a-price-plan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-what-are-the-benefits-of-paid-plans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-what-are-the-member-roles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-what-does-insufficient-role-mean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-what-happens-when-a-paid-plan-expires.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-what-is-a-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-where-is-the-workspace-switcher-and-how-to-make-changes-to-an-active-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-which-price-plan-is-best-for-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-who-can-change-the-workspace-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-who-can-pay-for-the-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-who-can-see-workspace-invoices.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-who-owns-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-why-create-a-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-why-does-it-say-must-be-owner-or-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/_sass/minima.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/css/lightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/js/lightbox-plus-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/js/lightbox-plus-jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/lightbox/js/lightbox.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.blue_grey-yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/material.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-1.3.0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/mdl-overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/minima-social-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/trafikito.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/assets/trafikito.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/featured-image/possible-to-monitor-output-of-any-command.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/featured-image/trafikito-android-monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/featured-image/trafikito-redesign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/thumb/trafikito-android-monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/thumb/trafikito-dashboard-v1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/thumb/trafikito-installing-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/thumb/trafikito-monitoring-install-agent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/thumb/trafikito-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/thumb/trafikito-single-server-view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/trafikito-android-monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/trafikito-dashboard-v1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/trafikito-installing-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/trafikito-monitoring-install-agent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/trafikito-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/images/trafikito-single-server-view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/css/lightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/js/lightbox-plus-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/js/lightbox-plus-jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/lightbox/js/lightbox.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.blue_grey-yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/material.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-1.3.0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/mdl-overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/minima-social-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/trafikito.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/assets/trafikito.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-a-workspace-have-several-owners-admins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-be-a-member-of-several-workspaces-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-change-my-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-change-the-name-of-used-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-change-warn-and-error-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-edit-a-paid-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-get-a-refund.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-get-an-invoice-for-a-company.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-get-the-current-value-of-a-variable-to-my-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-have-several-variables-showing-the-same-thing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-turn-on-off-the-notification-for-a-single-when-case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-use-trafikito-for-free.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-i-view-the-dashboard-on-my-phone-or-tablet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/can-not-login-to-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/do-i-need-a-credit-card-to-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-can-i-get-a-discount-coupon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-can-i-get-my-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-can-i-send-json-to-api-endpoint-with-notifications-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-does-options-of-the-display-type-base-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-does-the-loyalty-program-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-long-will-notification-logs-for-api-calls-be-available.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-many-hours-of-logs-do-i-need.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-many-when-cases-notifications-may-i-have.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-often-is-the-data-in-trafikito-s-dashboard-updated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-the-display-types-string-number-base-and-percent-are-different.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-activate-deactivate-a-member-from-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-a-new-command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-a-new-data-source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-a-new-member-to-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-a-new-when-case-to-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-a-new-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-new-variables-in-the-notification-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-new-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-add-or-update-warning-and-error-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-a-default-notification-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-color-of-the-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-default-visibility-on-charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-member-roles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-my-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-stay-in-range-value-for-all-notifications-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-text-in-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-the-billing-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-the-layout-of-the-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-the-name-of-a-current-command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-the-title-or-y-axis-of-the-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-the-workspace-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-the-workspace-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-wait-before-firing-again-value-for-all-notifications-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-change-y-axis-of-the-chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-delete-all-my-data-and-account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-delete-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-delete-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-delete-several-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-edit-the-text-or-chart-box-in-single-server-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-make-a-custom-api-call-after-an-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-monitor-a-single-number-from-the-output-of-command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-navigate-in-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-quickly-earn-personal-discounts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-remove-a-member-from-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-remove-a-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-remove-boxes-from-the-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-see-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-see-notification-logs-of-api-calls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-switch-a-price-plan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-switch-server-on-the-single-server-view-without-going-back-to-the-servers-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-test-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-turn-off-all-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-turn-off-several-notifications-at-once.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-turn-on-all-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/how-to-view-more-than-1-hour-of-logs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/i-forgot-my-password-how-can-i-get-a-new-one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/featured-image/possible-to-monitor-output-of-any-command.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/featured-image/trafikito-android-monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/featured-image/trafikito-redesign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/thumb/trafikito-android-monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/thumb/trafikito-dashboard-v1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/thumb/trafikito-installing-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/thumb/trafikito-monitoring-install-agent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/thumb/trafikito-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/thumb/trafikito-single-server-view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/trafikito-android-monitoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/trafikito-dashboard-v1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/trafikito-installing-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/trafikito-monitoring-install-agent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/trafikito-on-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/images/trafikito-single-server-view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/options-when-the-action-type-for-the-when-case-is-getting-or-not-getting-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/options-when-the-action-type-for-when-cases-are-variables-in-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/11/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/12/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/13/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/page/9/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-api-call-headers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-chips-in-the-data-source-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-mass-actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-min-and-max-values-for-percent-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-possible-range-changes-to-detect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-the-benefits-of-paid-plans.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-the-member-roles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-the-options-for-an-action-type-getting-and-not-getting-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-the-options-for-an-action-type-variable-in-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-the-servers-list-view-on-trafikito-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-warning-and-error-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-are-when-cases-how-do-they-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-data-is-displayed-in-the-single-server-view-of-trafikito-s-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-does-insufficient-role-mean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-happens-if-an-output-is-more-than-your-plan-limit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-happens-if-i-change-the-data-parsing-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-happens-if-i-delete-a-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-happens-if-i-delete-a-when-case-in-notification-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-happens-when-a-paid-plan-expires.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-happens-when-new-data-arrives-at-trafikito.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-a-notification-action-method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-a-notification-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-a-notification-url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-a-regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-a-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-an-action-body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-an-api-call.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-available-in-the-default-single-server-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-data-parsing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-data-splitting-inside-data-source-configuration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-edit-mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-email-templates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-single-server-view-on-trafikito-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-the-difference-between-action-types-getting-data-not-getting-data-and-variable-in-ranges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-the-difference-between-html-and-raw-body.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-the-display-type-for-the-variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-is-trafikito-s-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/what-will-happen-if-i-delete-a-data-source-which-is-in-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/when-to-use-base-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/when-to-use-number-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/when-to-use-percent-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/when-to-use-string-display-types.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/where-is-the-workspace-switcher-and-how-to-make-changes-to-an-active-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/which-price-plan-is-best-for-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/who-can-change-the-workspace-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/who-can-pay-for-the-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/who-can-see-workspace-invoices.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/who-owns-the-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/why-are-some-notifications-red.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/why-create-a-workspace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/why-do-all-commands-start-with-trafikito.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/why-does-it-say-must-be-owner-or-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/why-is-the-dashboard-important.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/public_html/why-is-there-no-sample-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/search.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gatsby-plugin-sass</find>
+      <find>Home</find>
+      <find>theme</find>
+      <find>handleDrawerToggle</find>
+      <find>List</find>
+      <find>index</find>
+      <find>Know</find>
+      <find>price</find>
+      <find>ty</find>
+      <find>Helme</find>
+      <find>gatsby-remark-copy-linked-files</find>
+      <find>gatsby-plugin-sitemap</find>
+      <find>front</find>
+      <find>te(formatString: &quot;MMMM DD, Y</find>
+      <find>frontmatter___date</find>
+      <find>Help &amp; Support</find>
+      <find>permalink</find>
+      <find>uri: /</find>
+      <find>.html</find>
+      <find>tags: dashboard</find>
+      <find>tags: data sources</find>
+      <find>tags: notifications</find>
+      <find>tags: workspace</find>
+      <find>fully compatible with phones and tablets</find>
+      <find>does-it-say-must-be-owner-or-admin</find>
+      <find>BlogPostBySlug</find>
+      <find>doSearch</find>
+      <find>SearchRender</find>
+      <find>gatsby-plugin-google-analytics</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>uri</replace>
+      <replace>uri:</replace>
+      <replace />
+      <replace>tags: [dashboard]</replace>
+      <replace>tags: [data sources]</replace>
+      <replace>tags: [notifications]</replace>
+      <replace>tags: [workspace]</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/gatsby-support-site/src</dir>
+      <dir>$PROJECT_DIR$/gatsby-support-site/content/blog</dir>
+      <dir>$PROJECT_DIR$/gatsby-support-site/content</dir>
+      <dir>$PROJECT_DIR$/gatsby-support-site/.cache</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/AppBar.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/style.scss" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Bio.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/public/CNAME" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/pages/404.js" />
+        <option value="$PROJECT_DIR$/site/_posts/account/2018-09-11-account-i-forgot-my-password-how-can-i-get-a-new-one.html" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/.cache/json-store.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/static/syles.css" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/gatsby-browser.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/static/global.css" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/LeftMenu.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/my-second-post/index.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/LeftMenuItem.js" />
+        <option value="$PROJECT_DIR$/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/sample.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-can-i-change-my-email.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-do-i-need-a-credit-card-to-register.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-delete-all-my-data-and-account.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-register.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-i-forgot-my-password-how-can-i-get-a-new-one.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-change-my-password.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/style.module.scss" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-can-i-change-the-name-of-used-variables.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-can-i-get-the-current-value-of-a-variable-to-my-email.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-a-workspace-have-several-owners-admins.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-many-hours-of-logs-do-i-need.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-can-i-view-the-dashboard-on-my-phone-or-tablet.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/TopMenu.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/public/search/index.json" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/package.json" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/public/search.json" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/gatsby-node.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/utils/ajax/get.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/pages/search.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Search/style.module.scss" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Search/index.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Search/render.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/templates/blog-post.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/index.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/gatsby-support-site/src/html.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="89" />
+    <option name="y" value="33" />
+    <option name="width" value="1876" />
+    <option name="height" value="2127" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trafikito-support" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trafikito-support" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editorconfig.notification" value="{&#10;}&#10;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="/usr/lib/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="/usr/lib/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gatsby-support-site/src" />
+      <recent name="$PROJECT_DIR$/gatsby-support-site" />
+      <recent name="$PROJECT_DIR$/gatsby-support-site/src/components/Search" />
+      <recent name="$PROJECT_DIR$/gatsby-support-site/content/blog" />
+      <recent name="$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gatsby-support-site/content/blog/account" />
+      <recent name="$PROJECT_DIR$/gatsby-support-site/content/blog/foo-category" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94a482ae-3539-4270-9bb4-03669bdaea81" name="Default Changelist" comment="" />
+      <created>1549182909457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549182909457</updated>
+      <workItem from="1549182910529" duration="8633000" />
+      <workItem from="1549398720842" duration="7581000" />
+      <workItem from="1549452042088" duration="17000" />
+      <workItem from="1549552163571" duration="27016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43247000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="89" y="33" width="1876" height="2127" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24769647" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299075" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2872559" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/hello-world/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="20" selection-start-line="20" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/my-second-post/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/LeftMenuItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-do-i-need-a-credit-card-to-register.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="450">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-delete-all-my-data-and-account.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-register.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-i-forgot-my-password-how-can-i-get-a-new-one.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/sample.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-can-i-change-my-email.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="9" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="325">
+            <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/2018-09-11-account-how-to-change-my-password.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Layout/style.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/account/sample.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-what-is-edit-mode.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-can-i-view-the-dashboard-on-my-phone-or-tablet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-to-change-y-axis-of-the-chart.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/data_sources/2018-09-10-can-i-change-the-name-of-used-variables.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/notifications/2018-09-10-notifications-can-i-get-the-current-value-of-a-variable-to-my-email.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-can-a-workspace-have-several-owners-admins.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-how-many-hours-of-logs-do-i-need.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="725">
+            <caret line="29" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/dashboard/2018-09-10-dashboard-can-i-view-the-dashboard-on-my-phone-or-tablet.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Layout/partials/TopMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/public/chunk-map.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/public/render-page.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/_posts/workspace/2018-09-10-workspace-why-does-it-say-must-be-owner-or-admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/content/blog/workspace/2018-09-10-workspace-why-does-it-say-must-be-owner-or-admin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/node_modules/gatsby/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/seo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="65" column="6" selection-start-line="7" selection-start-column="4" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/public/search/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/public/search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13243" lean-forward="true" selection-start-column="13243" selection-end-column="13243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/gatsby-README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/node_modules/localstorage-ttl/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/node_modules/localstorage-ttl/pakmanaged.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/node_modules/localstorage-ttl/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/pages/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/utils/ajax/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Search/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Search/style.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Search/render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1052">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/gatsby-browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/gatsby-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/components/Layout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-support-site/src/templates/blog-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
