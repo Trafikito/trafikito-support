@@ -18,11 +18,12 @@ class BlogIndex extends React.Component {
         />
 
         {posts.map(({node}) => {
-          const title = node.frontmatter.title || node.frontmatter.uri;
+          const url = `/${node.frontmatter.uri}.html`;
+          const title = node.frontmatter.title || url;
           return (
             <div key={node.frontmatter.uri}>
-              <Typography variant={'title'}>
-                <Link style={{boxShadow: `none`}} to={`${node.frontmatter.uri}.html`}>
+              <Typography variant={'h5'}>
+                <Link style={{boxShadow: `none`}} to={url}>
                   {title}
                 </Link>
               </Typography>
