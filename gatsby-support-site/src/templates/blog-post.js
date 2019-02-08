@@ -24,6 +24,9 @@ class BlogPostTemplate extends React.Component {
           />
           <CardContent>
             <div dangerouslySetInnerHTML={{__html: post.html}}/>
+            <div>
+              <div id="emojics-root"></div>
+            </div>
           </CardContent>
 
           <CardActions>
