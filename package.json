@@ -53,7 +53,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "postbuild": "cd public && echo 'trafikito.surge.sh' > CNAME && surge && cd ..",
+    "postbuild_surge": "cd public && echo 'trafikito.surge.sh' > CNAME && surge && cd ..",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
