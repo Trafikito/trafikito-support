@@ -1,110 +1,104 @@
 import React from 'react';
-import Popover from '@material-ui/core/Popover';
-import IconButton from '@material-ui/core/IconButton';
+import {Link} from 'gatsby';
 import Typography from '@material-ui/core/Typography';
-import SearchIcon from '@material-ui/icons/Search';
 import TextField from '@material-ui/core/TextField';
 import css from './style.module.scss';
 
+const fuzzysort = require('fuzzysort');
 const ls = require('localstorage-ttl');
-const ajaxGet = require('../../utils/ajax/get');
 
-class Search extends React.Component {
+class SearchRender extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: false,
-      anchor: null,
-      searchableData: null,
+      allData: null,
+      query: '',
     };
-    this.dataPreload = null;
-    this.preload = this.preload.bind(this);
+    this.loadData = this.loadData.bind(this);
+    this.getSearchResult = this.getSearchResult.bind(this);
   }
 
-  componentDidMount() {
-    const searchableData = ls.get('searchable-data');
-    if (searchableData) {
-      try {
-        let json = JSON.parse(searchableData);
-        if (json) {
-          this.setState({searchableData: json});
-        }
-      } catch (e) {
-        // it was an invalid json.
-      }
+  componentWillMount() {
+    this.loadData();
+  }
+
+  getSearchResult() {
+    let results = [];
+    if (this.state.allData) {
+      results = fuzzysort.go(
+        this.state.query,
+        this.state.allData,
+        {
+          key: 'title',
+          limit: 25,
+        });
     }
-
-    this.dataPreload = setTimeout(() => {
-      this.preload();
-    }, 2000);
+    return results;
   }
 
-  componentWillUnmount() {
-    clearTimeout(this.dataPreload);
-  }
+  loadData() {
+    const rawJSON = ls.get('searchable-data');
 
-  async preload() {
-    if (this.state.searchableData === null) {
-      const searchableData = await ajaxGet({url: 'https://raw.githubusercontent.com/Trafikito/support/master/gatsby-support-site/search.json'});
-      ls.set('searchable-data', searchableData, (1000 * 60 * 60 * 30));
-      this.setState({searchableData: JSON.parse(searchableData)});
+    let allData = null;
+    try {
+      allData = JSON.parse(rawJSON);
+    } catch (e) {
+      localStorage.removeItem('searchable-data');
+      console.error(`#jlekjwkf Search failed because searchable data is invalid JSON.`);
     }
+    this.setState({allData});
   }
 
   render() {
+    if (!this.state.allData) {
+      console.log(`#kjrlkejge searchable JSON must be ready at local storage before rendering search results.`);
+      return null;
+    }
+
+    const results = this.getSearchResult();
+
+    const rows = [];
+    if (results && results.length > 0) {
+      results.forEach((result) => {
+        const html = fuzzysort.highlight(
+          fuzzysort.single(
+            this.state.query,
+            result.obj.title,
+          ),
+        );
+        rows.push(
+          <Link
+            to={`/${result.obj.uri}.html`}
+            key={result.obj.uri}
+          >
+            <div dangerouslySetInnerHTML={{__html: html}} className={css.result_row}/>
+          </Link>,
+        );
+      });
+    }
+
     return (
       <>
-        <IconButton
-          color="inherit"
-          aria-label="Search"
-          style={{marginLeft: 3}}
-          aria-owns={this.state.open ? 'search-popover' : undefined}
-          aria-haspopup="true"
-          variant="contained"
-          onClick={(event) => this.setState({anchor: event.currentTarget, open: true})}
-        >
-          <SearchIcon/>
-        </IconButton>
-        {
-          this.state.open && (
-            <Popover
-              id="search-popover"
-              open={this.state.open}
-              anchorEl={this.state.anchor}
-              onClose={(event) => this.setState({anchor: null, open: false})}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'right',
-              }}
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              classes={{
-                paper: css.popover,
-              }}
-            >
-              <Typography component={'div'}>
-                <TextField
-                  autoFocus
-                  label="Search"
-                  placeholder=""
-                  fullWidth
-                  margin="normal"
-                  InputLabelProps={{
-                    shrink: true,
-                  }}
-                />
-                <div>
-                  {JSON.stringify(this.state.searchableData)}
-                </div>
-              </Typography>
-            </Popover>
-          )
-        }
+        <Typography component={'div'}>
+          <TextField
+            autoFocus
+            label="Search"
+            placeholder=""
+            fullWidth
+            margin="normal"
+            InputLabelProps={{
+              shrink: true,
+            }}
+            onChange={(e) => this.setState({query: e.target.value})}
+            value={this.state.query}
+          />
+          <Typography className={css.results} component={'div'} variant={'h5'}>
+            {rows}
+          </Typography>
+        </Typography>
       </>
     );
   }
 }
 
-export default Search;
+export default SearchRender;

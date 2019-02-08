@@ -1,10 +1,10 @@
 import React from 'react';
 import Popover from '@material-ui/core/Popover';
 import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
 import SearchIcon from '@material-ui/icons/Search';
-import TextField from '@material-ui/core/TextField';
 import css from './style.module.scss';
+import LinearProgress from '@material-ui/core/LinearProgress';
+import SearchRender from './render';
 
 const ls = require('localstorage-ttl');
 const ajaxGet = require('../../utils/ajax/get');
@@ -31,6 +31,7 @@ class Search extends React.Component {
         }
       } catch (e) {
         // it was an invalid json.
+        localStorage.removeItem('searchable-data');
       }
     }
 
@@ -45,9 +46,14 @@ class Search extends React.Component {
 
   async preload() {
     if (this.state.searchableData === null) {
-      const searchableData = await ajaxGet({url: 'https://raw.githubusercontent.com/Trafikito/support/master/gatsby-support-site/search.json'});
-      ls.set('searchable-data', searchableData, (1000 * 60 * 60 * 30));
-      this.setState({searchableData: JSON.parse(searchableData)});
+      const rawJSON = await ajaxGet({url: 'https://raw.githubusercontent.com/Trafikito/support/master/gatsby-support-site/search.json'});
+      try {
+        let parsed = JSON.parse(rawJSON);
+        ls.set('searchable-data', rawJSON, (1000 * 60 * 60 * 30));
+        this.setState({searchableData: parsed});
+      } catch (e) {
+        localStorage.removeItem('searchable-data');
+      }
     }
   }
 
@@ -84,21 +90,9 @@ class Search extends React.Component {
                 paper: css.popover,
               }}
             >
-              <Typography component={'div'}>
-                <TextField
-                  autoFocus
-                  label="Search"
-                  placeholder=""
-                  fullWidth
-                  margin="normal"
-                  InputLabelProps={{
-                    shrink: true,
-                  }}
-                />
-                <div>
-                  {JSON.stringify(this.state.searchableData)}
-                </div>
-              </Typography>
+              {
+                this.state.searchableData === null ? <LinearProgress/> : <SearchRender/>
+              }
             </Popover>
           )
         }
