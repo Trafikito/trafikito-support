@@ -46,7 +46,7 @@ class Search extends React.Component {
 
   async preload() {
     if (this.state.searchableData === null) {
-      const rawJSON = await ajaxGet({url: 'https://raw.githubusercontent.com/Trafikito/support/master/gatsby-support-site/search.json'});
+      const rawJSON = await ajaxGet({url: 'https://trafikito.com/support/search.json'});
       try {
         let parsed = JSON.parse(rawJSON);
         ls.set('searchable-data', rawJSON, (1000 * 60 * 60 * 30));

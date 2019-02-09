@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import {Link, withPrefix} from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import css from './style.module.scss';
@@ -68,7 +68,7 @@ class SearchRender extends React.Component {
         );
         rows.push(
           <Link
-            to={`/${result.obj.uri}.html`}
+            to={withPrefix(`/${result.obj.uri}.html`)}
             key={result.obj.uri}
           >
             <div dangerouslySetInnerHTML={{__html: html}} className={css.result_row}/>
