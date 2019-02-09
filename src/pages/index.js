@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, graphql} from 'gatsby';
+import {Link, graphql, withPrefix} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Typography from '@material-ui/core/Typography';
@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
         />
 
         {posts.map(({node}) => {
-          const url = `/${node.frontmatter.uri}.html`;
+          const url = withPrefix(`/${node.frontmatter.uri}.html`);
           const title = node.frontmatter.title || url;
           return (
             <div key={node.frontmatter.uri}>

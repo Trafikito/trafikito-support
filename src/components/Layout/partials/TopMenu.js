@@ -7,7 +7,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import LeftMenu from './LeftMenu';
 import Search from './../../Search';
-import {Link} from 'gatsby';
+import {Link, withPrefix} from 'gatsby';
 
 class TopMenu extends React.Component {
   state = {
@@ -28,7 +28,7 @@ class TopMenu extends React.Component {
               <MenuIcon/>
             </IconButton>
             <Typography variant="h6" color="inherit" style={{flexGrow: 1}} noWrap>
-              <Link to={'/'} style={{color: '#fff'}}>
+              <Link to={withPrefix('/')} style={{color: '#fff'}}>
                 Help & Support
               </Link>
             </Typography>

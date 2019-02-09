@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, graphql} from 'gatsby';
+import {Link, graphql, withPrefix} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Card from '@material-ui/core/Card';
@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
 
           <CardActions>
             {previous && (
-              <Link to={`/${previous.frontmatter.uri}.html`} rel="prev">
+              <Link to={withPrefix(`/${previous.frontmatter.uri}.html`)} rel="prev">
                 <Button size="small" color="primary">
                   {previous.frontmatter.title}
                 </Button>
@@ -39,7 +39,7 @@ class BlogPostTemplate extends React.Component {
             )}
 
             {next && (
-              <Link to={`/${next.frontmatter.uri}.html`} rel="next">
+              <Link to={withPrefix(`/${next.frontmatter.uri}.html`)} rel="next">
                 <Button size="small" color="primary">
                   {next.frontmatter.title}
                 </Button>
