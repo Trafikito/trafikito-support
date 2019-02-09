@@ -40,6 +40,23 @@ export default function HTML(props) {
       dangerouslySetInnerHTML={{__html: props.body}}
     />
     {props.postBodyComponents}
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.emojicsOpts = {
+            widget: 'd01e0e785266b50935d99ca2e6f5ac',
+            position: 'inline'
+          };
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.emojics.com/dist/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          })(document, "script", "emojics-js");
+        `,
+      }}
+    />
     </body>
     </html>
   );
