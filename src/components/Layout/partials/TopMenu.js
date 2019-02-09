@@ -28,7 +28,7 @@ class TopMenu extends React.Component {
               <MenuIcon/>
             </IconButton>
             <Typography variant="h6" color="inherit" style={{flexGrow: 1}} noWrap>
-              <Link to={withPrefix('/')} style={{color: '#fff'}}>
+              <Link to={'/'} style={{color: '#fff'}}>
                 Help & Support
               </Link>
             </Typography>

@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
         />
 
         {posts.map(({node}) => {
-          const url = withPrefix(`/${node.frontmatter.uri}.html`);
+          const url = `/${node.frontmatter.uri}.html`;
           const title = node.frontmatter.title || url;
           return (
             <div key={node.frontmatter.uri}>
