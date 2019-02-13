@@ -53,8 +53,8 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build",
-    "postbuild_surge": "cd public && echo 'trafikito.surge.sh' > CNAME && surge && cd ..",
+    "build": "gatsby build --prefix-paths",
+    "postbuild": "rm -rf ./public_production && mv public public_production",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
