@@ -9,4 +9,7 @@
 
 # Production
 
-1. Build production:  `npm run build`
+1. Login to server
+2. `git pull`
+3. `npm i`
+4. `npm run build` This will build to public folder and then move everything to `public_production` to avoid downtime during the build.
