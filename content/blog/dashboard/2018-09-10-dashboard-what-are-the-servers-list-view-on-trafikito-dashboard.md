@@ -5,24 +5,15 @@ uri: what-are-the-servers-list-view-on-trafikito-dashboard
 tags: [dashboard]
 ---
 
-<p>
-    The servers list is a place where you can see an overview of all your servers. It is an initial view of the
-    dashboard. To open the servers list, firstly, open the main menu with [menu_icon] icon on the top left-hand corner
-    of the screen and select <s>Dashboard</s>.
-</p>
+The servers list is a place where you can see an overview of all your servers. It is an initial view of the dashboard.
+To open the servers list, firstly, open the main menu with \[menu\_icon\] icon on the top left-hand corner of the screen and select Dashboard.
 
 <!--more-->
 
-<p>
-    If Trafikito is not receiving data from your server or any variable on your server is in the warn or error range,
-    you will see it in this list. You can hover over the variable name and color of the current range to see more
-    details or click <strong>Open</strong> to switch to the single server view with all the extended details.
-</p>
+If Trafikito is not receiving data from your server or any variable on your server is in the warn or error range, you will see it in this list. You can hover over the variable name and color of the current range to see more details or click **Open** to switch to the single server view with all the extended details.
 
-<h4>Note:</h4>
-<p>
-    This is the best view for dedicated displays for all your servers and you will be able to see if they are running
-    smoothly.
-</p>
+#### Note:
+
+This is the best view for dedicated displays for all your servers and you will be able to see if they are running smoothly.
 
 <!-- todo [image with servers list & hover over chip to see details] -->
