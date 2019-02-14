@@ -1,19 +1,19 @@
 language: node_js
 node_js:
-  - '8.15.0'
-
+- 8.15.0
 dist: xenial
 sudo: false
-
 addons:
   ssh_known_hosts:
-    - 18.136.152.119:22
-    - 35.174.245.207:22
-    - 52.31.190.102:22
-
+  - 18.136.152.119:22
+  - 35.174.245.207:22
+  - 52.31.190.102:22
 deploy:
-  - provider: script
-    skip_cleanup: true
-    script: .travis/deploy.sh
-    on:
-      branch: master
+- provider: script
+  skip_cleanup: true
+  script: ".travis/deploy.sh"
+  on:
+    branch: master
+before_install:
+- openssl aes-256-cbc -K $encrypted_f0ba133ffd8b_key -iv $encrypted_f0ba133ffd8b_iv
+  -in .travis/encryption_test.txt.enc -out .travis/encryption_test.txt -d
