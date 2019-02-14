@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Trafikito/trafikito-support.svg?branch=master)](https://travis-ci.org/Trafikito/trafikito-support)
+
 # How to run & build
 
 1. fork the repo
