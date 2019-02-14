@@ -5,25 +5,20 @@ uri: what-are-possible-range-changes-to-detect
 tags: [notifications]
 ---
 
-<p>
-    You can detect any possible value of a selected variable range change. You can select these ranges in the when case
-    options while editing notifications.
-</p>
+You can detect any possible value of a selected variable range change. You can select these ranges in the when case options while editing notifications.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<ul>
-    <li><span class="t-normal">Normal</span> → <span class="t-warn">warn</span></li>
-    <li><span class="t-normal">Normal</span> → <span class="t-error">error</span></li>
-    <li><span class="t-normal">Normal</span> → <span class="t-neutral">any</span></li>
-    <li><span class="t-warn">Warn</span> → <span class="t-normal">normal</span></li>
-    <li><span class="t-warn">Warn</span> → <span class="t-error">error</span></li>
-    <li><span class="t-warn">Warn</span> → <span class="t-neutral">any</span></li>
-    <li><span class="t-error">Error</span> → <span class="t-normal">normal</span></li>
-    <li><span class="t-error">Error</span> → <span class="t-warn">warn</span></li>
-    <li><span class="t-error">Error</span> → <span class="t-neutral">any</span></li>
-    <li><span class="t-neutral">Any</span> → <span class="t-normal">normal</span></li>
-    <li><span class="t-neutral">Any</span> → <span class="t-warn">warn</span></li>
-    <li><span class="t-neutral">Any</span> → <span class="t-error">error</span></li>
-    <li><span class="t-neutral">Any</span> → <span class="t-neutral">any</span></li>
-</ul>
+*   Normal → warn
+*   Normal → error
+*   Normal → any
+*   Warn → normal
+*   Warn → error
+*   Warn → any
+*   Error → normal
+*   Error → warn
+*   Error → any
+*   Any → normal
+*   Any → warn
+*   Any → error
+*   Any → any

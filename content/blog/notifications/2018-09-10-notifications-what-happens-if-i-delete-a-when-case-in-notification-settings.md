@@ -5,7 +5,4 @@ uri: what-happens-if-i-delete-a-when-case-in-notification-settings
 tags: [notifications]
 ---
 
-<p>
-    <strong>There’s no side effects</strong>. You will have to click “Save notification” under all settings to save all
-    modifications.
-</p>
+**There’s no side effects**. You will have to click “Save notification” under all settings to save all modifications.

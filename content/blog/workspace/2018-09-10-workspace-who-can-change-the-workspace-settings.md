@@ -5,6 +5,4 @@ uri: who-can-change-the-workspace-settings
 tags: [workspace]
 ---
 
-<p>
-    Any active member who has an <strong>admin</strong> or <strong>owner</strong> role.
-</p>
+Any active member who has an **admin** or **owner** role.

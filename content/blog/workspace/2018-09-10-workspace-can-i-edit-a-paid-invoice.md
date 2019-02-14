@@ -5,6 +5,4 @@ uri: can-i-edit-a-paid-invoice
 tags: [workspace]
 ---
 
-<p>
-    <strong>No</strong>. Paid invoices are in view only mode and can not be edited or removed.
-</p>
+**No**. Paid invoices are in view only mode and can not be edited or removed.

@@ -5,14 +5,8 @@ uri: how-many-when-cases-notifications-may-i-have
 tags: [notifications]
 ---
 
-<p>
-    There is no limit for the amount of <em>when</em> cases each notification may have but there is an overall limit for
-    the amount of <em>when</em> cases each server in a workspace may have. It depends on your current plan.
-</p>
+There is no limit for the amount of _when_ cases each notification may have but there is an overall limit for the amount of _when_ cases each server in a workspace may have. It depends on your current plan.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<p>
-    Please visit the pricing page for plan details: <a href="https://trafikito.com/price" title="Trafikito price"
-                                                       target="_blank">Price</a>
-</p>
+Please visit the pricing page for plan details: [Price](https://trafikito.com/price "Trafikito price")

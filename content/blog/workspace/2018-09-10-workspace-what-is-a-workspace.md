@@ -5,12 +5,8 @@ uri: what-is-a-workspace
 tags: [workspace]
 ---
 
-<p>
-    A workspace is a place where you can add several servers in order to have all of them on the same list. You can add
-    members to the workspace and work together.
+A workspace is a place where you can add several servers in order to have all of them on the same list. You can add members to the workspace and work together. 
 
-    <!--more-->
+AAAAAAAAMOREAAAAAAAAAA 
 
-    All pricing plans are for workspaces, please read more on the pricing
-    page: <a href="https://trafikito.com/price" target="_blank">Price</a>
-</p>
+All pricing plans are for workspaces, please read more on the pricing page: [Price](https://trafikito.com/price)

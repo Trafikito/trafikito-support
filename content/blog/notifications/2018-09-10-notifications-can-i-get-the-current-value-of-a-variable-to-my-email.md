@@ -5,9 +5,7 @@ uri: can-i-get-the-current-value-of-a-variable-to-my-email
 tags: [notifications]
 ---
 
-<p>
-    <strong>Yes</strong> you can. You can use any variable placeholders inside the body, URL or header value fields.
-    Placeholders will be replaced with actual value on a fly. Below all configuration options for notifications, you
-    will find all your variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of
-    curly braces like this: <span class="t-code">{% raw %}{{ram_used}}{% endraw %}</span>
-</p>
+**Yes** you can. You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be
+replaced with actual value on a fly. Below all configuration options for notifications, you will find all your 
+variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces 
+like this: `{{ram_used}}`

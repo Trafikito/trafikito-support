@@ -5,41 +5,22 @@ uri: how-to-add-a-new-command
 tags: [data sources]
 ---
 
-<ol>
-    <li>
-        Login to your machine. You can use SSH, FTP or anything else depending on your machine.
-    </li>
-    <li>
-        Edit this file: <span class="t-code">/opt/trafikito/available_commands.sh</span>
-        <ol type="i">
-            <li>If this file is not available, Trafikito agent is not installed yet or it is installed at a custom
-                location
-            </li>
-        </ol>
-    </li>
-    <li>
-        Add a new alias of command at the end of the file.
-    </li>
-    <li>
-        Save the file and wait a couple minutes.
-    </li>
-</ol>
+1.  Login to your machine. You can use SSH, FTP or anything else depending on your machine.
+2.  Edit this file: `/opt/trafikito/available_commands.sh`
+    1.  If this file is not available, Trafikito agent is not installed yet or it is installed at a custom location
+3.  Add a new alias of command at the end of the file.
+4.  Save the file and wait a couple minutes.
 
 <!--more-->
 
-<p>
-    E.g. you want to execute <span class="t-code">top -bcn1</span> command. To add it, you can use:
-</p>
+E.g. you want to execute `top -bcn1` command. To add it, you can use:
 
-<div class="t-code">trafikito_custom="top -bcn1"</div>
-<br>
+`trafikito_custom="top -bcn1"`
 
-<p>
-    After <strong>a minute or two</strong> you will find <span class="t-code">trafikito_custom</span> available in the
-    data source edit views on the dashboard.
-</p>
+  
 
-<h4>Note:</h4>
-Make sure all commands have a <span class="t-code">trafikito_</span> prefix or it won’t work.
+After **a minute or two** you will find `trafikito_custom` available in the data source edit views on the dashboard.
 
-<!-- todo [link to Why all commands start with trafikito_?] -->
+#### Note:
+
+Make sure all commands have a `trafikito_` prefix or it won’t work.

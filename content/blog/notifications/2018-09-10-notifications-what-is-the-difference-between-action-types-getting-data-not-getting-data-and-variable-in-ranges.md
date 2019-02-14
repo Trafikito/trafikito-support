@@ -5,38 +5,23 @@ uri: what-is-the-difference-between-action-types-getting-data-not-getting-data-a
 tags: [notifications]
 ---
 
-<p>
-    Each when case is made of action types and the settings depend on the action type. Possible action types are:
-</p>
+Each when case is made of action types and the settings depend on the action type. Possible action types are:
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<ol>
-    <li>
-        <strong>Variable in range</strong> - checks if the value of the selected variable experiences change in one of
-        the ranges:
-        <ol type="i">
-            <li><span class="t-normal">Normal</span> → <span class="t-warn">warn</span></li>
-            <li><span class="t-normal">Normal</span> → <span class="t-error">error</span></li>
-            <li><span class="t-normal">Normal</span> → <span class="t-neutral">any</span></li>
-            <li><span class="t-warn">Warn</span> → <span class="t-normal">normal</span></li>
-            <li><span class="t-warn">Warn</span> → <span class="t-error">error</span></li>
-            <li><span class="t-warn">Warn</span> → <span class="t-neutral">any</span></li>
-            <li><span class="t-error">Error</span> → <span class="t-normal">normal</span></li>
-            <li><span class="t-error">Error</span> → <span class="t-warn">warn</span></li>
-            <li><span class="t-error">Error</span> → <span class="t-neutral">any</span></li>
-            <li><span class="t-neutral">Any</span> → <span class="t-normal">normal</span></li>
-            <li><span class="t-neutral">Any</span> → <span class="t-warn">warn</span></li>
-            <li><span class="t-neutral">Any</span> → <span class="t-error">error</span></li>
-            <li><span class="t-neutral">Any</span> → <span class="t-neutral">any</span></li>
-        </ol>
-    </li>
-    <li>
-        <strong>Getting data</strong> - checks if Trafikito is getting data from your machine
-    </li>
-    <li>
-        <strong>Not getting data</strong> - checks if Trafikito is not getting data from your machine
-    </li>
-</ol>
-
-
+1.  **Variable in range** - checks if the value of the selected variable experiences change in one of the ranges:
+    1.  Normal → warn
+    2.  Normal → error
+    3.  Normal → any
+    4.  Warn → normal
+    5.  Warn → error
+    6.  Warn → any
+    7.  Error → normal
+    8.  Error → warn
+    9.  Error → any
+    10.  Any → normal
+    11.  Any → warn
+    12.  Any → error
+    13.  Any → any
+2.  **Getting data** - checks if Trafikito is getting data from your machine
+3.  **Not getting data** - checks if Trafikito is not getting data from your machine

@@ -5,20 +5,15 @@ uri: what-is-a-notification-name
 tags: [notifications]
 ---
 
-<p>
-    A notification name is used to easily manage notifications. You can see the notification name in the notifications
-    list on the UI. If you’d like to update the name, then follow these steps:
-</p>
+A notification name is used to easily manage notifications. You can see the notification name in the notifications list on the UI. If you’d like to update the name, then follow these steps:
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<ol>
-    <li>Open the main menu on the top left [menu icon]</li>
-    <li>Select <strong>Dashboard</strong></li>
-    <li>In the servers list find the server you want to edit and click <strong>Open</strong> next to it</li>
-    <li>On the top right click <strong>Settings</strong></li>
-    <li>Make sure <strong>Notifications</strong> are expanded</li>
-    <li>Expand the notification to edit</li>
-    <li>Edit the name</li>
-    <li>Save updates by clicking “Save Notification” on the bottom of all settings</li>
-</ol>
+1.  Open the main menu on the top left \[menu icon\]
+2.  Select **Dashboard**
+3.  In the servers list find the server you want to edit and click **Open** next to it
+4.  On the top right click **Settings**
+5.  Make sure **Notifications** are expanded
+6.  Expand the notification to edit
+7.  Edit the name
+8.  Save updates by clicking “Save Notification” on the bottom of all settings

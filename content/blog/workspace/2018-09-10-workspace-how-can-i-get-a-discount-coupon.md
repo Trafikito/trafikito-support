@@ -5,14 +5,8 @@ uri: how-can-i-get-a-discount-coupon
 tags: [workspace]
 ---
 
-<p>
-    There is no one way to get a discount coupon. We release from time to time in different ways. During special events
-    or random days that we may announce giveaways on our dashboard or homepage.
-</p>
+There is no one way to get a discount coupon. We release from time to time in different ways. During special events or random days that we may announce giveaways on our dashboard or homepage.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<p>
-    Sometimes you can find them online on other websites. When you see a coupon code, act quickly because most of the
-    time it’s temporary.
-</p>
+Sometimes you can find them online on other websites. When you see a coupon code, act quickly because most of the time it’s temporary.

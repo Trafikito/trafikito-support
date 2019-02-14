@@ -5,18 +5,13 @@ uri: where-is-the-workspace-switcher-and-how-to-make-changes-to-an-active-worksp
 tags: [workspace]
 ---
 
-<p>
-    On the servers list above all of the servers, click on the current workspace and in the Workspace tab, you will find
-    the drop-down to switch to another workspace or create a new one.
-</p>
+On the servers list above all of the servers, click on the current workspace and in the Workspace tab, you will find the drop-down to switch to another workspace or create a new one.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<ol>
-    <li>Open the main menu on the top left [menu icon]</li>
-    <li>Select <strong>Dashboard</strong></li>
-    <li>On top of the servers list, you can see the name of the selected workspace. Click it to open more details</li>
-    <li>On the top select the <strong>Workspace</strong> tab</li>
-    <li>Click on the drop-down with the current workspace name</li>
-    <li>Select the workspace you want to switch to</li>
-</ol>
+1.  Open the main menu on the top left \[menu icon\]
+2.  Select **Dashboard**
+3.  On top of the servers list, you can see the name of the selected workspace. Click it to open more details
+4.  On the top select the **Workspace** tab
+5.  Click on the drop-down with the current workspace name
+6.  Select the workspace you want to switch to

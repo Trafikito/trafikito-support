@@ -4,32 +4,10 @@ title:  "How to delete data sources?"
 uri: how-to-delete-data-sources
 tags: [data sources]
 ---
-
-<ol>
-    <li>
-        Open main menu on the top right [menu icon]
-    </li>
-    <li>
-        Select <strong></strong>
-    </li>
-    <li>
-        In the servers list click <strong>Open</strong> next to the server name
-    </li>
-    <li>
-        In single server view click <strong>Settings</strong> on the top right
-    </li>
-    <li>
-        If data sources are collapsed, click <strong>View</strong> next to it
-    </li>
-    <li>
-        Click on the <strong>data source</strong> you want to remove
-    </li>
-    <li>
-        Scroll down and click the red button that says <strong>Delete data source</strong>, confirm the action and it’s
-        done.
-    </li>
-</ol>
-
-<!--more-->
-
-<!-- todo [video, image] & intro text -->
+1.  Open main menu on the top right \[menu icon\]
+2.  Select
+3.  In the servers list click **Open** next to the server name
+4.  In single server view click **Settings** on the top right
+5.  If data sources are collapsed, click **View** next to it
+6.  Click on the **data source** you want to remove
+7.  Scroll down and click the red button that says **Delete data source**, confirm the action and it’s done.

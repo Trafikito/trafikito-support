@@ -5,19 +5,14 @@ uri: how-to-change-wait-before-firing-again-value-for-all-notifications-at-once
 tags: [notifications]
 ---
 
-<p>
-    In the notifications list you can see an overview of all <em>when</em> cases and “wait before firing again” values.
-    Observe that not all <em>when</em> cases in the notification may have a save value of “wait before firing again”.
-</p>
+In the notifications list you can see an overview of all _when_ cases and “wait before firing again” values. Observe that not all _when_ cases in the notification may have a save value of “wait before firing again”.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<ol>
-    <li>Open the main menu on the top left [menu icon]</li>
-    <li>Select <strong>Dashboard</strong></li>
-    <li>In the servers list find the server you want to edit and click <strong>Open</strong> next to it</li>
-    <li>On the top right click <strong>Settings</strong></li>
-    <li>Make sure <strong>Notifications</strong> are expanded</li>
-    <li>Use the <strong>checkbox</strong> next to the name of notification to select notifications to update</li>
-    <li>Use <strong>mass action above the list</strong> to update all selected notifications</li>
-</ol>
+1.  Open the main menu on the top left \[menu icon\]
+2.  Select **Dashboard**
+3.  In the servers list find the server you want to edit and click **Open** next to it
+4.  On the top right click **Settings**
+5.  Make sure **Notifications** are expanded
+6.  Use the **checkbox** next to the name of notification to select notifications to update
+7.  Use **mass action above the list** to update all selected notifications

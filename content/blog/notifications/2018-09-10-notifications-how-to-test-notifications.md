@@ -4,18 +4,8 @@ title:  "How to test notifications?"
 uri: how-to-test-notifications
 tags: [notifications]
 ---
+When you edit a notification settings, click “**Save notification**” first to save any edits. Then click “**Test**”, it will make an API call just like it would during an event. You will not only test the action but you will also get results after the test is done.
 
-<p>
-    When you edit a notification settings, click “<strong>Save notification</strong>” first to save any edits. Then
-    click “<strong>Test</strong>”, it will make an API call just like it would during an event. You will not only test
-    the action but you will also get results after the test is done.
-</p>
+AAAAAAAAMOREAAAAAAAAAA
 
-<!--more-->
-
-<p>
-    You can always see the last logs for any notification. it is useful to debug things when your custom action is not
-    working as expected.
-</p>
-
-<!-- todo img -->
+You can always see the last logs for any notification. it is useful to debug things when your custom action is not working as expected.

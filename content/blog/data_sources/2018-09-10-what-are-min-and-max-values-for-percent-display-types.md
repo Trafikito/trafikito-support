@@ -5,20 +5,12 @@ uri: what-are-min-and-max-values-for-percent-display-types
 tags: [data sources]
 ---
 
-<p>
-    When the value display type is percent, you can define minimum and maximum values. Let’s say you want to have RAM
-    available as a percent.
-</p>
+When the value display type is percent, you can define minimum and maximum values. Let’s say you want to have RAM 
+available as a percent.
 
 <!--more-->
 
-<p>
-    Let’s say your machine has <strong>2 GB of RAM</strong>, which is <strong>2097152 bytes</strong>. <span
-        class="t-code">free -m</span> command returns available RAM: <strong>1730556</strong>. So for this case 100% is
-    <strong>2 GB (2097152)</strong> and 0% is <strong>0</strong>.
-</p>
+Let’s say your machine has **2 GB of RAM**, which is **2097152 bytes**. `free -m` command returns 
+available RAM: **1730556**. So for this case 100% is **2 GB (2097152)** and 0% is **0**.
 
-<p>So current value of <strong>1730556</strong> is <strong>83%</strong>.</p>
-
-<!-- todo img -->
-
+So current value of **1730556** is **83%**.

@@ -5,6 +5,4 @@ uri: can-i-get-an-invoice-for-a-company
 tags: [workspace]
 ---
 
-<p>
-    <strong>Yes</strong>, you can. Just ensure that the billing profile is filled out with the company details.
-</p>
+**Yes**, you can. Just ensure that the billing profile is filled out with the company details.

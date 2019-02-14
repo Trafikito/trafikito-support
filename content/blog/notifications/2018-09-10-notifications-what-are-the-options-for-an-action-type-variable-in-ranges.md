@@ -5,23 +5,8 @@ uri: what-are-the-options-for-an-action-type-variable-in-ranges
 tags: [notifications]
 ---
 
-<ol>
-    <li>
-        <strong>Variable</strong> - you have to select an existing variable to track from data sources
-    </li>
-    <li>
-        <strong>Range change</strong> - you have to select one of the range change events
-    </li>
-    <li>
-        <strong>Stay in range</strong> - defines how long a value has to stay in a new range before it triggers this
-        when case
-    </li>
-    <li>
-        <strong>Wait before firing again</strong> - you can set if when cases should be fired several times and how long
-        to wait before firing again.
-    </li>
-    <li>
-        <strong>Allow this to fire at any time</strong> - switch indicating if other “when” case must be fired on the
-        same variable to fire again
-    </li>
-</ol>
+1.  **Variable** - you have to select an existing variable to track from data sources
+2.  **Range change** - you have to select one of the range change events
+3.  **Stay in range** - defines how long a value has to stay in a new range before it triggers this when case
+4.  **Wait before firing again** - you can set if when cases should be fired several times and how long to wait before firing again.
+5.  **Allow this to fire at any time** - switch indicating if other “when” case must be fired on the same variable to fire again

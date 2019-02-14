@@ -5,6 +5,4 @@ uri: who-can-see-workspace-invoices
 tags: [workspace]
 ---
 
-<p>
-    All active members of the workspace.
-</p>
+All active members of the workspace.

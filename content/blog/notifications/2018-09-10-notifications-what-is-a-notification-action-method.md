@@ -5,16 +5,10 @@ uri: what-is-a-notification-action-method
 tags: [notifications]
 ---
 
-<p>
-    This is the HTTP method used to call API endpoint. Most popular methods are POST and GET but for rare cases you may
-    need others. Trafikito gives you an option to select whatever is needed, so you could make any API call in an event.
-</p>
+This is the HTTP method used to call API endpoint. Most popular methods are POST and GET but for rare cases you may need others. Trafikito gives you an option to select whatever is needed, so you could make any API call in an event.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<h4>Note:</h4>
+#### Note:
 
-<p>
-    To make API calls you need to set the HTTP method and URL. Headers and body are optional depending on the API you
-    are calling.
-</p>
+To make API calls you need to set the HTTP method and URL. Headers and body are optional depending on the API you are calling.

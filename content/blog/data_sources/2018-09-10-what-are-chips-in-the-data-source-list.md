@@ -5,21 +5,13 @@ uri: what-are-chips-in-the-data-source-list
 tags: [data sources]
 ---
 
-<p>
-    These chips show all variables configured for each data source. You can see the name of it and the range the current
-    value is.
-</p>
+These chips show all variables configured for each data source. You can see the name of it and the range the current 
+value is.
 
 <!--more-->
 
-<ol>
-    <li><span class="t-normal">normal range</span></li>
-    <li><span class="t-warn">warning range</span></li>
-    <li><span class="t-error">error range</span></li>
-</ol>
+1.  normal range
+2.  warning range
+3.  error range
 
-<p>
-    Hover on any to see the current value
-</p>
-
-<!-- todo couple imgs/gifs -->
+Hover on any to see the current value

@@ -5,17 +5,10 @@ uri: how-can-i-send-json-to-api-endpoint-with-notifications-settings
 tags: [notifications]
 ---
 
-<p>
-    You can send any text to API endpoint. To send JSON, use raw body type and add header <em>content-type:
-    application/json</em>.
-</p>
+You can send any text to API endpoint. To send JSON, use raw body type and add header _content-type: application/json_.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<h4>Note:</h4>
-<p>
-    You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be replaced
-    with actual value on a fly. Below all configuration options for notifications, you will find all your variables from
-    all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces like this:
-    <span class="t-code">{% raw %}{{ram_used}}{% endraw %}</span>
-</p>
+#### Note:
+
+You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be replaced with actual value on a fly. Below all configuration options for notifications, you will find all your variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces like this: {% raw %}{{ram\_used}}{% endraw %}

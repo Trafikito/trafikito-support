@@ -5,15 +5,8 @@ uri: which-price-plan-is-best-for-me
 tags: [workspace]
 ---
 
-<p>
-    It depends on what you do. For many, the free plan is enough but if you need members management and have several
-    persons working in the same workspace, then you will need one of the paid plans.
-</p>
+It depends on what you do. For many, the free plan is enough but if you need members management and have several persons working in the same workspace, then you will need one of the paid plans.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<p>
-    You can read the full blog post on this topic here: <a target="_blank"
-                                                           href="https://trafikito.com/blog/how-to-choose-the-best-pricing-plan/">How
-    to choose the best pricing plan?</a>
-</p>
+You can read the full blog post on this topic here: [How to choose the best pricing plan?](https://trafikito.com/blog/how-to-choose-the-best-pricing-plan/)

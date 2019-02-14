@@ -5,6 +5,4 @@ uri: can-i-be-a-member-of-several-workspaces-at-once
 tags: [workspace]
 ---
 
-<p>
-    Yes, you can. You can join several workspaces at once.
-</p>
+Yes, you can. You can join several workspaces at once.

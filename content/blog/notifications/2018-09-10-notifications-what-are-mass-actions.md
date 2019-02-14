@@ -5,22 +5,15 @@ uri: what-are-mass-actions
 tags: [notifications]
 ---
 
-<p>
-    Mass actions allow you to edit multiple notifications at once. To do it, follow these steps:
-</p>
+Mass actions allow you to edit multiple notifications at once. To do it, follow these steps:
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<ol>
-    <li>Open the main menu on the top left [menu icon]</li>
-    <li>Select <strong>Dashboard</strong></li>
-    <li>In the servers list find the server you want to edit and click <strong>Open</strong> next to it</li>
-    <li>On the top right click <strong>Settings</strong></li>
-    <li>Use the Show button next to <strong>Notifications</strong> to show the notifications list.</li>
-    <li>Use the checkbox before the notification name to <strong>select notifications</strong></li>
-</ol>
+1.  Open the main menu on the top left \[menu icon\]
+2.  Select **Dashboard**
+3.  In the servers list find the server you want to edit and click **Open** next to it
+4.  On the top right click **Settings**
+5.  Use the Show button next to **Notifications** to show the notifications list.
+6.  Use the checkbox before the notification name to **select notifications**
 
-<p>
-    When one or more notifications are selected, mass actions will appear in front of the notifications list. These
-    actions will update all the selected notifications at once.
-</p>
+When one or more notifications are selected, mass actions will appear in front of the notifications list. These actions will update all the selected notifications at once.

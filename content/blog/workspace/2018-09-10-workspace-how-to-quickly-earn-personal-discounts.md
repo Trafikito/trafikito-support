@@ -5,26 +5,13 @@ uri: how-to-quickly-earn-personal-discounts
 tags: [workspace]
 ---
 
-<ol>
-    <li>
-        Make sure you have at least one active server in the free workspace. Each day you will get 0.02% for it.
-    </li>
-    <li>
-        If you work in a company, recommend Trafikito to monitor their servers and when they buy a paid plan you will
-        get your extra personal discount each day.
-    </li>
-    <li>
-        Join several companies and suggest Trafikito to them. You will get an extra 0.04% everyday for each.
-    </li>
-</ol>
+1.  Make sure you have at least one active server in the free workspace. Each day you will get 0.02% for it.
+2.  If you work in a company, recommend Trafikito to monitor their servers and when they buy a paid plan you will get your extra personal discount each day.
+3.  Join several companies and suggest Trafikito to them. You will get an extra 0.04% everyday for each.
 
-<!--more-->
+AAAAAAAAMOREAAAAAAAAAA
 
-<p>
-    If you are a member of 2 free workspaces with 1 or more active servers and also a member of 4 paid workspaces, you
-    are earning 0.02% for the free workspaces and 0.16% for the paid workspaces each day. Which is 0.18% each day.
-</p>
-
+If you are a member of 2 free workspaces with 1 or more active servers and also a member of 4 paid workspaces, you are earning 0.02% for the free workspaces and 0.16% for the paid workspaces each day. Which is 0.18% each day.
 
 <table class="mdl-data-table mdl-shadow--2dp">
     <tr>

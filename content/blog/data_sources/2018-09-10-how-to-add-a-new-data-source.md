@@ -5,23 +5,15 @@ uri: how-to-add-a-new-data-source
 tags: [data sources]
 ---
 
-<ol>
-    <li>Open the main menu on the top left [menu icon]</li>
-    <li>Select <strong>Dashboard</strong></li>
-    <li>In the servers list find the server you want to edit and click <strong>Open</strong> next to it</li>
-    <li>On the top right click <strong>Settings</strong></li>
-    <li>On the <strong>bottom right</strong> click the round <strong>yellow button</strong> with the plus sign.</li>
-    <li>Make sure <strong>Data source</strong> is selected</li>
-    <li>Enter a data source <strong>name</strong> and select <strong>command</strong></li>
-    <li>Click <strong>Add new data source</strong> to save</li>
-</ol>
+1.  Open the main menu on the top left \[menu icon\]
+2.  Select **Dashboard**
+3.  In the servers list find the server you want to edit and click **Open** next to it
+4.  On the top right click **Settings**
+5.  On the **bottom right** click the round **yellow button** with the plus sign.
+6.  Make sure **Data source** is selected
+7.  Enter a data source **name** and select **command**
+8.  Click **Add new data source** to save
 
 <!--more-->
 
-<p>
-    The amount of data sources that can be added to the server depends on your price plan. Check the pricing page for
-    the details.
-</p>
-
-<!-- todo video -->
-<!-- todo [link how to add new command] -->
+The amount of data sources that can be added to the server depends on your price plan. Check the pricing page for the details.
