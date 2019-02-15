@@ -4,10 +4,6 @@
 package-lock.json
 yarn.lock
 
-# build step builds to public but during the building site is down
-# so to avoid downtime, it will build to public and then overwrite public_production
-public_production
-
 # Logs
 logs
 *.log
