@@ -7,7 +7,7 @@ tags: [notifications]
 
 You can send any text to API endpoint. To send JSON, use raw body type and add header _content-type: application/json_.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 #### Note:
 

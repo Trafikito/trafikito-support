@@ -7,7 +7,7 @@ tags: [workspace]
 
 A default notification email is the same email that was used by the person who created the workspace. You can change this email to anything at any time.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

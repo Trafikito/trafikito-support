@@ -7,7 +7,7 @@ tags: [workspace]
 
 The loyalty program allows you to save money on paid plans; especially for users who use Trafikito for an extended period of time. Also, it is permanent and can be added to other discounts. The maximum sum of all discounts is 50%.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 You get 0.02% per day if you are on a free workspace with at least one active server. While you get 0.04% per day for **each** paid workspace.
 

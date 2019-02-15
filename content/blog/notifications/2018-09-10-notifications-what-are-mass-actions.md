@@ -7,7 +7,7 @@ tags: [notifications]
 
 Mass actions allow you to edit multiple notifications at once. To do it, follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

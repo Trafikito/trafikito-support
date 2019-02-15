@@ -7,7 +7,7 @@ tags: [notifications]
 
 An action body is content sent to the endpoint. You can choose to enter HTML - you will see an editor to make text bold, italic, aligned and other popular options. You can switch to raw if you want to send JSON.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 #### Note:
 

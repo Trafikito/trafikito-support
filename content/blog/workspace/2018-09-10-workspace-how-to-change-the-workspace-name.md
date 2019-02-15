@@ -12,7 +12,7 @@ tags: [workspace]
 5.  Check if the **Workspace settings** are expanded and edit the **Workspace name**
 6.  To save the changes click **Save workspace**
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 #### Note:
 

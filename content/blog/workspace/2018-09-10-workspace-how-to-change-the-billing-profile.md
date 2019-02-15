@@ -13,7 +13,7 @@ tags: [workspace]
 6.  Make the required changes
 7.  To save the changes click **Save workspace**
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 #### Note:
 

@@ -7,7 +7,7 @@ tags: [notifications]
 
 An email template is a 1-click solution when you want your action to be an email message. You can change who gets the email in the workspace settings . While actions in notifications is any API call, Trafikito provides custom endpoint to send an email. When you click to use email templates, an action form will be filled with all the required details: Method, URL, Headers.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 If you add text to the body input, you will see that text in the grey box below the notification itself.
 

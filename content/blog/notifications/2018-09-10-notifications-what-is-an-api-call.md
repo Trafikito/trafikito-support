@@ -7,7 +7,7 @@ tags: [notifications]
 
 API calls are programmable calls for services on the internet. It is very comparable to how people navigate the internet with a browser. However, API calls don’t require a user interface to navigate it. It is pure data, transferable from one machine to another.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 You can click “Use email template” to auto-fill all required details to make an API call to Trafikito endpoint which will send an email. If your hosting provider support it, you could make an API call to restart your server when it’s out of RAM.
 

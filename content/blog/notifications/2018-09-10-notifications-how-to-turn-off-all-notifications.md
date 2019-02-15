@@ -7,7 +7,7 @@ tags: [notifications]
 
 In notifications list you can select several notifications and turn them off all at once. This mass action will turn off selected notifications completely without modifying individual _when_ cases.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

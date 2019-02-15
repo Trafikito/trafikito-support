@@ -7,7 +7,7 @@ tags: [notifications]
 
 **Yes**. Open the notification you want to edit, click on the switch to turn a _when_ case off and save the notification. Notice that the notification has a global on/off switch before the name of the notification and individual on/off switches for each _when_ case.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

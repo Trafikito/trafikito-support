@@ -7,7 +7,7 @@ tags: [workspace]
 
 When you register for the first time, an initial workspace is created for you and you are the owner of it. You can always see who is the owner of an active workspace.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

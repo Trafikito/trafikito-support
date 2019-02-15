@@ -7,7 +7,7 @@ tags: [notifications]
 
 Each notification must have at least one _when_ case to be fired. Trafikito recommends adding several _when_ cases for each notification call; so you will not need to configure the same notification action several times. To add a _when_ case to notifications follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

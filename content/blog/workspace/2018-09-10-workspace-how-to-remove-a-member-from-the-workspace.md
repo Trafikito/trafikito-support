@@ -7,7 +7,7 @@ tags: [workspace]
 
 If your role is an “owner” or “admin” you can disable the login of any current user in a workspace. Just use the switch next to the email of the member. A grey color means a user is not able to login. Follow these steps to do it:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

@@ -7,7 +7,7 @@ tags: [notifications]
 
 While creating notifications you have to add some _when_ cases. When cases defines _when_ to trigger the action of notifications. If the action type is set to a _Variable in a range_ you will get these options to make adjustments:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  **Variable to track** - select any variable defined in the data sources. This when case will track the range of the value for the selected variable.
 2.  **Range change** - when a value changes it may move to different value ranges. This option determines what changes to action.

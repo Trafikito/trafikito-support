@@ -9,7 +9,7 @@ tags: [workspace]
 2.  If you work in a company, recommend Trafikito to monitor their servers and when they buy a paid plan you will get your extra personal discount each day.
 3.  Join several companies and suggest Trafikito to them. You will get an extra 0.04% everyday for each.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 If you are a member of 2 free workspaces with 1 or more active servers and also a member of 4 paid workspaces, you are earning 0.02% for the free workspaces and 0.16% for the paid workspaces each day. Which is 0.18% each day.
 

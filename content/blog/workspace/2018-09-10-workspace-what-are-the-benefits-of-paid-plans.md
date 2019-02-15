@@ -7,7 +7,7 @@ tags: [workspace]
 
 For most, the main differences between the free and paid plans are:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 *   You get more visibility. Free plan gives 24 hours while the paid plans may provide up to 2 weeks
 *   With the paid plan you can add members to the workspace and manage roles

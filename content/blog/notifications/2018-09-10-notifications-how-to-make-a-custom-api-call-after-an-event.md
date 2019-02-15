@@ -10,7 +10,7 @@ At Trafikito notifications are made of 2 parts:
 1.  When cases
 2.  Action to do
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 When cases determine when to do the action and action is just any API call. If you want to make a custom API call, use the form to adjust all the details. There are available options to format any API call:
 

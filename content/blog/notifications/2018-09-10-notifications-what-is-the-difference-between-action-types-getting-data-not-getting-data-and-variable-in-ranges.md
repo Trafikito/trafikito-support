@@ -7,7 +7,7 @@ tags: [notifications]
 
 Each when case is made of action types and the settings depend on the action type. Possible action types are:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  **Variable in range** - checks if the value of the selected variable experiences change in one of the ranges:
     1.  Normal → warn

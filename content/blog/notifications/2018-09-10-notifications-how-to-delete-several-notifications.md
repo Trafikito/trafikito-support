@@ -7,7 +7,7 @@ tags: [notifications]
 
 In the notifications list you can select several notifications and delete them all at once. This mass action will delete the selected notifications without modifying anything else. This action is permanent and cannot be undone. You will have to confirm deletion after clicking Delete. 
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

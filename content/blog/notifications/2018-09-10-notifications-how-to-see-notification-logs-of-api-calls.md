@@ -6,7 +6,7 @@ tags: [notifications]
 ---
 To see notification logs of calls, follow steps below. You will see up to 10 last logs for the past 14 days. If there are no logs, then notifications were not fired recently. You can click “Test” and it will fire a notification action in the same manner it would in an event.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

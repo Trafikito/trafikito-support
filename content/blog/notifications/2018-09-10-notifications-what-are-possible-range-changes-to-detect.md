@@ -7,7 +7,7 @@ tags: [notifications]
 
 You can detect any possible value of a selected variable range change. You can select these ranges in the when case options while editing notifications.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 *   Normal → warn
 *   Normal → error

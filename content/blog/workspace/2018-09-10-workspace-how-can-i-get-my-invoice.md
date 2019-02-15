@@ -7,7 +7,7 @@ tags: [workspace]
 
 You can generate a new invoice that's due or get already paid invoices at the pricing tab in the workspace configuration dialog. Follow these steps to find an invoice:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

@@ -7,7 +7,7 @@ tags: [notifications]
 
 You can delete one or more notifications at the same time. To remove a single notification follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

@@ -7,7 +7,7 @@ tags: [workspace]
 
 On the servers list above all of the servers, click on the current workspace and in the Workspace tab, you will find the drop-down to switch to another workspace or create a new one.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

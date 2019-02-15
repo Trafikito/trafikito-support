@@ -7,7 +7,7 @@ tags: [notifications]
 
 **HTML** allows the use of WYSIWYG editor to input text or variables. With WYSIWYG you have control to make text bold, italic, change text color, align, make a list, table and much more. It is a great way for things like formatting an email.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 **Raw** body is raw text. If you need to send JSON content to the URL, use raw. Most APIs also require JSON header with JSON body, which is _content-type: application/json_. You can add such a header in **Headers** part of the action.
 

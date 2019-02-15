@@ -7,7 +7,7 @@ tags: [notifications]
 
 A notification name is used to easily manage notifications. You can see the notification name in the notifications list on the UI. If you’d like to update the name, then follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

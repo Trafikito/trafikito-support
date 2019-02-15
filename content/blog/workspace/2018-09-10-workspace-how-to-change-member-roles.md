@@ -7,7 +7,7 @@ tags: [workspace]
 
 There are 3 member roles: owner, admin, and member. Owners and admins can switch the role of any user between an admin and member. Members cannot make any updates. Only the owner can set a new owner. To change the role of any member, follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

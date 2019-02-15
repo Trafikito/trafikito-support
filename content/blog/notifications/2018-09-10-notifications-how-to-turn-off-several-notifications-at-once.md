@@ -7,7 +7,7 @@ tags: [notifications]
 
 You can turn on or off notifications or when cases exclusively. To turn off a single notification or when case follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

@@ -7,7 +7,7 @@ tags: [notifications]
 
 When cases are a set of options that define situations when notifications should be fired. Each when case has a selected action type:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  **Variable in ranges** - tracks when the value of variables moves to different ranges between normal, warning and error ranges and stays in a new range for a defined time.
 2.  **Getting data** - situations when Trafikito starts getting data from your server. Not getting data event must be fired first.

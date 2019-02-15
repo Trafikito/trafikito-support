@@ -7,7 +7,7 @@ tags: [notifications]
 
 Headers are parts of any HTTP call over the internet. You can set custom headers to make any API calls needed. It may be authorization headers, content type or anything else.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 #### Note:
 

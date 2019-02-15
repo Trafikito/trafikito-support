@@ -7,7 +7,7 @@ tags: [notifications]
 
 In the notifications list you can see an overview of all _when_ cases and “wait before firing again” values. Observe that not all _when_ cases in the notification may have a save value of “wait before firing again”.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

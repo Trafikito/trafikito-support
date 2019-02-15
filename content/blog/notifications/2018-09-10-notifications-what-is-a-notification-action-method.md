@@ -7,7 +7,7 @@ tags: [notifications]
 
 This is the HTTP method used to call API endpoint. Most popular methods are POST and GET but for rare cases you may need others. Trafikito gives you an option to select whatever is needed, so you could make any API call in an event.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 #### Note:
 

@@ -7,7 +7,7 @@ tags: [workspace]
 
 Only active members can login to the workspace. Owners cannot be deactivated. To deactivate a member from the active workspace, follow these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

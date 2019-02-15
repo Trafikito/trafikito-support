@@ -7,7 +7,7 @@ tags: [notifications]
 
 Notifications are actions that occur after specific events. The default action is to send an email but it can be an API call. Each notification is made of 2 parts:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  **When cases** define when notifications are triggered
 2.  **Actions** are API calls. By default its emails.

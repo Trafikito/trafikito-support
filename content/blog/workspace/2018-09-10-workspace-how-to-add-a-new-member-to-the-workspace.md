@@ -7,7 +7,7 @@ tags: [workspace]
 
 Workspaces may have from 1 to 30 members. To add a new member you must have an admin role or owner role and you will need to add the person’s email.
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 After adding the new member, she or he will get an invitation email with relevant details such as the workspace name and the inviter. If an email is not registered with Trafikito as yet, the user will be created and an invitation email will include a randomly generated password. To add a new member, follow these steps:
 

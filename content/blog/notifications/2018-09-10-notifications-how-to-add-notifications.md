@@ -7,7 +7,7 @@ tags: [notifications]
 
 You can add many notifications for each server for free. This is the list of all actions needed to add new notifications:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**

@@ -7,7 +7,7 @@ tags: [workspace]
 
 Basic workspace settings can be found by following these steps:
 
-AAAAAAAAMOREAAAAAAAAAA
+<!-- more -->
 
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**
