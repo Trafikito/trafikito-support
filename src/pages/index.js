@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, graphql, withPrefix} from 'gatsby';
+import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Typography from '@material-ui/core/Typography';

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, withPrefix} from 'gatsby';
+import {Link} from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import css from './style.module.scss';
