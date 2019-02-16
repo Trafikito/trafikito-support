@@ -1,8 +1,7 @@
-.popover {
-  width: 100%;
-  max-width: 700px;
-  padding: 0 12px 6px;
-  margin: 6px;
+.title {
+  @media (max-width: 560px) {
+    padding: 3px 0 3px 12px;
+  }
 }
 
 .results div b {

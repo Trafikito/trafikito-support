@@ -9,7 +9,7 @@ tags: [dashboard]
 2.  Turn on the edit mode switch, which is on the bottom left of the single server view. Now you can view settings of any box, drag boxes around, add new or remove current.
 3.  To edit a specific text, click the pencil icon on that box. Dialog with settings appear.
 4.  Make sure the Text tab is selected on the top section of the dialog.
-5.  Add any text together with variables. You can format text with available tools over the input. All available variables are on the bottom of the dialog. Click on any to copy and paste it as normal text into the input. Variables must be surrounded by pairs of curly braces like this: {% raw %}{{variable\_name}}{% endraw %}.
+5.  Add any text together with variables. You can format text with available tools over the input. All available variables are on the bottom of the dialog. Click on any to copy and paste it as normal text into the input. Variables must be surrounded by pairs of curly braces like this: `{{variable_name}}`.
 6.  Click save on the bottom right.
 7.  Close the settings dialog with the button on the top right side of the dialog.
 8.  Switch edit mode off.
