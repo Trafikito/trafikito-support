@@ -8,6 +8,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 import yellow from '@material-ui/core/colors/yellow';
+import Footer from '../Footer';
 
 const theme = createMuiTheme({
   palette: {

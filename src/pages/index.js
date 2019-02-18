@@ -3,6 +3,7 @@ import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Typography from '@material-ui/core/Typography';
+import Footer from '../components/Footer';
 
 class BlogIndex extends React.Component {
   render() {
@@ -11,27 +12,30 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="Help & Support"
-          keywords={[`knowledge`, `help`, `support`, `trafikito`, `monitoring`]}
-        />
+      <>
+        <Layout location={this.props.location} title={siteTitle}>
+          <SEO
+            title="Help & Support"
+            keywords={[`knowledge`, `help`, `support`, `trafikito`, `monitoring`]}
+          />
 
-        {posts.map(({node}) => {
-          const url = `/${node.frontmatter.uri}.html`;
-          const title = node.frontmatter.title || url;
-          return (
-            <div key={node.frontmatter.uri}>
-              <Typography variant={'h5'}>
-                <Link style={{boxShadow: `none`}} to={url}>
-                  {title}
-                </Link>
-              </Typography>
-              <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
-            </div>
-          );
-        })}
-      </Layout>
+          {posts.map(({node}) => {
+            const url = `/${node.frontmatter.uri}.html`;
+            const title = node.frontmatter.title || url;
+            return (
+              <div key={node.frontmatter.uri}>
+                <Typography variant={'h5'}>
+                  <Link style={{boxShadow: `none`}} to={url}>
+                    {title}
+                  </Link>
+                </Typography>
+                <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+              </div>
+            );
+          })}
+        </Layout>
+        <Footer/>
+      </>
     );
   }
 }
