@@ -28,16 +28,87 @@ class Footer extends React.Component {
     return (
       <div style={{backgroundColor: blueGrey[50]}}>
         <div style={{maxWidth: 700, margin: '0 auto', padding: '0 8px'}}>
-          <div style={{padding: '24px 0 12px'}}>
-            <Breadcrumbs separator="›" arial-label="Breadcrumb">
-              <Link color="inherit" href={isProduction ? 'https://trafikito.com' : 'http://localhost:3000'}>
-                Trafikito
-              </Link>
-              <Link color="inherit" href={isProduction ? 'https://trafikito.com/support' : 'http://localhost:8000'}>
-                Support
-              </Link>
-              <Typography color="textPrimary">{last}</Typography>
-            </Breadcrumbs>
+          <div style={{paddingBottom: 16}}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                flexWrap: 'wrap',
+              }}
+            >
+              <div style={{padding: '24px 0 0'}}>
+                <Breadcrumbs separator="›" arial-label="Breadcrumb">
+                  <Link color="inherit" href={isProduction ? 'https://trafikito.com' : 'http://localhost:3000'}>
+                    Trafikito
+                  </Link>
+                  <Link color="inherit" href={isProduction ? 'https://trafikito.com/support' : 'http://localhost:8000'}>
+                    Support
+                  </Link>
+                  <Typography color="textPrimary">{last}</Typography>
+                </Breadcrumbs>
+              </div>
+              <div
+                style={{
+                  padding: '6px 0 0',
+                  height: 32,
+                  display: 'flex',
+                  alignContent: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <a
+                  style={{margin: 3}}
+                  href={'https://www.youtube.com/channel/UCofioaADtesyD75204ngeoQ'}
+                  target={'_blank'}
+                >
+                  <img
+                    style={{width: 32, height: 32}}
+                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/youtube.svg'}
+                  />
+                </a>
+                <a
+                  style={{margin: 3}}
+                  href={'https://www.instagram.com/trafikito/'}
+                  target={'_blank'}
+                >
+                  <img
+                    style={{width: 32, height: 32}}
+                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/instagram.svg'}
+                  />
+                </a>
+                <a
+                  style={{margin: 3}}
+                  href={'https://twitter.com/trafikito'}
+                  target={'_blank'}
+                >
+                  <img
+                    style={{width: 32, height: 32}}
+                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/twitter.svg'}
+                  />
+                </a>
+                <a
+                  style={{margin: 3}}
+                  href={'https://www.facebook.com/Trafikito/'}
+                  target={'_blank'}
+                >
+                  <img
+                    style={{width: 32, height: 32}}
+                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/facebook.svg'}
+                  />
+                </a>
+                <a
+                  style={{margin: 3}}
+                  href={'https://www.linkedin.com/company/trafikito/'}
+                  target={'_blank'}
+                >
+                  <img
+                    style={{width: 32, height: 32}}
+                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/linkedin.svg'}
+                  />
+                </a>
+              </div>
+            </div>
           </div>
           <div
             style={{
