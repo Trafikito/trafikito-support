@@ -3,12 +3,10 @@ import TopMenu from './partials/TopMenu';
 import css from './style.module.scss';
 import Typography from '@material-ui/core/Typography';
 import Helmet from 'react-helmet';
-import {withPrefix} from 'gatsby';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 import yellow from '@material-ui/core/colors/yellow';
-import Footer from '../Footer';
 
 const theme = createMuiTheme({
   palette: {
@@ -34,7 +32,7 @@ class Layout extends React.Component {
       <MuiThemeProvider theme={theme}>
         <CssBaseline/>
         <Helmet>
-          <link rel="stylesheet" href={withPrefix('/global.css')}/>
+          <link rel="stylesheet" href={'https://d4o5fxgxpjzlh.cloudfront.net/support/global.css'}/>
           <meta
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"

@@ -20,7 +20,7 @@ export default function HTML(props) {
       })(window,document,'script','dataLayer','GTM-TMNTPTZ');`,
       }}/>
       {props.headComponents}
-      <link rel="stylesheet" type="text/css" href="/global.css"/>
+      <link rel="stylesheet" type="text/css" href="https://d4o5fxgxpjzlh.cloudfront.net/support/global.css"/>
     </head>
     <body {...props.bodyAttributes}>
     <noscript>
