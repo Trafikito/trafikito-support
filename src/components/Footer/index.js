@@ -15,7 +15,6 @@ class Footer extends React.Component {
   };
 
   render() {
-    console.log(`#jfekljkw props of footer: `, this.props);
     // const post = this.props.data.markdownRemark;
     // const siteTitle = this.props.data.site.siteMetadata.title;
 
