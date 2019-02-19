@@ -27,7 +27,7 @@ class BlogPostTemplate extends React.Component {
             <CardContent>
               <div dangerouslySetInnerHTML={{__html: post.html}} style={{minHeight: 200}}/>
               <div>
-                <div style={{height: 160}} id="emojics-root"></div>
+                <div style={{height: 220}} id="emojics-root"></div>
               </div>
             </CardContent>
 
