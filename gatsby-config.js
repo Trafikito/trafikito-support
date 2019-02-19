@@ -61,6 +61,5 @@ module.exports = {
         output: `/sitemap.xml`,
       },
     },
-    `gatsby-plugin-offline`,
   ],
 };

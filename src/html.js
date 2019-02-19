@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {withPrefix} from 'gatsby';
+import Helmet from './components/Layout';
 
 export default function HTML(props) {
   return (
@@ -20,7 +22,7 @@ export default function HTML(props) {
       })(window,document,'script','dataLayer','GTM-TMNTPTZ');`,
       }}/>
       {props.headComponents}
-      <link rel="stylesheet" type="text/css" href="https://d4o5fxgxpjzlh.cloudfront.net/support/global.css"/>
+      <link rel="stylesheet" type="text/css" href={withPrefix('/global.css')}/>
     </head>
     <body {...props.bodyAttributes}>
     <noscript>
