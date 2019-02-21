@@ -60,6 +60,7 @@ exports.onPostBuild = async ({graphql}) => {
                   title
                   uri
                 }
+                excerpt
               }
             }
           }
@@ -78,6 +79,7 @@ exports.onPostBuild = async ({graphql}) => {
     result.data.allMarkdownRemark.edges.forEach((edge) => {
       data.push({
         ...edge.node.frontmatter,
+        excerpt: edge.node.excerpt,
       });
     });
   }
