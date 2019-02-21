@@ -11,4 +11,4 @@ To save changes you must click **Save data source** so you can experiment with p
 
 While changing the parsing settings you will immediately see the updated table of data. If the data location changes in a table, then variables assigned to the table must be updated too.
 
-**Example**: If the previous value of **load_1** was inside cell **A2** 0.21 and now it is in **A11**. The variable **load\_1** is still pointing to **A2** 01:51:48, which is the current server’s time now. To fix it, just select **A11** from the drop-down in the variables settings.
+**Example**: If the previous value of **load_1** was inside cell **A2** 0.21 and now it is in **A11.** The variable **load\_1** is still pointing to **A2** 01:51:48, which is the current server’s time now. To fix it, just select **A11** from the drop-down in the variables settings.

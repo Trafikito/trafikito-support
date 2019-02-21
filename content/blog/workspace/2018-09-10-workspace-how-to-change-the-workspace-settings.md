@@ -12,7 +12,7 @@ Basic workspace settings can be found by following these steps:
 1.  Open the main menu on the top left \[menu icon\]
 2.  Select **Dashboard**
 3.  On top of the servers list, you can see the name of the selected workspace. Click it to open more details
-4.  On the top select **Workspace**, **Members** or **Pricing** tab and make all required adjustments
+4.  On the top select **Workspace,** **Members** or **Pricing** tab and make all required adjustments
 
 #### Note:
 

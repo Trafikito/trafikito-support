@@ -12,9 +12,9 @@ This is a 3 steps process which starts here:
 
 <!--more-->
 
-1.  Enter your email which you used to register and click **Request new password**.
-2.  You will **get an email** with a password **recovery link**. Click on it.
-3.  You will **get another email** with a **new password**. Use it to login.
+1.  Enter your email which you used to register and click **Request new password.**
+2.  You will **get an email** with a password **recovery link.** Click on it.
+3.  You will **get another email** with a **new password.** Use it to login.
 
 After completing the 2nd step, your old password will stop working and you will need to use the new random password that was sent during step 3.
 

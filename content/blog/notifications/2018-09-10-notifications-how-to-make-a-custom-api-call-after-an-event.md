@@ -16,8 +16,8 @@ When cases determine when to do the action and action is just any API call. If y
 
 *   **HTTP method**: POST, GET, PUT, DELETE, PATCH, HEAD, OPTIONS
 *   **URL**
-*   **Headers**. Maximum 5 header key-value pairs
-*   **Body**. Can be **HTML** or raw text, e.g. **JSON**.
+*   **Headers.** Maximum 5 header key-value pairs
+*   **Body.** Can be **HTML** or raw text, e.g. **JSON.**
 
 #### Note:
 

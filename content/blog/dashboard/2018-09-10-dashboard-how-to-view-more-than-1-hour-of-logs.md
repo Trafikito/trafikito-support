@@ -6,7 +6,7 @@ tags: [dashboard]
 ---
 
 
-The Free plan allows you to view up to 12 hours of logs. Paid plans allows up to **2 weeks of logs**. 
+The Free plan allows you to view up to 12 hours of logs. Paid plans allows up to **2 weeks of logs.** 
 While in the single server view, click on “Showing 1 hour”, which is in the middle of the screen in front of all
 charts and text boxes, then select from the dropdown how many hours you want to see at once in the charts.
 

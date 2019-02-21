@@ -12,4 +12,4 @@ Deleting data sources will delete it’s variables and logs. Logs and variables 
 If this data source does have variables defined and those variables are in use:
 
 *   In the text boxes, notification email and anywhere it is rendered as text, you will see the variable name instead of a value.
-*   In charts variables will have no logs and depending on if the chart have other active variables, it will display an empty chart for the deleted variable or just the message **No data for this time interval**.
+*   In charts variables will have no logs and depending on if the chart have other active variables, it will display an empty chart for the deleted variable or just the message **No data for this time interval.**

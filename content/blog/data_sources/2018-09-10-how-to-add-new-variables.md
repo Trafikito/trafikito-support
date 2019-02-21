@@ -17,7 +17,7 @@ tags: [data sources]
 
 Variable have several options:
 
-*   **Name**. This will be visible everywhere that you want to use this variable
-*   **Source**. This sets the source cell from the parsed output. Select cell from the drop-down. If it’s not available - check if the sample output is available. \[link to why sample output is not there\] \[link to how data parsing works\]
-*   **Display type**. This defines how to display the value of the variable on charts, text boxes, notification body.
+*   **Name.** This will be visible everywhere that you want to use this variable
+*   **Source.** This sets the source cell from the parsed output. Select cell from the drop-down. If it’s not available - check if the sample output is available. \[link to why sample output is not there\] \[link to how data parsing works\]
+*   **Display type.** This defines how to display the value of the variable on charts, text boxes, notification body.
     1.  Different display types may have specific options

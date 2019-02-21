@@ -15,6 +15,6 @@ Warning and error range options define when a value is in a warning or error ran
 5.  If data sources are collapsed, click **View** next to it
 6.  Click on a **data source** you want to edit
 7.  See the list of variables and click **Add Variable** to add new; if none are present
-8.  Add variable name, select value source from the dropdown and set **display type** to **number**, **base** or **percent**.
+8.  Add variable name, select value source from the dropdown and set **display type** to **number,** **base** or **percent.**
 9.  Click **Options** to expand display type and range options
 10.  Add, remove or edit warning or error range

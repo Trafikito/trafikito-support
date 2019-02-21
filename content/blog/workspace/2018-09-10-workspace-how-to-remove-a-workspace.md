@@ -5,7 +5,7 @@ uri: how-to-remove-a-workspace
 tags: [workspace]
 ---
 
-**This action can’t be undone**. Please note that ONLY the **owner** can remove a workspace. When a workspace is removed all related details are removed:
+**This action can’t be undone.** Please note that ONLY the **owner** can remove a workspace. When a workspace is removed all related details are removed:
 
 *   Members will be removed from the workspace
 *   Servers will be removed from the workspace

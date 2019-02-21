@@ -15,4 +15,4 @@ When cases are a set of options that define situations when notifications should
 
 A single notification may have one or more when cases. A notification is triggered when any when cases are positive.
 
-**Getting data event will never fire if not getting data event is not fired first**. Always define both when cases _when_ building notifications.
+**Getting data event will never fire if not getting data event is not fired first.** Always define both when cases _when_ building notifications.

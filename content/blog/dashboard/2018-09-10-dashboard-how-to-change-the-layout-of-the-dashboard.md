@@ -13,7 +13,7 @@ tags: [dashboard]
 <!--more-->
 
 
-While adding a variable in the title you can see a rendered preview with the current value of the variable. How variable is rendered depends on the **variable display type**. It may be a **string**, **number**, **base** or **percent**.
+While adding a variable in the title you can see a rendered preview with the current value of the variable. How variable is rendered depends on the **variable display type.** It may be a **string,** **number,** **base** or **percent.**
 
 #### Notes:
 

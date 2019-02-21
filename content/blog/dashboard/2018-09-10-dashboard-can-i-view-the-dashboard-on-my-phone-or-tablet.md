@@ -9,6 +9,6 @@ tags: [dashboard]
 
 <!--more-->
 
-However, **when making customizations**, we recommend using a computer but it’s not a requirement. 
+However, **when making customizations,** we recommend using a computer but it’s not a requirement. 
 
 Everything that you are able to do on a desktop, you will also be able to do on the go, using a mobile or a tablet.

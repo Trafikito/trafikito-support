@@ -5,7 +5,7 @@ uri: when-to-use-base-display-types
 tags: [data sources]
 ---
 
-When you have numeric values to track and it needs to be divided by some base. You can also add some suffix next to the value. A good example is the **size of bytes**. If the command return bytes and you want to see Megabytes or Gigabytes, you have to use display type: **base**.
+When you have numeric values to track and it needs to be divided by some base. You can also add some suffix next to the value. A good example is the **size of bytes.** If the command return bytes and you want to see Megabytes or Gigabytes, you have to use display type: **base.**
 
 <!--more-->
 

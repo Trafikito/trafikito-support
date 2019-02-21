@@ -18,4 +18,4 @@ You can turn on or off notifications or when cases exclusively. To turn off a si
 7.  Use the **On / Off switch** in front the notification name. The same switch is available for each _when_ case. Use those to turn off only one or multiple _when_ cases.
 8.  Scroll down and click **Save notification** under all notification settings
 
-You can also turn off several notifications at once. To do this, in the notifications list check all notifications to modify by using the checkbox in front of the notification name. When at least one notification is checked, above the list there will be mass options available, one of the option is **to turn on or off all selected notifications**. There is no mass action to turn off individual when cases.
+You can also turn off several notifications at once. To do this, in the notifications list check all notifications to modify by using the checkbox in front of the notification name. When at least one notification is checked, above the list there will be mass options available, one of the option is **to turn on or off all selected notifications.** There is no mass action to turn off individual when cases.
