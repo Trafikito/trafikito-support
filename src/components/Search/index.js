@@ -78,7 +78,7 @@ class Search extends React.Component {
         >
           <SearchIcon/>
         </IconButton>
-        {this.state.open && (
+        {(this.state.open || true) && (
           <SearchRender
             handleClose={() => {
               this.setState({open: false});
