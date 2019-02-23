@@ -25,6 +25,7 @@ import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
+import css from './../style.module.scss';
 
 const fuzzysort = require('fuzzysort');
 
@@ -33,7 +34,8 @@ class SearchResultsVideos extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      videos_count: 4,
+      videos_count: localStorage.getItem('dev_videos_count') || 4,
+      offset: 0,
     };
   }
 
@@ -83,49 +85,99 @@ class SearchResultsVideos extends React.Component {
       ...samples,
       ...samples,
       ...samples,
+      ...samples,
+      ...samples,
+      ...samples,
+      ...samples,
+      ...samples,
+      ...samples,
     ];
 
     const videos = [];
     for (let i = 0; i < this.state.videos_count; i++) {
-      videos.push(samples.pop());
+      if (samples.length > 0) {
+        videos.push(samples.pop());
+      }
     }
 
     const cards = [];
-    videos.forEach((video) => {
+    videos.forEach((video, index) => {
       cards.push(
         <div style={{margin: 4}} key={video.id}>
           <Card style={{width: 205}}>
             <img src={video.img} alt={video.title} style={{width: 205, height: 115}}/>
             <Typography variant={'subtitle2'} style={{padding: '16px 16px 0', height: 110}}>
-              {video.title.length > 83 ? `${video.title.substr(0, 80)}…` : video.title}
+              {index + 1} {video.title.length > 83 ? `${video.title.substr(0, 80)}…` : video.title}
             </Typography>
           </Card>
         </div>,
       );
     });
 
-    let showScroll = videos.length > 4;
+    let showScroll = videos.length > 4 + this.state.offset;
 
     return (
       <>
         <div style={{position: 'relative'}}>
           <div style={{overflow: 'hidden', margin: '0 46px 0 0'}}>
-            <div style={{position: 'relative', left: 0, display: 'flex'}}>
+            <div
+              style={{
+                position: 'relative',
+                left: this.state.offset * 213 * -1,
+                transition: 'left 350ms',
+                display: 'flex',
+              }}
+            >
               {cards}
             </div>
           </div>
-          <div
-            style={{
-              position: 'absolute',
-              right: 0,
-              top: 86,
-            }}
-          >
-            <Fab color={'primary'} aria-label="Next">
-              <KeyboardArrowRight/>
-            </Fab>
-          </div>
-
+          {
+            showScroll && (
+              <div
+                style={{
+                  position: 'absolute',
+                  transition: 'all 350ms',
+                  right: 0,
+                  top: 86,
+                }}
+              >
+                <Fab
+                  color={'primary'}
+                  classes={{root: css.fab_root}}
+                  aria-label="Next"
+                  onClick={() => {
+                    let newOffset = this.state.offset + 3;
+                    this.setState({offset: newOffset});
+                  }}
+                >
+                  <KeyboardArrowRight/>
+                </Fab>
+              </div>
+            )
+          }
+          {
+            this.state.offset > 0 && (
+              <div
+                style={{
+                  position: 'absolute',
+                  left: 0,
+                  top: 86,
+                }}
+              >
+                <Fab
+                  color={'primary'}
+                  classes={{root: css.fab_root}}
+                  aria-label="Next"
+                  onClick={() => {
+                    let newOffset = this.state.offset - 4;
+                    this.setState({offset: newOffset < 0 ? 0 : newOffset});
+                  }}
+                >
+                  <KeyboardArrowLeft/>
+                </Fab>
+              </div>
+            )
+          }
         </div>
         <div style={{marginTop: 52}}>
           <input
@@ -133,6 +185,13 @@ class SearchResultsVideos extends React.Component {
             value={this.state.videos_count}
             onChange={(e) => this.setState({videos_count: e.target.value})}
           />
+          state:
+          <div>
+            {JSON.stringify(this.state)}
+          </div>
+          <button onClick={() => localStorage.setItem('dev_videos_count', this.state.videos_count)}>save videos count
+          </button>
+          <button onClick={() => this.setState({offset: 0})}>reset offset</button>
         </div>
       </>
     );
