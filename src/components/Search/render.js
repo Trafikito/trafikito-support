@@ -16,6 +16,8 @@ import ImageIcon from '@material-ui/icons/Image';
 import WorkIcon from '@material-ui/icons/Work';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 
+import SearchResultsVideos from './partials/videos';
+
 import css from './style.module.scss';
 import DelayedButton from '../DelayedButton';
 
@@ -107,31 +109,31 @@ class SearchRender extends React.Component {
           id: 'video_1',
           url: 'https://www.youtube.com/watch?v=Bey4XXJAqS8',
           title: '4K VIDEO ultrahd hdr sony 4K VIDEOS demo test nature relaxation movie for 4k oled tv',
-          img: 'https://img.youtube.com/vi/Bey4XXJAqS8/1.jpg',
+          img: 'https://i.ytimg.com/vi/Bey4XXJAqS8/hqdefault.jpg',
         },
         {
           id: 'video_2',
           url: 'https://www.youtube.com/watch?v=y__1BRp4_88',
           title: 'The Police - Every Breath You Take (Deep Chills Remix)',
-          img: 'https://img.youtube.com/vi/y__1BRp4_88/1.jpg',
+          img: 'https://i.ytimg.com/vi/y__1BRp4_88/hqdefault.jpg',
         },
         {
           id: 'video_3',
           url: 'https://www.youtube.com/watch?v=dbZMmu8v-D8',
           title: 'Kygo - Piano Jam (ALL 1-2-3) [1 HOUR]',
-          img: 'https://img.youtube.com/vi/dbZMmu8v-D8/1.jpg',
+          img: 'https://i.ytimg.com/vi/dbZMmu8v/hqdefault.jpg',
         },
         {
           id: 'video_4',
           url: 'https://www.youtube.com/watch?v=sPBVzqOax3Y',
           title: 'Solomun - Somebody\'s Story (Original Mix)',
-          img: 'https://img.youtube.com/vi/sPBVzqOax3Y/1.jpg',
+          img: 'https://i.ytimg.com/vi/sPBVzqOax3Y/hqdefault.jpg',
         },
         {
           id: 'video_5',
           url: 'https://www.youtube.com/watch?v=AbWBviQCMEE',
           title: 'Phil Collins - In The Air Tonight (Panski & John Skyfield Remix) [Deep House]',
-          img: 'https://img.youtube.com/vi/AbWBviQCMEE/1.jpg',
+          img: 'https://i.ytimg.com/vi/AbWBviQCMEE/hqdefault.jpg',
         },
       ],
     };
@@ -299,7 +301,7 @@ class SearchRender extends React.Component {
         videos.push(
           <div key={result.obj.id} style={{margin: 6, width: 200}}>
             <a href={result.obj.url} target={'_blank'}>
-              <img src={result.obj.img} alt={result.obj.title} style={{width: '100%', borderRadius: 4}}/>
+              <img src={result.obj.img} alt={result.obj.title} style={{width: 210, height: 117, borderRadius: 4}}/>
               <Typography variant={'body2'} className={css.results_match}>
                 <div className={css.result_row_glossary} dangerouslySetInnerHTML={{__html: html}}/>
               </Typography>
@@ -346,23 +348,7 @@ class SearchRender extends React.Component {
           </DelayedButton>
         </div>
         <DialogContent>
-          <div>
-            <Card
-              style={{
-                padding: 6,
-                margin: 6,
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'center',
-                minHeight: 64,
-              }}
-            >
-              {
-                videos.length > 0 ? videos :
-                  <Typography variant={'caption'} style={{width: '100%', margin: 6}}>No videos found</Typography>
-              }
-            </Card>
-          </div>
+          {videos.length > 0 && <SearchResultsVideos/>}
           <div style={{display: 'flex', flexWrap: 'wrap'}}>
             <div style={{flex: 5, minWidth: 400}}>
               <Card style={{padding: 12, margin: 6, height: 500, overflowY: 'scroll'}}>
