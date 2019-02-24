@@ -1,34 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Link} from 'gatsby';
 import Typography from '@material-ui/core/Typography';
-import TextField from '@material-ui/core/TextField';
-import IconClose from '@material-ui/icons/Close';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import DialogContent from '@material-ui/core/DialogContent';
-import Dialog from '@material-ui/core/Dialog';
-import Card from '@material-ui/core/Card';
-import Fab from '@material-ui/core/Fab';
-import blueGrey from '@material-ui/core/colors/blueGrey';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Avatar from '@material-ui/core/Avatar';
-import ImageIcon from '@material-ui/icons/Image';
-import WorkIcon from '@material-ui/icons/Work';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Chip from '@material-ui/core/Chip';
-import Tooltip from '@material-ui/core/Tooltip';
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
-import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import {withPrefix} from 'gatsby';
 
 import Grow from '@material-ui/core/Grow';
+import Button from '@material-ui/core/Button';
 
 import css from './../style.module.scss';
 
@@ -44,8 +20,14 @@ class SearchResultsArticles extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      offset: 0,
+      page: 1,
     };
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (prevProps.searchQuery !== this.props.searchQuery && this.state.page !== 1) {
+      this.setState({page: 1});
+    }
   }
 
   render() {
@@ -55,7 +37,14 @@ class SearchResultsArticles extends React.Component {
     }
 
     const rows = [];
+    const perPage = 15;
+    let thereAreMore = 0;
+
     articles.forEach((article, index) => {
+      if (index >= this.state.page * perPage) {
+        thereAreMore++;
+        return;
+      }
       const titleWithHighlights = this.props.searchQuery ? fuzzysort.highlight(
         fuzzysort.single(
           this.props.searchQuery,
@@ -63,34 +52,62 @@ class SearchResultsArticles extends React.Component {
         ),
       ) : article.obj.title;
 
+      const enter = (index + 1 - (this.state.page - 1) * perPage) * 350;
+
       rows.push(
         <Grow
-          in={index <= this.state.offset + 3}
+          in={index < this.state.page * perPage}
           key={article.obj.id}
           timeout={{
-            enter: index * 350,
+            enter: enter > 1500 ? 1500 : enter,
           }}
           duration={350}
           delay={350}
         >
-          <div>
-            <a style={{margin: 4, display: 'block'}}>
-              <Typography className={css.results_match} variant={'h5'} component={'div'}>
+          <div style={{marginBottom: 28}}>
+            <a style={{margin: 4, display: 'block', cursor: 'pointer'}} href={`${withPrefix(article.obj.uri)}.html`}>
+              <Typography style={{color: 'inherit'}} className={css.results_match} variant={'h5'} component={'div'}>
                 <div dangerouslySetInnerHTML={{__html: titleWithHighlights}}/>
               </Typography>
             </a>
             <Typography variant={'body2'}>
               {article.obj.excerpt}
             </Typography>
-            {JSON.stringify(article)}
           </div>
         </Grow>,
       );
     });
 
+    let bottom = null;
+
+    if (thereAreMore > 0) {
+      bottom = (
+        <div>
+          <Typography component={'div'} style={{textAlign: 'center', margin: '24px 24px 6px'}}>
+            Showing {this.state.page * perPage} of {articles.length}
+          </Typography>
+          <div style={{display: 'flex', justifyContent: 'center'}}>
+            <Button
+              variant={'contained'}
+              color={'primary'}
+              onClick={() => this.setState({page: this.state.page + 1})}
+            >
+              Load more
+            </Button>
+          </div>
+        </div>
+      );
+    } else {
+      bottom = (
+        <Typography component={'div'} style={{textAlign: 'center', margin: '24px 24px 6px'}}>
+          Showing {articles.length} of {articles.length}
+        </Typography>
+      );
+    }
     return (
       <div>
         {rows}
+        {bottom}
       </div>
     );
   }

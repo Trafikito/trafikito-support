@@ -3,7 +3,6 @@ import TopMenu from './partials/TopMenu';
 import css from './style.module.scss';
 import Typography from '@material-ui/core/Typography';
 import Helmet from 'react-helmet';
-import {withPrefix} from 'gatsby';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import blueGrey from '@material-ui/core/colors/blueGrey';

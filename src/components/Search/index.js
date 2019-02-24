@@ -36,7 +36,7 @@ class Search extends React.Component {
 
     this.dataPreload = setTimeout(() => {
       this.preload();
-    }, 2000);
+    }, 100);
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
@@ -79,7 +79,7 @@ class Search extends React.Component {
         >
           <SearchIcon/>
         </IconButton>
-        {(this.state.open || true) && this.state.searchableData && (
+        {this.state.open && this.state.searchableData && (
           <SearchRender
             searchableData={this.state.searchableData}
             handleClose={() => {
