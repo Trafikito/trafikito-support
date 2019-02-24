@@ -276,36 +276,10 @@ class SearchRender extends React.Component {
               to={`/${result.obj.uri}.html`}
               onClick={this.props.handleClose}
             >
-              <Typography
-                component={'div'}
-                inline
-                variant={'caption'}
-              >
+              <Typography component={'div'} inline variant={'caption'}>
                 <div className={css.result_row_glossary} dangerouslySetInnerHTML={{__html: html}}/>
               </Typography>
             </Link>
-          </div>,
-        );
-      });
-    }
-
-    const videos = [];
-    if (resultsVideos && resultsVideos.length > 0) {
-      resultsVideos.forEach((result) => {
-        const html = this.state.query ? fuzzysort.highlight(
-          fuzzysort.single(
-            this.state.query,
-            result.obj.title,
-          ),
-        ) : result.obj.title;
-        videos.push(
-          <div key={result.obj.id} style={{margin: 6, width: 200}}>
-            <a href={result.obj.url} target={'_blank'}>
-              <img src={result.obj.img} alt={result.obj.title} style={{width: 210, height: 117, borderRadius: 4}}/>
-              <Typography variant={'body2'} className={css.results_match}>
-                <div className={css.result_row_glossary} dangerouslySetInnerHTML={{__html: html}}/>
-              </Typography>
-            </a>
           </div>,
         );
       });
@@ -348,7 +322,8 @@ class SearchRender extends React.Component {
           </DelayedButton>
         </div>
         <DialogContent>
-          {videos.length > 0 && <SearchResultsVideos/>}
+          <SearchResultsVideos videos={resultsVideos} searchQuery={this.state.query}/>
+
           <div style={{display: 'flex', flexWrap: 'wrap'}}>
             <div style={{flex: 5, minWidth: 400}}>
               <Card style={{padding: 12, margin: 6, height: 500, overflowY: 'scroll'}}>
@@ -380,8 +355,9 @@ class SearchRender extends React.Component {
                   >
                     {
                       glossary.length > 0 ? glossary :
-                        <Typography variant={'caption'} style={{width: '100%', margin: 6}}>No keywords
-                          found</Typography>
+                        <Typography variant={'caption'} style={{width: '100%', margin: 6}}>
+                          No keywords found
+                        </Typography>
                     }
                   </div>
                 </div>
