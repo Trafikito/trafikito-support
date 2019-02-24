@@ -1,5 +1,5 @@
 ---
-id:93c10e9e-09b5-4c50-8836-ae2250cfba77
+id: 93c10e9e-09b5-4c50-8836-ae2250cfba77
 layout: post
 title:  "Can a workspace have several owners & admins?"
 uri: can-a-workspace-have-several-owners-admins

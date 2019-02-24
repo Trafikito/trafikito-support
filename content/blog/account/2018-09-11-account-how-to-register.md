@@ -1,5 +1,5 @@
 ---
-id:7be7c6e9-7c2a-4c6c-9397-724524e5c119
+id: 7be7c6e9-7c2a-4c6c-9397-724524e5c119
 layout: post
 sort: 1
 title:  "How to register?"

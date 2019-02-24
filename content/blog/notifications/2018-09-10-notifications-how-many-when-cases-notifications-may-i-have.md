@@ -1,5 +1,5 @@
 ---
-id:2b9a3968-fa28-454f-aba2-e855daf4162f
+id: 2b9a3968-fa28-454f-aba2-e855daf4162f
 layout: post
 title:  "How many when cases notifications may I have?"
 uri: how-many-when-cases-notifications-may-i-have

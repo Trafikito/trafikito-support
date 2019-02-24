@@ -1,5 +1,5 @@
 ---
-id:bff543c4-0de6-4d63-a9f6-01610e89388d
+id: bff543c4-0de6-4d63-a9f6-01610e89388d
 layout: post
 title:  "What is a regex?"
 uri: what-is-a-regex

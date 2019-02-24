@@ -1,5 +1,5 @@
 ---
-id:00b85ab9-4d43-4042-98a2-1b954e3398ec
+id: 00b85ab9-4d43-4042-98a2-1b954e3398ec
 layout: post
 sort: 6
 title:  "Do I need a credit card to register?"

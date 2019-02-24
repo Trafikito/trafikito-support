@@ -1,5 +1,5 @@
 ---
-id:94cb1275-ff0b-4e8b-9ee5-e9a4be5af110
+id: 94cb1275-ff0b-4e8b-9ee5-e9a4be5af110
 layout: post
 title:  "When to use number display types?"
 uri: when-to-use-number-display-types

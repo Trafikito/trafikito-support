@@ -1,5 +1,5 @@
 ---
-id:30bfabf5-4ceb-457e-9dcf-74d697054cfe
+id: 30bfabf5-4ceb-457e-9dcf-74d697054cfe
 layout: post
 title:  "How to navigate in time?"
 uri: how-to-navigate-in-time

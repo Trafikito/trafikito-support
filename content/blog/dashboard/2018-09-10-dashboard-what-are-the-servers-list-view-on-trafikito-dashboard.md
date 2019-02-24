@@ -1,5 +1,5 @@
 ---
-id:d50506c3-dfde-41e5-83a9-fc3f76b2c04d
+id: d50506c3-dfde-41e5-83a9-fc3f76b2c04d
 layout: post
 title:  "What are the servers list view on Trafikito dashboard?"
 uri: what-are-the-servers-list-view-on-trafikito-dashboard

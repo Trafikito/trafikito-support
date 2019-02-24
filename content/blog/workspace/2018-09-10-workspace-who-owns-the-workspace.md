@@ -1,5 +1,5 @@
 ---
-id:e5fd43dd-ea63-49ca-88d0-b0637acd3877
+id: e5fd43dd-ea63-49ca-88d0-b0637acd3877
 layout: post
 title:  "Who owns the workspace?"
 uri: who-owns-the-workspace

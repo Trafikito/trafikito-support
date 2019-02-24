@@ -1,5 +1,5 @@
 ---
-id:d142b50c-9e31-4ce3-b30e-4ade5ec0823f
+id: d142b50c-9e31-4ce3-b30e-4ade5ec0823f
 layout: post
 title:  "What happens when new data arrives at Trafikito?"
 uri: what-happens-when-new-data-arrives-at-trafikito

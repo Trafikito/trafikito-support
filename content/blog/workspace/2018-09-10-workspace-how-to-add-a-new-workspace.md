@@ -1,5 +1,5 @@
 ---
-id:d26844e2-3bfd-4085-86dc-169b90bbdd74
+id: d26844e2-3bfd-4085-86dc-169b90bbdd74
 layout: post
 title:  "How to add a new workspace?"
 uri: how-to-add-a-new-workspace

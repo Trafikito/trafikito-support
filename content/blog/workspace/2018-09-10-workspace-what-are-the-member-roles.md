@@ -1,5 +1,5 @@
 ---
-id:6c8c26c9-99ad-4034-bc33-4004271a5a01
+id: 6c8c26c9-99ad-4034-bc33-4004271a5a01
 layout: post
 title:  "What are the member roles?"
 uri: what-are-the-member-roles

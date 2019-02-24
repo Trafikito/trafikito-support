@@ -1,5 +1,5 @@
 ---
-id:83e04f92-b8e4-476a-8638-59ed58d2671a
+id: 83e04f92-b8e4-476a-8638-59ed58d2671a
 layout: post
 title:  "What are chips in the data source list?"
 uri: what-are-chips-in-the-data-source-list

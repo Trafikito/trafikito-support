@@ -1,5 +1,5 @@
 ---
-id:eb09e7f9-2694-49b9-8d09-50723f8c001a
+id: eb09e7f9-2694-49b9-8d09-50723f8c001a
 layout: post
 title:  "How to change a default notification email?"
 uri: how-to-change-a-default-notification-email

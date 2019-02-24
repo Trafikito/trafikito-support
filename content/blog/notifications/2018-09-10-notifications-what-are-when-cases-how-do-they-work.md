@@ -1,5 +1,5 @@
 ---
-id:262eeb04-e1d6-43d0-b1d9-073d47d4ee13
+id: 262eeb04-e1d6-43d0-b1d9-073d47d4ee13
 layout: post
 title:  "What are when cases & how do they work?"
 uri: what-are-when-cases-how-do-they-work

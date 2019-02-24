@@ -1,5 +1,5 @@
 ---
-id:9b3d407a-4023-477b-9aea-4ba99db49eda
+id: 9b3d407a-4023-477b-9aea-4ba99db49eda
 layout: post
 title:  "Why does it say “Must be owner or admin”?"
 uri: why-does-it-say-must-be-owner-or-admin

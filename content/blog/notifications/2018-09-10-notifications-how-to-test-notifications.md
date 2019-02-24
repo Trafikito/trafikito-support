@@ -1,5 +1,5 @@
 ---
-id:8cfe1c40-2923-4909-a1b5-7de342c62438
+id: 8cfe1c40-2923-4909-a1b5-7de342c62438
 layout: post
 title:  "How to test notifications?"
 uri: how-to-test-notifications

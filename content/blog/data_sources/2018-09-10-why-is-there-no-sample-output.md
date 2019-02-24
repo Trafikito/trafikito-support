@@ -1,5 +1,5 @@
 ---
-id:fd21b7fa-0ce7-4500-9090-f183656e87f1
+id: fd21b7fa-0ce7-4500-9090-f183656e87f1
 layout: post
 title:  "Why is there no sample output?"
 uri: why-is-there-no-sample-output

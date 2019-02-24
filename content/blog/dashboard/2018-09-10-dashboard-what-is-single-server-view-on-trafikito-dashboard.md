@@ -1,5 +1,5 @@
 ---
-id:7fc612c7-eb8a-4746-b7d6-cfe0b36ebb7c
+id: 7fc612c7-eb8a-4746-b7d6-cfe0b36ebb7c
 layout: post
 title:  "What is single server view on Trafikito dashboard?"
 uri: what-is-single-server-view-on-trafikito-dashboard

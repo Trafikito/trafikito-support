@@ -1,5 +1,5 @@
 ---
-id:2d1818bf-f5b8-41a5-8d62-ec93a86017e0
+id: 2d1818bf-f5b8-41a5-8d62-ec93a86017e0
 layout: post
 sort: 1
 title:  "How to delete all my data and account?"

@@ -1,5 +1,5 @@
 ---
-id:f7277d70-7b35-489b-b378-009a690e0a3f
+id: f7277d70-7b35-489b-b378-009a690e0a3f
 layout: post
 title:  "What are notifications?"
 uri: what-are-notifications

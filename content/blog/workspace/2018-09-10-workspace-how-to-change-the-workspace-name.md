@@ -1,5 +1,5 @@
 ---
-id:83e125ba-391a-427f-9f97-3a6ba9c91199
+id: 83e125ba-391a-427f-9f97-3a6ba9c91199
 layout: post
 title:  "How to change the workspace name?"
 uri: how-to-change-the-workspace-name

@@ -1,5 +1,5 @@
 ---
-id:a3706c16-228f-4607-a896-8ff8712f98e0
+id: a3706c16-228f-4607-a896-8ff8712f98e0
 layout: post
 title:  "When to use base display types?"
 uri: when-to-use-base-display-types

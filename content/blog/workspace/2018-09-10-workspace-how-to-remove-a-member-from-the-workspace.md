@@ -1,5 +1,5 @@
 ---
-id:58ec73f6-0350-49de-a119-6b0eb3bb49c6
+id: 58ec73f6-0350-49de-a119-6b0eb3bb49c6
 layout: post
 title:  "How to remove a member from the workspace?"
 uri: how-to-remove-a-member-from-the-workspace

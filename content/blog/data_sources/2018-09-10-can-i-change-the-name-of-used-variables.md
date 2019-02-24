@@ -1,5 +1,5 @@
 ---
-id:2414034c-2558-4bf6-b2b6-aa6c7ecc6ce9
+id: 2414034c-2558-4bf6-b2b6-aa6c7ecc6ce9
 layout: post
 title:  "Can I change the name of used variables?"
 uri: can-i-change-the-name-of-used-variables

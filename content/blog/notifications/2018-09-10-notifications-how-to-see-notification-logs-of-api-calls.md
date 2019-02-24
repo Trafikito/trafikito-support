@@ -1,5 +1,5 @@
 ---
-id:fc5e5785-b105-4a21-b916-76acda48b8c4
+id: fc5e5785-b105-4a21-b916-76acda48b8c4
 layout: post
 title:  "How to see notification logs of API calls?"
 uri: how-to-see-notification-logs-of-api-calls

@@ -1,5 +1,5 @@
 ---
-id:708dfdbb-00a8-4f13-8b7a-ca28b9ea3827
+id: 708dfdbb-00a8-4f13-8b7a-ca28b9ea3827
 layout: post
 title:  "How can I send JSON to API endpoint with notifications settings?"
 uri: how-can-i-send-json-to-api-endpoint-with-notifications-settings

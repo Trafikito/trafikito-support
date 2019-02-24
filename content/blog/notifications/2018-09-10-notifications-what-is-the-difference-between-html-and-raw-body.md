@@ -1,5 +1,5 @@
 ---
-id:d7297394-2409-40ca-b089-7d9ae7c27d36
+id: d7297394-2409-40ca-b089-7d9ae7c27d36
 layout: post
 title:  "What is the difference between HTML and Raw body?"
 uri: what-is-the-difference-between-html-and-raw-body

@@ -1,5 +1,5 @@
 ---
-id:5538b325-91a6-44ba-b442-214d0948eb93
+id: 5538b325-91a6-44ba-b442-214d0948eb93
 layout: post
 title:  "How to change color of the chart?"
 uri: how-to-change-color-of-the-chart

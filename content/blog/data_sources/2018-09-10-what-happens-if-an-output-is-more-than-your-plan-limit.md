@@ -1,5 +1,5 @@
 ---
-id:7f6f8863-b20f-4007-8de2-cfe9603a0192
+id: 7f6f8863-b20f-4007-8de2-cfe9603a0192
 layout: post
 title:  "What happens if an output is more than your plan limit?"
 uri: what-happens-if-an-output-is-more-than-your-plan-limit

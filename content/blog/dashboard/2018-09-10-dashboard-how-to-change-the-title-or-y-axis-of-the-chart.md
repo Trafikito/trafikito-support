@@ -1,5 +1,5 @@
 ---
-id:de606fdc-2cce-4187-8d92-062577a23ab5
+id: de606fdc-2cce-4187-8d92-062577a23ab5
 layout: post
 title:  "How to change the title or y-axis of the chart?"
 uri: how-to-change-the-title-or-y-axis-of-the-chart

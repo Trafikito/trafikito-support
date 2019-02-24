@@ -1,5 +1,5 @@
 ---
-id:7372215f-b2df-4a6d-b878-c105eb3a54c4
+id: 7372215f-b2df-4a6d-b878-c105eb3a54c4
 layout: post
 title:  "What are the options for an action type: getting and not getting data?"
 uri: what-are-the-options-for-an-action-type-getting-and-not-getting-data

@@ -1,5 +1,5 @@
 ---
-id:c86bbec8-28f7-43c8-be35-83e3dbcf17af
+id: c86bbec8-28f7-43c8-be35-83e3dbcf17af
 layout: post
 title:  "What is the display type for the variable?"
 uri: what-is-the-display-type-for-the-variable
