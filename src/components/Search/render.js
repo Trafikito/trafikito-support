@@ -17,6 +17,7 @@ import WorkIcon from '@material-ui/icons/Work';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 
 import SearchResultsVideos from './partials/videos';
+import SearchResultsArticles from './partials/articles';
 
 import css from './style.module.scss';
 import DelayedButton from '../DelayedButton';
@@ -323,6 +324,7 @@ class SearchRender extends React.Component {
         </div>
         <DialogContent>
           <SearchResultsVideos videos={resultsVideos} searchQuery={this.state.query}/>
+          <SearchResultsArticles articles={resultsArticles} searchQuery={this.state.query}/>
 
           <div style={{display: 'flex', flexWrap: 'wrap'}}>
             <div style={{flex: 5, minWidth: 400}}>

@@ -67,12 +67,12 @@ class SearchResultsVideos extends React.Component {
       cards.push(
         <Grow
           in={index <= this.state.offset + 3}
-          key={`video-${video.obj.id}-${index}`}
+          key={video.obj.id}
           timeout={{
             enter: (index - this.state.offset) * 500,
           }}
-          duration={10000}
-          delay={10000}
+          duration={350}
+          delay={350}
         >
           <div style={{margin: 4}}>
             <Card style={{width: 205}}>
