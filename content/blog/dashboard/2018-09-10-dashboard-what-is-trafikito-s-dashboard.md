@@ -1,4 +1,5 @@
 ---
+id:6572e92b-4d44-4809-b1ae-5cc1a7479d9b
 layout: post
 title:  "What is Trafikito’s Dashboard?"
 uri: what-is-trafikito-s-dashboard

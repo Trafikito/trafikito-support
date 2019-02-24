@@ -1,4 +1,5 @@
 ---
+id:993b0b31-51c4-4533-8cd5-93b556d81d88
 layout: post
 title:  "What is data splitting inside data source configuration?"
 uri: what-is-data-splitting-inside-data-source-configuration

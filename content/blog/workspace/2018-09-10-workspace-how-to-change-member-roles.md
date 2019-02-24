@@ -1,4 +1,5 @@
 ---
+id:85bb5c31-b1fb-4b16-83b8-a22eb11d8bbb
 layout: post
 title:  "How to change member roles?"
 uri: how-to-change-member-roles

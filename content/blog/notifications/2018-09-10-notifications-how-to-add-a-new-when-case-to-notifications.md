@@ -1,4 +1,5 @@
 ---
+id:f6d06fd1-0cae-46cf-9cc5-374c0d0d060d
 layout: post
 title:  "How to add a new when case to notifications?"
 uri: how-to-add-a-new-when-case-to-notifications

@@ -1,4 +1,5 @@
 ---
+id:6c23579a-2424-4d55-8ad8-cbc930425613
 layout: post
 title:  "How can I get a discount coupon?"
 uri: how-can-i-get-a-discount-coupon

@@ -1,4 +1,5 @@
 ---
+id:247bc749-c4c5-461e-9c1d-8a23d6a9b9ff
 layout: post
 title:  "How to quickly earn personal discounts?"
 uri: how-to-quickly-earn-personal-discounts

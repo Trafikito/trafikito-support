@@ -1,4 +1,5 @@
 ---
+id:9e368bff-161f-4829-8e9a-1304a1fe48d1
 layout: post
 title:  "When to use string display types?"
 uri: when-to-use-string-display-types

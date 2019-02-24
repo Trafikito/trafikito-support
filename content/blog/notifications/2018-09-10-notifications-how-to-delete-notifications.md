@@ -1,4 +1,5 @@
 ---
+id:a2555574-2844-4471-aaae-3a52fbd095e0
 layout: post
 title:  "How to delete notifications?"
 uri: how-to-delete-notifications

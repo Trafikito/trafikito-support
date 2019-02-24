@@ -1,4 +1,5 @@
 ---
+id:7d67aa1f-a8a3-4bb0-9447-b7f1800706fd
 layout: post
 title:  "What are API call headers?"
 uri: what-are-api-call-headers

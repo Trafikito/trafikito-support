@@ -1,4 +1,5 @@
 ---
+id:5035e2ca-13c6-4897-9d23-00197c6bb911
 layout: post
 title:  "Why do all commands start with trafikito_?"
 uri: why-do-all-commands-start-with-trafikito

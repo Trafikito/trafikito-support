@@ -1,4 +1,5 @@
 ---
+id:3695ed5a-7852-4cf0-b932-3cd2c1619636
 layout: post
 title:  "When to use percent display types?"
 uri: when-to-use-percent-display-types

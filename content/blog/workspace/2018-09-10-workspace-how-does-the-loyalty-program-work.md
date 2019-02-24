@@ -1,4 +1,5 @@
 ---
+id:5bc50a44-f42a-48a0-bb6a-8243cabf1f25
 layout: post
 title:  "How does the loyalty program work?"
 uri: how-does-the-loyalty-program-work

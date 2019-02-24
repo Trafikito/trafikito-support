@@ -1,4 +1,5 @@
 ---
+id:9c6918b2-0f52-4908-859f-f74dd0d38997
 layout: post
 title:  "Options when the action type for when cases are variables in ranges?"
 uri: options-when-the-action-type-for-when-cases-are-variables-in-ranges

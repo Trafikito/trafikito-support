@@ -1,4 +1,5 @@
 ---
+id:ab367b3b-9731-4497-b4aa-3d5fa6d7cc61
 layout: post
 title:  "What data is displayed in the single server view of Trafikito’s dashboard?"
 uri: what-data-is-displayed-in-the-single-server-view-of-trafikito-s-dashboard

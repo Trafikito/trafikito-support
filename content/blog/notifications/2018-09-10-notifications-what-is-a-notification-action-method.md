@@ -1,4 +1,5 @@
 ---
+id:87b92f3d-97b5-45df-aecb-2809ac945094
 layout: post
 title:  "What is a notification action method?"
 uri: what-is-a-notification-action-method

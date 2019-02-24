@@ -1,4 +1,5 @@
 ---
+id:920b2b76-d5e2-4e9a-9aeb-811eb1d1ef58
 layout: post
 title:  "How to remove boxes from the dashboard?"
 uri: how-to-remove-boxes-from-the-dashboard

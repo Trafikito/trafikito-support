@@ -1,4 +1,5 @@
 ---
+id:0af4ec8b-0e0f-46d3-af92-57356f84ed19
 layout: post
 title:  "Can I get the current value of a variable to my email?"
 uri: can-i-get-the-current-value-of-a-variable-to-my-email

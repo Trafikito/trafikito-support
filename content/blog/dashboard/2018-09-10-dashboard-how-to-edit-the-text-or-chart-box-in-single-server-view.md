@@ -1,4 +1,5 @@
 ---
+id:cb5a4140-9214-401e-a5ee-e4c469c0d665
 layout: post
 title:  "How to edit the text or chart box in single server view?"
 uri: how-to-edit-the-text-or-chart-box-in-single-server-view

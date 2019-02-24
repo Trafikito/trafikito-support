@@ -1,4 +1,5 @@
 ---
+id:2006b4e0-4047-47fb-b2ec-93ede71d755a
 layout: post
 title:  "How to monitor a single number from the output of command?"
 uri: how-to-monitor-a-single-number-from-the-output-of-command

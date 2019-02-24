@@ -1,4 +1,5 @@
 ---
+id:b3d2a903-b63d-4c1a-be1f-d58c02ddce4c
 layout: post
 title:  "How to add new variables?"
 uri: how-to-add-new-variables

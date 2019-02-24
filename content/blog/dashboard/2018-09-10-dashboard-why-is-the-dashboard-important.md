@@ -1,4 +1,5 @@
 ---
+id:69c534ba-1a22-4c43-a1d4-bf6f5265e97f
 layout: post
 title:  "Why is the dashboard important?"
 uri: why-is-the-dashboard-important

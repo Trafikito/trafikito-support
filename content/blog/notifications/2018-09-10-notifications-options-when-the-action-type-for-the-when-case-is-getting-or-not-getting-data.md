@@ -1,4 +1,5 @@
 ---
+id:6c89d7c6-9b94-468a-b100-9d1d9991dd9a
 layout: post
 title:  "Options when the action type for the when case is getting or not getting data?"
 uri: options-when-the-action-type-for-the-when-case-is-getting-or-not-getting-data

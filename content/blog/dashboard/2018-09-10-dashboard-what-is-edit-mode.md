@@ -1,4 +1,5 @@
 ---
+id:f25886fe-4d6b-49ed-a3f0-fcca83169326
 layout: post
 title:  "What is edit mode?"
 uri: what-is-edit-mode

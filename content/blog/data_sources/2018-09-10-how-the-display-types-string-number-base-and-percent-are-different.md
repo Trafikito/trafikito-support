@@ -1,4 +1,5 @@
 ---
+id:480d1539-1c8f-4004-9c08-63da04788ae6
 layout: post
 title:  "How the display types string, number, base and percent are different?"
 uri: how-the-display-types-string-number-base-and-percent-are-different

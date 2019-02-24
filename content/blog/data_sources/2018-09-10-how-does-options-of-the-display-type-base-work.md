@@ -1,4 +1,5 @@
 ---
+id:28eed697-dd80-4ccb-afc8-514ae64d7466
 layout: post
 title:  "How does options of the display type: base work?"
 uri: how-does-options-of-the-display-type-base-work

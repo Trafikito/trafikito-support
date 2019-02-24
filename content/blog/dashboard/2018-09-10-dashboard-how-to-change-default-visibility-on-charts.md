@@ -1,4 +1,5 @@
 ---
+id:5146ebcc-aadc-4dec-8e46-1cfd39205d5c
 layout: post
 title:  "How to change default visibility on charts?"
 uri: how-to-change-default-visibility-on-charts

@@ -1,4 +1,5 @@
 ---
+id:46d3a0af-8ba2-4093-891f-914d4cddef52
 layout: post
 title:  "How to delete data sources?"
 uri: how-to-delete-data-sources

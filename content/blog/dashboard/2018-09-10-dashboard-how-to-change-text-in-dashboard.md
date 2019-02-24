@@ -1,4 +1,5 @@
 ---
+id:912f5186-b452-4061-9e79-ea28222d83e9
 layout: post
 title:  "How to change text in dashboard?"
 uri: how-to-change-text-in-dashboard

@@ -1,4 +1,5 @@
 ---
+id:dc25ed6e-8528-4f34-9bf9-ae087eb2e1dc
 layout: post
 title:  "How to change the name of a current command?"
 uri: how-to-change-the-name-of-a-current-command

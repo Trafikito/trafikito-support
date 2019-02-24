@@ -1,4 +1,5 @@
 ---
+id:c06983cb-ab37-4ec7-8e47-88bd24594b52
 layout: post
 title:  "How to change the layout of the dashboard?"
 uri: how-to-change-the-layout-of-the-dashboard

@@ -1,4 +1,5 @@
 ---
+id:9a32f82d-6c28-4968-a55f-2d22efd006d4
 layout: post
 title:  "How to change the workspace settings?"
 uri: how-to-change-the-workspace-settings

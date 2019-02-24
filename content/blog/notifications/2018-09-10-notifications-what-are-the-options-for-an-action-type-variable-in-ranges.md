@@ -1,4 +1,5 @@
 ---
+id:7f60d3e7-37ae-4b6c-8718-f92afb8afcf4
 layout: post
 title:  "What are the options for an action type: variable in ranges?"
 uri: what-are-the-options-for-an-action-type-variable-in-ranges

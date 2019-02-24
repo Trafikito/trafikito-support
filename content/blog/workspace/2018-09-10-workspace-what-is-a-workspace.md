@@ -1,4 +1,5 @@
 ---
+id:6d8adb84-27d9-4810-99a3-d6f4b5e1fa21
 layout: post
 title:  "What is a workspace?"
 uri: what-is-a-workspace

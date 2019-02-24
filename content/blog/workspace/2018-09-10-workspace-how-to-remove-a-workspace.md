@@ -1,4 +1,5 @@
 ---
+id:d766b4cf-d02b-4ba0-9288-76e37307e027
 layout: post
 title:  "How to remove a workspace?"
 uri: how-to-remove-a-workspace
