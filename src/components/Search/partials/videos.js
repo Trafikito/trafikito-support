@@ -23,6 +23,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
+import Tooltip from '@material-ui/core/Tooltip';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import Grow from '@material-ui/core/Grow';
@@ -56,19 +57,17 @@ class SearchResultsVideos extends React.Component {
 
     const cards = [];
     videos.forEach((video, index) => {
-      console.log(`#eklwfvideo `, video);
-
-      const html = this.state.query ? fuzzysort.highlight(
+      const titleWithHighlights = this.props.searchQuery ? fuzzysort.highlight(
         fuzzysort.single(
-          this.state.query,
-          result.obj.title,
+          this.props.searchQuery,
+          video.obj.title,
         ),
-      ) : result.obj.title;
+      ) : video.obj.title;
 
       cards.push(
         <Grow
           in={index <= this.state.offset + 3}
-          key={`video-${video.id}-${index}`}
+          key={`video-${video.obj.id}-${index}`}
           timeout={{
             enter: (index - this.state.offset) * 500,
           }}
@@ -77,10 +76,15 @@ class SearchResultsVideos extends React.Component {
         >
           <div style={{margin: 4}}>
             <Card style={{width: 205}}>
-              <img src={video.img} alt={video.title} style={{width: 205, height: 115}}/>
-              <a href={video.url}>
-                <Typography variant={'subtitle2'} style={{padding: '16px 16px 0', height: 110}}>
-                  {video.title.length > 83 ? `${video.title.substr(0, 80)}…` : video.title}
+              <img src={video.obj.img} alt={video.obj.title} style={{width: 205, height: 115}}/>
+              <a href={video.obj.url}>
+                <Typography
+                  className={css.results_match}
+                  variant={'subtitle2'}
+                  style={{padding: '16px 16px 0', height: 110}}
+                  component={'div'}
+                >
+                  <div dangerouslySetInnerHTML={{__html: titleWithHighlights}}/>
                 </Typography>
               </a>
             </Card>

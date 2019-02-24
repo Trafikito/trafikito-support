@@ -364,10 +364,7 @@ class SearchRender extends React.Component {
               </Card>
               <Typography variant={'h6'} style={{textAlign: 'center', margin: '12px 0'}}>Recent</Typography>
               <Card style={{padding: 6, margin: 6, minHeight: 64}}>
-                {
-                  videos.length > 0 ? videos :
-                    <Typography variant={'caption'} style={{margin: 6}}>No recent items found</Typography>
-                }
+                <Typography variant={'caption'} style={{margin: 6}}>No recent items found</Typography>
               </Card>
             </div>
 
