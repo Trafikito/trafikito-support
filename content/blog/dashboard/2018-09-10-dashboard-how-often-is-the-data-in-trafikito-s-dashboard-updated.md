@@ -1,4 +1,5 @@
 ---
+id: a6b4aa39-4768-46a3-a77f-00da805a6947
 layout: post
 title:  "How often is the data in Trafikito’s dashboard updated?"
 uri: how-often-is-the-data-in-trafikito-s-dashboard-updated

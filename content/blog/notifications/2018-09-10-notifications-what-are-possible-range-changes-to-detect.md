@@ -1,4 +1,5 @@
 ---
+id: 712c85a3-b860-4526-82bf-29ab99048962
 layout: post
 title:  "What are possible range changes to detect?"
 uri: what-are-possible-range-changes-to-detect

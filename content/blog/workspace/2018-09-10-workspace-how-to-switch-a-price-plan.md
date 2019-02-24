@@ -1,4 +1,5 @@
 ---
+id: faaf3a28-9fb6-4ac9-9ed1-106d4773bc66
 layout: post
 title:  "How to switch a price plan?"
 uri: how-to-switch-a-price-plan

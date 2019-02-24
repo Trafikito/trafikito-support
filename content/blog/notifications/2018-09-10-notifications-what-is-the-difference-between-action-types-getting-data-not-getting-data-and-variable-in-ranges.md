@@ -1,4 +1,5 @@
 ---
+id: 7d889cae-0390-4f96-97bb-f88e42762c34
 layout: post
 title:  "What is the difference between action types- getting data, not getting data and variable in ranges?"
 uri: what-is-the-difference-between-action-types-getting-data-not-getting-data-and-variable-in-ranges

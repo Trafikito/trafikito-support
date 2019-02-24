@@ -1,4 +1,5 @@
 ---
+id: 0ab303b1-9af1-4763-9545-7a1fe4269476
 layout: post
 title:  "Where is the workspace switcher and how to make changes to an active workspace?"
 uri: where-is-the-workspace-switcher-and-how-to-make-changes-to-an-active-workspace

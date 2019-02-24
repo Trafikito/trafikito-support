@@ -1,4 +1,5 @@
 ---
+id: 2480a972-c4b0-4fe2-b2c8-fd2f11afff12
 layout: post
 title:  "How to switch server on the single server view without going back to the servers list?"
 uri: how-to-switch-server-on-the-single-server-view-without-going-back-to-the-servers-list

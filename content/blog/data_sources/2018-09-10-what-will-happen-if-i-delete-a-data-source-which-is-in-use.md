@@ -1,4 +1,5 @@
 ---
+id: 1247a04e-d6a1-4925-aa43-16c73fa969ea
 layout: post
 title:  "What will happen if I delete a data source which is in use?"
 uri: what-will-happen-if-i-delete-a-data-source-which-is-in-use

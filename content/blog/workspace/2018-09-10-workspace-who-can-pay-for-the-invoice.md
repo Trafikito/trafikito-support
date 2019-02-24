@@ -1,4 +1,5 @@
 ---
+id: 3464d257-59dc-4da9-ba1c-34246a428383
 layout: post
 title:  "Who can pay for the invoice?"
 uri: who-can-pay-for-the-invoice

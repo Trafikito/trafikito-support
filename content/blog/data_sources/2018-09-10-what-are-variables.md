@@ -1,4 +1,5 @@
 ---
+id: 071d84f2-d211-4593-9629-e7726da73ab1
 layout: post
 title:  "What are variables?"
 uri: what-are-variables

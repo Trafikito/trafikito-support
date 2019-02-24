@@ -1,4 +1,5 @@
 ---
+id: 03757c5a-6b1b-4fd3-a41f-38f30c311644
 layout: post
 title:  "What are mass actions?"
 uri: what-are-mass-actions

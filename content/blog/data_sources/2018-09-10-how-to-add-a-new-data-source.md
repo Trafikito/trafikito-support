@@ -1,4 +1,5 @@
 ---
+id: 7c990712-2451-42f8-8701-fef74af108bc
 layout: post
 title:  "How to add a new data source?"
 uri: how-to-add-a-new-data-source

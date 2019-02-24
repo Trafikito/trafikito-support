@@ -1,4 +1,5 @@
 ---
+id: ea6e0605-1962-488b-b365-84705f72f549
 layout: post
 title:  "How to delete several notifications?"
 uri: how-to-delete-several-notifications

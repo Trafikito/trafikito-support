@@ -1,4 +1,5 @@
 ---
+id: 03f4e5de-c426-4861-9ad7-6f31577a8db4
 layout: post
 sort: 1
 title:  "I forgot my password, how can I get a new one?"

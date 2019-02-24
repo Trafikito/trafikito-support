@@ -1,4 +1,5 @@
 ---
+id: 668d6112-0b24-4dea-ad80-804cb302b1d4
 layout: post
 title:  "What are min and max values for percent display types?"
 uri: what-are-min-and-max-values-for-percent-display-types

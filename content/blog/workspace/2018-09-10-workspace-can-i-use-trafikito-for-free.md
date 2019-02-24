@@ -1,4 +1,5 @@
 ---
+id: 549f0b7f-247e-4505-a59e-46885144aaec
 layout: post
 title:  "Can I use Trafikito for free?"
 uri: can-i-use-trafikito-for-free

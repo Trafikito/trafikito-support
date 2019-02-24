@@ -1,4 +1,5 @@
 ---
+id: fa3852b6-746e-4660-9146-bd8cba4efd88
 layout: post
 title:  "Can I view the dashboard on my phone or tablet?"
 uri: can-i-view-the-dashboard-on-my-phone-or-tablet

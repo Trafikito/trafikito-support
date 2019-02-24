@@ -1,4 +1,5 @@
 ---
+id: d847ee41-a60d-438e-8ea2-c6735a93fada
 layout: post
 title:  "What is data parsing?"
 uri: what-is-data-parsing

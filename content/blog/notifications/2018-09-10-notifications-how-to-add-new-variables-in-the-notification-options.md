@@ -1,4 +1,5 @@
 ---
+id: 3d40a21a-4518-4130-8a48-de2473e9d7ba
 layout: post
 title:  "How to add new variables in the notification options?"
 uri: how-to-add-new-variables-in-the-notification-options

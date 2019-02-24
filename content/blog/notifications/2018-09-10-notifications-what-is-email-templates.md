@@ -1,4 +1,5 @@
 ---
+id: 604ae469-aa4d-476f-80d8-6994f8ff4c76
 layout: post
 title:  "What is email templates?"
 uri: what-is-email-templates

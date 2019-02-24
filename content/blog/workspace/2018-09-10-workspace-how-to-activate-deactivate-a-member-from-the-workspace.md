@@ -1,4 +1,5 @@
 ---
+id: 95e26cca-3ba1-4d56-b9e3-82e6fdc37029
 layout: post
 title:  "How to activate/deactivate a member from the workspace?"
 uri: how-to-activate-deactivate-a-member-from-the-workspace

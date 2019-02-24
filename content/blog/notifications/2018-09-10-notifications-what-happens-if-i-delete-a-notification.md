@@ -1,4 +1,5 @@
 ---
+id: 26424adf-6bad-448d-a1f1-059e481af6de
 layout: post
 title:  "What happens if I delete a notification?"
 uri: what-happens-if-i-delete-a-notification

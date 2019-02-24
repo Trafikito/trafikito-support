@@ -1,4 +1,5 @@
 ---
+id: 4da96754-590e-4216-b1f1-bda5d3f76749
 layout: post
 title:  "How to add a new member to the workspace?"
 uri: how-to-add-a-new-member-to-the-workspace

@@ -1,4 +1,5 @@
 ---
+id: b7736685-452e-4b0a-b515-fbc4fbb5d06f
 layout: post
 title:  "How many hours of logs do I need?"
 uri: how-many-hours-of-logs-do-i-need

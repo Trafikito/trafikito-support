@@ -1,4 +1,5 @@
 ---
+id: 46f91a97-1d9c-4018-bcdc-92db4aa7c3f9
 layout: post
 title:  "How to change “stay in range” value for all notifications at once?"
 uri: how-to-change-stay-in-range-value-for-all-notifications-at-once

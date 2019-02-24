@@ -1,4 +1,5 @@
 ---
+id: ea1b7a76-c18a-45ae-b3ff-8260ece059fc
 layout: post
 title:  "How to add a new command?"
 uri: how-to-add-a-new-command

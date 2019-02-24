@@ -1,4 +1,5 @@
 ---
+id: e33a9343-9e2f-43bc-a3da-ca1ff6597a34
 layout: post
 title:  "How to change y-axis of the chart?"
 uri: how-to-change-y-axis-of-the-chart

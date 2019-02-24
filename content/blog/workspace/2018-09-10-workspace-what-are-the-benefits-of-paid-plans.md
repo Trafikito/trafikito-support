@@ -1,4 +1,5 @@
 ---
+id: 46570134-9648-4277-a57f-290d5a6e58e4
 layout: post
 title:  "What are the benefits of paid plans?"
 uri: what-are-the-benefits-of-paid-plans

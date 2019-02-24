@@ -1,4 +1,5 @@
 ---
+id: 6d76f4ae-916f-487c-ae54-54017b427096
 layout: post
 title:  "What are warning and error ranges?"
 uri: what-are-warning-and-error-ranges

@@ -1,4 +1,5 @@
 ---
+id: 8d252d98-9a4e-4684-b07c-84f42c34742b
 layout: post
 title:  "Can not login to the workspace"
 uri: can-not-login-to-the-workspace

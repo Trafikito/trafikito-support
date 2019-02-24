@@ -1,4 +1,5 @@
 ---
+id: 92614829-ba17-41fb-a96f-13954a4cdc98
 layout: post
 title:  "What is available in the default single server view?"
 uri: what-is-available-in-the-default-single-server-view

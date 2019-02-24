@@ -1,4 +1,5 @@
 ---
+id: 9e09401e-0491-453c-9f37-0947ad14151a
 layout: post
 title:  "How to turn off several notifications at once?"
 uri: how-to-turn-off-several-notifications-at-once

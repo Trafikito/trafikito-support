@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import {graphql} from 'gatsby';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 import Breadcrumbs from '@material-ui/lab/Breadcrumbs';
 import Link from '@material-ui/core/Link';
@@ -144,33 +143,3 @@ class Footer extends React.Component {
 }
 
 export default Footer;
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
-// export const query = graphql`
-//   query CurrentBlogPostBreadcrumbs($uri: String!) {
-//     site {
-//       siteMetadata {
-//         title
-//         author
-//       }
-//     }
-//     markdownRemark(frontmatter: { uri: { eq: $uri } }) {
-//       id
-//       excerpt(pruneLength: 160)
-//       html
-//       frontmatter {
-//         title
-//         uri
-//         tags
-//       }
-//     }
-//   }
-// `;
