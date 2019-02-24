@@ -5,7 +5,7 @@ import SearchRender from './render';
 
 const {blurRemove, blurAdd} = require('../../utils/blur');
 
-const ls = require('localstorage-ttl');
+// const ls = require('localstorage-ttl');
 const ajaxGet = require('../../utils/ajax/get');
 
 class Search extends React.Component {
@@ -20,18 +20,19 @@ class Search extends React.Component {
   }
 
   componentDidMount() {
-    const searchableData = ls.get('searchable-data');
-    if (searchableData) {
-      try {
-        let json = JSON.parse(searchableData);
-        if (json) {
-          this.setState({searchableData: json});
-        }
-      } catch (e) {
-        // it was an invalid json.
-        localStorage.removeItem('searchable-data');
-      }
-    }
+    // const searchableData = ls.get('searchable-data');
+    // const searchableData = this.state.searchableData;
+    // if (searchableData) {
+    //   try {
+    //     let json = JSON.parse(searchableData);
+    //     if (json) {
+    //       this.setState({searchableData: json});
+    //     }
+    //   } catch (e) {
+    //     // it was an invalid json.
+    //     localStorage.removeItem('searchable-data');
+    //   }
+    // }
 
     this.dataPreload = setTimeout(() => {
       this.preload();
@@ -57,10 +58,10 @@ class Search extends React.Component {
       const rawJSON = await ajaxGet({url: 'https://trafikito.com/support/search.json'});
       try {
         let parsed = JSON.parse(rawJSON);
-        ls.set('searchable-data', rawJSON, (1000 * 60 * 60 * 24));
+        // ls.set('searchable-data', rawJSON, (1000 * 60 * 60 * 24));
         this.setState({searchableData: parsed});
       } catch (e) {
-        localStorage.removeItem('searchable-data');
+        // localStorage.removeItem('searchable-data');
       }
     }
   }
@@ -78,8 +79,9 @@ class Search extends React.Component {
         >
           <SearchIcon/>
         </IconButton>
-        {(this.state.open || true) && (
+        {(this.state.open || true) && this.state.searchableData && (
           <SearchRender
+            searchableData={this.state.searchableData}
             handleClose={() => {
               this.setState({open: false});
               blurRemove();

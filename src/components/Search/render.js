@@ -23,11 +23,13 @@ import css from './style.module.scss';
 import DelayedButton from '../DelayedButton';
 
 const fuzzysort = require('fuzzysort');
-const ls = require('localstorage-ttl');
+
+// const ls = require('localstorage-ttl');
 
 class SearchRender extends React.Component {
   static propTypes = {
     handleClose: PropTypes.func.isRequired,
+    searchableData: PropTypes.array.isRequired,
   };
 
   constructor(props) {
@@ -219,16 +221,16 @@ class SearchRender extends React.Component {
   }
 
   loadData() {
-    const rawJSON = ls.get('searchable-data');
-
-    let allData = null;
-    try {
-      allData = JSON.parse(rawJSON);
-    } catch (e) {
-      localStorage.removeItem('searchable-data');
-      console.error(`#jlekjwkf Search failed because searchable data is invalid JSON.`);
-    }
-    this.setState({allData});
+    // const rawJSON = ls.get('searchable-data');
+    //
+    // let allData = null;
+    // try {
+    //   allData = JSON.parse(rawJSON);
+    // } catch (e) {
+    //   localStorage.removeItem('searchable-data');
+    //   console.error(`#jlekjwkf Search failed because searchable data is invalid JSON.`);
+    // }
+    this.setState({allData: this.props.searchableData});
   }
 
   render() {

@@ -73,14 +73,17 @@ class SearchResultsArticles extends React.Component {
           duration={350}
           delay={350}
         >
-          <a style={{margin: 4, display: 'block'}}>
-            <Typography variant={'h5'}>
-              {article.obj.title}
-            </Typography>
+          <div>
+            <a style={{margin: 4, display: 'block'}}>
+              <Typography className={css.results_match} variant={'h5'} component={'div'}>
+                <div dangerouslySetInnerHTML={{__html: titleWithHighlights}}/>
+              </Typography>
+            </a>
             <Typography variant={'body2'}>
               {article.obj.excerpt}
             </Typography>
-          </a>
+            {JSON.stringify(article)}
+          </div>
         </Grow>,
       );
     });
