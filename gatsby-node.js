@@ -57,8 +57,10 @@ exports.onPostBuild = async ({graphql}) => {
             edges {
               node {
                 frontmatter {
+                  id
                   title
                   uri
+                  tags
                 }
                 excerpt
               }
