@@ -1,6 +1,7 @@
 const path = require(`path`);
 const {createFilePath} = require(`gatsby-source-filesystem`);
 const fs = require('fs');
+const _get = require('lodash/get');
 
 exports.createPages = ({graphql, actions}) => {
   const {createPage} = actions;
@@ -11,11 +12,12 @@ exports.createPages = ({graphql, actions}) => {
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___sort], order: DESC }
-          limit: 10000
         ) {
           edges {
             node {
+              excerpt
               frontmatter {
+                id
                 title
                 uri
                 tags
@@ -34,16 +36,32 @@ exports.createPages = ({graphql, actions}) => {
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-      const next = index === 0 ? null : posts[index - 1].node;
+      const related = [];
+      const tags = _get(post, 'node.frontmatter.tags');
+
+      posts.forEach((postToMatch) => {
+        const matchedPostTags = _get(postToMatch, 'node.frontmatter.tags');
+        let matchedTags = [];
+        tags.forEach((tag) => {
+          if (matchedPostTags.includes(tag)) {
+            matchedTags.push(tag);
+          }
+        });
+
+        if (matchedTags.length > 0) {
+          related.push({
+            post: _get(postToMatch, 'node'),
+            matchedTags,
+          });
+        }
+      });
 
       createPage({
         path: `/${post.node.frontmatter.uri}.html`,
         component: blogPost,
         context: {
           uri: post.node.frontmatter.uri,
-          previous,
-          next,
+          related,
         },
       });
     });

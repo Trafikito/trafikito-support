@@ -41,6 +41,7 @@ class SearchResultsArticles extends React.Component {
     let thereAreMore = 0;
 
     articles.forEach((article, index) => {
+      article = article.obj || article;
       if (index >= this.state.page * perPage) {
         thereAreMore++;
         return;
@@ -48,16 +49,16 @@ class SearchResultsArticles extends React.Component {
       const titleWithHighlights = this.props.searchQuery ? fuzzysort.highlight(
         fuzzysort.single(
           this.props.searchQuery,
-          article.obj.title,
+          article.title,
         ),
-      ) : article.obj.title;
+      ) : article.title;
 
       const enter = (index + 1 - (this.state.page - 1) * perPage) * 350;
 
       rows.push(
         <Grow
           in={index < this.state.page * perPage}
-          key={article.obj.id}
+          key={article.id}
           timeout={{
             enter: enter > 1500 ? 1500 : enter,
           }}
@@ -65,13 +66,13 @@ class SearchResultsArticles extends React.Component {
           delay={350}
         >
           <div style={{marginBottom: 28}}>
-            <a style={{margin: 4, display: 'block', cursor: 'pointer'}} href={`${withPrefix(article.obj.uri)}.html`}>
+            <a style={{margin: 4, display: 'block', cursor: 'pointer'}} href={`${withPrefix(article.uri)}.html`}>
               <Typography style={{color: 'inherit'}} className={css.results_match} variant={'h5'} component={'div'}>
                 <div dangerouslySetInnerHTML={{__html: titleWithHighlights}}/>
               </Typography>
             </a>
             <Typography variant={'body2'}>
-              {article.obj.excerpt}
+              {article.excerpt}
             </Typography>
           </div>
         </Grow>,

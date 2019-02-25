@@ -1,19 +1,32 @@
 import React from 'react';
-import {Link, graphql} from 'gatsby';
+import {graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Footer from '../components/Footer';
+import SearchResultsArticles from '../components/Search/partials/articles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
-    const {previous, next} = this.props.pageContext;
+    const {related} = this.props.pageContext;
+
+    const relatedArticles = [];
+    if (related && related.length > 0) {
+      related.forEach((article) => {
+        relatedArticles.push({
+          title: article.post.frontmatter.title,
+          id: article.post.frontmatter.id,
+          uri: article.post.frontmatter.uri,
+          tags: article.post.frontmatter.tags,
+          excerpt: article.post.excerpt,
+        });
+      });
+    }
 
     return (
       <>
@@ -27,34 +40,44 @@ class BlogPostTemplate extends React.Component {
             <CardContent>
               <div dangerouslySetInnerHTML={{__html: post.html}} style={{minHeight: 200}}/>
               <div>
-                <div style={{height: 220}} id="emojics-root"></div>
+                <div style={{height: 220}} id="emojics-root"/>
               </div>
             </CardContent>
-
-            <CardActions>
-              {previous && (
-                <Link to={`/${previous.frontmatter.uri}.html`} rel="prev">
-                  <Button size="small" color="primary">
-                    {previous.frontmatter.title}
-                  </Button>
-                </Link>
-              )}
-
-              {next && (
-                <Link to={`/${next.frontmatter.uri}.html`} rel="next">
-                  <Button size="small" color="primary">
-                    {next.frontmatter.title}
-                  </Button>
-                </Link>
-              )}
-            </CardActions>
           </Card>
+          <Typography variant={'h5'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
+          <div>
+            <SearchResultsArticles
+              searchQuery={''}
+              articles={relatedArticles}
+            />
+          </div>
         </Layout>
         <Footer post={post}/>
       </>
     );
   }
 }
+
+/*
+
+<CardActions>
+  {previous && (
+    <Link to={`/${previous.frontmatter.uri}.html`} rel="prev">
+      <Button size="small" color="primary">
+        {previous.frontmatter.title}
+      </Button>
+    </Link>
+  )}
+
+  {next && (
+    <Link to={`/${next.frontmatter.uri}.html`} rel="next">
+      <Button size="small" color="primary">
+        {next.frontmatter.title}
+      </Button>
+    </Link>
+  )}
+</CardActions>
+ */
 
 export default BlogPostTemplate;
 
