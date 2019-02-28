@@ -52,8 +52,8 @@ class BlogPostTemplate extends React.Component {
               </div>
             </CardContent>
           </Card>
-          <Typography variant={'h6'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
-          <div>
+          <div style={{margin: '0 12px'}}>
+            <Typography variant={'h6'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
             <SearchResultsArticles
               variant={'compact'}
               searchQuery={''}

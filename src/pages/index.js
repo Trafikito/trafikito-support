@@ -25,13 +25,15 @@ class BlogIndex extends React.Component {
             const url = `/${node.frontmatter.uri}.html`;
             const title = node.frontmatter.title || url;
             return (
-              <div key={node.frontmatter.uri}>
-                <Typography variant={'h5'}>
+              <div style={{margin: 6}} key={node.frontmatter.uri}>
+                <Typography variant={'h5'} >
                   <Link style={{boxShadow: `none`}} to={url}>
                     {title}
                   </Link>
                 </Typography>
-                <p dangerouslySetInnerHTML={{__html: removeMd(node.excerpt)}}/>
+                <Typography variant={'body2'} component={'div'}>
+                  <p dangerouslySetInnerHTML={{__html: removeMd(node.excerpt)}}/>
+                </Typography>
               </div>
             );
           })}

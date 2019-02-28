@@ -165,6 +165,7 @@ class SearchRender extends React.Component {
           </DelayedButton>
         </div>
         <DialogContent
+          style={{padding: 12}}
           onScroll={(e) => {
             const topOffset = e.currentTarget.getBoundingClientRect().top;
             const scrollOffset = e.currentTarget.firstChild.getBoundingClientRect().top;
@@ -177,10 +178,8 @@ class SearchRender extends React.Component {
             }
           }}
         >
-          <div id={'bar'}>
             <SearchResultsVideos videos={resultsVideos} searchQuery={this.state.query}/>
             <SearchResultsArticles articles={resultsArticles} searchQuery={this.state.query}/>
-          </div>
         </DialogContent>
       </Dialog>
     );

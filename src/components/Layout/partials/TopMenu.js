@@ -16,8 +16,8 @@ class TopMenu extends React.Component {
 
   render() {
     return (
-      <>
-        <AppBar position="static">
+      <div style={{height: 56}}>
+        <AppBar position="static" style={{position: 'fixed'}}>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -46,7 +46,7 @@ class TopMenu extends React.Component {
           isOpen={this.state.isLeftMenuOpen}
           handleClose={() => this.setState({isLeftMenuOpen: false})}
         />
-      </>
+      </div>
     );
   }
 }
