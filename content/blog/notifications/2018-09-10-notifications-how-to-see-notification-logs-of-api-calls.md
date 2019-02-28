@@ -14,5 +14,5 @@ To see notification logs of calls, follow steps below. You will see up to 10 las
 3.  In the servers list find the server you want to edit and click **Open** next to it
 4.  On the top right click **Settings**
 5.  Make sure **Notifications** are expanded
-6.  Expand the notification to view details
-7.  Under all notification settings there are a couple buttons, one of them is “**Show logs**” click on it.
+6.  Expand the [notification](f7277d70-7b35-489b-b378-009a690e0a3f) to view details
+7.  Under all [notification](f7277d70-7b35-489b-b378-009a690e0a3f) settings there are a couple buttons, one of them is “**Show logs**” click on it.

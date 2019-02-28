@@ -6,7 +6,7 @@ uri: what-is-a-notification-url
 tags: [notifications]
 ---
 
-A notification URL is the API endpoint where a request will be sent to configure when a notification is fired. Trafikito will submit headers and body if those are defined.
+A [notification](f7277d70-7b35-489b-b378-009a690e0a3f) URL is the API endpoint where a request will be sent to configure when a notification is fired. Trafikito will submit headers and body if those are defined.
 
 <!-- more -->
 

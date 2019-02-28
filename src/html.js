@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {withPrefix} from 'gatsby';
-import Helmet from './components/Layout';
 
 export default function HTML(props) {
   return (

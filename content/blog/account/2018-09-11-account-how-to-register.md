@@ -13,7 +13,7 @@ Registration is free and quick. You will only need your **Google account** or an
 
 1. **Name** - your name
 2. **Country** - your country
-3. **Email** - the email used to login. This is also the default email where the email notifications will be sent. You can change the notification email at any time.
+3. **Email** - the email used to login. This is also the default email where the email [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) will be sent. You can change the notification email at any time.
 4. **Password** - password for the account
 
 If you want to use Trafikito as a company, register with your name and update billing information at workspace settings.

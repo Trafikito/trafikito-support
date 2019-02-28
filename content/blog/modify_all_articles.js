@@ -1,6 +1,6 @@
-// this file is helper file which is used to run through all the files and edit something there. E.g. add uuid for each
-// it is modified for a task, ran once and commented out.
-
+// // this file is helper file which is used to run through all the files and edit something there. E.g. add uuid for each
+// // it is modified for a task, ran once and commented out.
+//
 // const uuid = require('uuid');
 // var fs = require('fs');
 //
@@ -19,7 +19,17 @@
 // walker.on('end', function () {
 //   files.forEach((file) => {
 //     var contents = fs.readFileSync(file, 'utf8');
-//     contents = contents.replace('---', `---\nid:${uuid()}`);
+//     // DO THE MAGIC
+//     // DO THE MAGIC
+//     // DO THE MAGIC
+//
+//     contents = contents.split('---');
+//     contents = contents.join('---');
+//     console.log(`#contents `, contents);
+//
+//     // MAGIC IS OVER
+//     // MAGIC IS OVER
+//     // MAGIC IS OVER
 //     fs.writeFileSync(file, contents);
 //   });
 // });

@@ -6,7 +6,7 @@ uri: what-is-the-display-type-for-the-variable
 tags: [data sources]
 ---
 
-Display type determines how to display the value in different parts of a dashboard or in the notification. There are 4 available display values:
+Display type determines how to display the value in different parts of a dashboard or in the [notification](f7277d70-7b35-489b-b378-009a690e0a3f). There are 4 available display values:
 
 <!--more-->
 

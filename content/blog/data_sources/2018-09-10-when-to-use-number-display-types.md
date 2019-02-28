@@ -10,4 +10,4 @@ When you have a numeric value and you want to set how many decimal places it sho
 
 <!--more-->
 
-Without warning and error range options you would not be able to use variables in the notification settings.
+Without warning and error range options you would not be able to use variables in the [notification](f7277d70-7b35-489b-b378-009a690e0a3f) settings.

@@ -5,6 +5,8 @@ import SEO from '../components/seo';
 import Typography from '@material-ui/core/Typography';
 import Footer from '../components/Footer';
 
+const removeMd = require('remove-markdown');
+
 class BlogIndex extends React.Component {
   render() {
     const {data} = this.props;
@@ -29,7 +31,7 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </Typography>
-                <p dangerouslySetInnerHTML={{__html: node.excerpt}}/>
+                <p dangerouslySetInnerHTML={{__html: removeMd(node.excerpt)}}/>
               </div>
             );
           })}
@@ -52,7 +54,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___sort], order: DESC }) {
       edges {
         node {
-          excerpt(pruneLength: 160)
+          excerpt(format: PLAIN)
           frontmatter {
             title
             uri

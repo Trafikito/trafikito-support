@@ -2,6 +2,7 @@ const path = require(`path`);
 const {createFilePath} = require(`gatsby-source-filesystem`);
 const fs = require('fs');
 const _get = require('lodash/get');
+const removeMd = require('remove-markdown');
 
 exports.createPages = ({graphql, actions}) => {
   const {createPage} = actions;
@@ -15,7 +16,7 @@ exports.createPages = ({graphql, actions}) => {
         ) {
           edges {
             node {
-              excerpt
+              excerpt(format: PLAIN)
               frontmatter {
                 id
                 title
@@ -80,7 +81,7 @@ exports.onPostBuild = async ({graphql}) => {
                   uri
                   tags
                 }
-                excerpt
+                excerpt(format: PLAIN)
               }
             }
           }
@@ -99,7 +100,7 @@ exports.onPostBuild = async ({graphql}) => {
     result.data.allMarkdownRemark.edges.forEach((edge) => {
       data.push({
         ...edge.node.frontmatter,
-        excerpt: edge.node.excerpt,
+        excerpt: removeMd(edge.node.excerpt),
       });
     });
   }
@@ -108,31 +109,3 @@ exports.onPostBuild = async ({graphql}) => {
   console.log(`#3kj4irjg Writing JSON to ${filePath}`);
   fs.writeFileSync(filePath, JSON.stringify(data));
 };
-
-// {
-//   resolve: `gatsby-plugin-json-output`,
-//     options: {
-//   siteUrl: `http://localhost:8000/`,
-//     graphQLQuery: `
-//         {
-//           allMarkdownRemark(limit: 1000) {
-//             edges {
-//               node {
-//                 frontmatter {
-//                   title
-//                   uri
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       `,
-//     serialize: results => results.data.allMarkdownRemark.edges.map(({node}) => {
-//     return ({
-//       path: node.frontmatter.uri, // MUST contain a path
-//       title: node.frontmatter.title,
-//       uri: node.frontmatter.uri,
-//     });
-//   }),
-// },
-// },

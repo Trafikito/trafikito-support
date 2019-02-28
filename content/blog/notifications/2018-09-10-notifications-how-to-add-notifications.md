@@ -6,7 +6,7 @@ uri: how-to-add-notifications
 tags: [notifications]
 ---
 
-You can add many notifications for each server for free. This is the list of all actions needed to add new notifications:
+You can add many [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) for each server for free. This is the list of all actions needed to add new [notifications](f7277d70-7b35-489b-b378-009a690e0a3f):
 
 <!-- more -->
 
@@ -17,5 +17,5 @@ You can add many notifications for each server for free. This is the list of all
 5.  Make sure **Notifications** are expanded
 6.  On the **bottom right** click the round **yellow button** with the plus sign.
 7.  Make sure **Notification** is selected
-8.  Enter a notification **name**
-9.  Click **Add new notification** to save
+8.  Enter a [notification](f7277d70-7b35-489b-b378-009a690e0a3f) **name**
+9.  Click **Add new [notification](f7277d70-7b35-489b-b378-009a690e0a3f)** to save

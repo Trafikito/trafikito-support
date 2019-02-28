@@ -8,6 +8,9 @@ import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import addWikiLinks from '../utils/wiki';
+
+const removeMd = require('remove-markdown');
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -18,35 +21,38 @@ class BlogPostTemplate extends React.Component {
     const relatedArticles = [];
     if (related && related.length > 0) {
       related.forEach((article) => {
-        relatedArticles.push({
-          title: article.post.frontmatter.title,
-          id: article.post.frontmatter.id,
-          uri: article.post.frontmatter.uri,
-          tags: article.post.frontmatter.tags,
-          excerpt: article.post.excerpt,
-        });
+        if (post.frontmatter.id !== article.post.frontmatter.id) {
+          relatedArticles.push({
+            title: article.post.frontmatter.title,
+            id: article.post.frontmatter.id,
+            uri: article.post.frontmatter.uri,
+            tags: article.post.frontmatter.tags,
+            excerpt: removeMd(article.post.excerpt),
+          });
+        }
       });
     }
 
     return (
       <>
         <Layout location={this.props.location} title={siteTitle}>
-          <SEO title={post.frontmatter.title} description={post.excerpt}/>
+          <SEO title={post.frontmatter.title} description={removeMd(post.excerpt)}/>
           <Card>
             <CardHeader
               title={post.frontmatter.title}
               subheader=""
             />
             <CardContent>
-              <div dangerouslySetInnerHTML={{__html: post.html}} style={{minHeight: 200}}/>
+              <div dangerouslySetInnerHTML={{__html: addWikiLinks({html: post.html})}} style={{minHeight: 200}}/>
               <div>
                 <div style={{height: 220}} id="emojics-root"/>
               </div>
             </CardContent>
           </Card>
-          <Typography variant={'h5'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
+          <Typography variant={'h6'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
           <div>
             <SearchResultsArticles
+              variant={'compact'}
               searchQuery={''}
               articles={relatedArticles}
             />
@@ -57,27 +63,6 @@ class BlogPostTemplate extends React.Component {
     );
   }
 }
-
-/*
-
-<CardActions>
-  {previous && (
-    <Link to={`/${previous.frontmatter.uri}.html`} rel="prev">
-      <Button size="small" color="primary">
-        {previous.frontmatter.title}
-      </Button>
-    </Link>
-  )}
-
-  {next && (
-    <Link to={`/${next.frontmatter.uri}.html`} rel="next">
-      <Button size="small" color="primary">
-        {next.frontmatter.title}
-      </Button>
-    </Link>
-  )}
-</CardActions>
- */
 
 export default BlogPostTemplate;
 
@@ -91,9 +76,10 @@ export const pageQuery = graphql`
     }
     markdownRemark(frontmatter: { uri: { eq: $uri } }) {
       id
-      excerpt(pruneLength: 160)
+      excerpt(pruneLength: 160, format: PLAIN)
       html
       frontmatter {
+        id
         title
         uri
         tags

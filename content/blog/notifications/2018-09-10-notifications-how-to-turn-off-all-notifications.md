@@ -15,5 +15,5 @@ In notifications list you can select several notifications and turn them off all
 3.  In the servers list find the server you want to edit and click **Open** next to it
 4.  On the top right click **Settings**
 5.  Make sure **Notifications** are expanded
-6.  Use **the checkbox** next to the name of notification to select notifications to update
-7.  Use **mass action above the list** to turn off all selected notifications
+6.  Use **the checkbox** next to the name of [notification](f7277d70-7b35-489b-b378-009a690e0a3f) to select notifications to update
+7.  Use **mass action above the list** to turn off all selected [notifications](f7277d70-7b35-489b-b378-009a690e0a3f)

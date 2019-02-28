@@ -10,7 +10,7 @@ API calls are programmable calls for services on the internet. It is very compar
 
 <!-- more -->
 
-You can click “Use email template” to auto-fill all required details to make an API call to Trafikito endpoint which will send an email. If your hosting provider support it, you could make an API call to restart your server when it’s out of RAM.
+You can click “Use [email template](604ae469-aa4d-476f-80d8-6994f8ff4c76)” to auto-fill all required details to make an API call to Trafikito endpoint which will send an email. If your hosting provider support it, you could make an API call to restart your server when it’s out of RAM.
 
 Many services do have APIs available. Hosting providers may give you documentation how to restart, create and delete servers with API calls. Services such as Twilio can send SMS or make a phone call using APIs. Most social network sites have APIs to do all kinds of things; from posting new messages to deleting things.
 

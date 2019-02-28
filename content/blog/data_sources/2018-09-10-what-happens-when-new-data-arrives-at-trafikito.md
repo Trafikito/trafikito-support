@@ -14,5 +14,5 @@ Every minute the agent running on your server sends data to Trafikito. When the 
 1.  Current available commands list is updated which you can see on the drop-down while adding a new data source
 2.  The data size is measured against an active plan and if it’s oversized some output is replaced by messages about it
 3.  The output is saved to the database and becomes visible on the dashboard
-4.  New data is checked against notification options of the server
-    1.  If needed - notification API calls are made which by default is sending an email
+4.  New data is checked against [notification](f7277d70-7b35-489b-b378-009a690e0a3f) options of the server
+    1.  If needed - [notification](f7277d70-7b35-489b-b378-009a690e0a3f) API calls are made which by default is sending an email

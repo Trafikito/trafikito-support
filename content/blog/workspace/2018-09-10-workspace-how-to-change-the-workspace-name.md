@@ -17,4 +17,4 @@ tags: [workspace]
 
 #### Note:
 
-To change the workspace settings, including the billing profile, notification email, members, pricing, servers, data sources, dashboard layout, notifications - You need to have an **admin** or **owner** role.
+To change the workspace settings, including the billing profile, [notification](f7277d70-7b35-489b-b378-009a690e0a3f) email, members, pricing, servers, data sources, dashboard layout, notifications - You need to have an **admin** or **owner** role.
