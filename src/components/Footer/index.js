@@ -8,7 +8,6 @@ import {MuiThemeProvider} from '@material-ui/core/styles';
 import theme from './../Layout/theme';
 
 const _get = require('lodash/get');
-const isProduction = process.env.NODE_ENV === 'production';
 
 class Footer extends React.Component {
   static propTypes = {
@@ -40,13 +39,8 @@ class Footer extends React.Component {
               >
                 <div style={{padding: '24px 0 0'}}>
                   <Breadcrumbs separator="›" arial-label="Breadcrumb">
-                    <Link color="inherit" href={isProduction ? 'https://trafikito.com' : 'http://localhost:3000'}>
-                      Trafikito
-                    </Link>
-                    <Link color="inherit"
-                          href={isProduction ? 'https://trafikito.com/support' : 'http://localhost:8000'}>
-                      Support
-                    </Link>
+                    <Link color="inherit" href={'https://trafikito.com'}>Trafikito</Link>
+                    <Link color="inherit" href={'https://trafikito.com/support'}>Support</Link>
                     <Typography color="textPrimary">{last}</Typography>
                   </Breadcrumbs>
                 </div>
