@@ -4,6 +4,8 @@ import Typography from '@material-ui/core/Typography';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 import Breadcrumbs from '@material-ui/lab/Breadcrumbs';
 import Link from '@material-ui/core/Link';
+import {MuiThemeProvider} from '@material-ui/core/styles';
+import theme from './../Layout/theme';
 
 const _get = require('lodash/get');
 const isProduction = process.env.NODE_ENV === 'production';
@@ -24,120 +26,123 @@ class Footer extends React.Component {
     }
 
     return (
-      <div style={{backgroundColor: blueGrey[50]}}>
-        <div style={{maxWidth: 700, margin: '0 auto', padding: '0 8px'}}>
-          <div style={{paddingBottom: 16}}>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                flexWrap: 'wrap',
-              }}
-            >
-              <div style={{padding: '24px 0 0'}}>
-                <Breadcrumbs separator="›" arial-label="Breadcrumb">
-                  <Link color="inherit" href={isProduction ? 'https://trafikito.com' : 'http://localhost:3000'}>
-                    Trafikito
-                  </Link>
-                  <Link color="inherit" href={isProduction ? 'https://trafikito.com/support' : 'http://localhost:8000'}>
-                    Support
-                  </Link>
-                  <Typography color="textPrimary">{last}</Typography>
-                </Breadcrumbs>
-              </div>
+      <MuiThemeProvider theme={theme}>
+        <div style={{backgroundColor: blueGrey[50]}}>
+          <div style={{maxWidth: 700, margin: '0 auto', padding: '0 8px'}}>
+            <div style={{paddingBottom: 16}}>
               <div
                 style={{
-                  padding: '6px 0 0',
-                  height: 32,
                   display: 'flex',
-                  alignContent: 'center',
-                  justifyContent: 'center',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  flexWrap: 'wrap',
                 }}
               >
-                <a
-                  style={{margin: 3}}
-                  href={'https://www.youtube.com/channel/UCofioaADtesyD75204ngeoQ'}
-                  target={'_blank'}
+                <div style={{padding: '24px 0 0'}}>
+                  <Breadcrumbs separator="›" arial-label="Breadcrumb">
+                    <Link color="inherit" href={isProduction ? 'https://trafikito.com' : 'http://localhost:3000'}>
+                      Trafikito
+                    </Link>
+                    <Link color="inherit"
+                          href={isProduction ? 'https://trafikito.com/support' : 'http://localhost:8000'}>
+                      Support
+                    </Link>
+                    <Typography color="textPrimary">{last}</Typography>
+                  </Breadcrumbs>
+                </div>
+                <div
+                  style={{
+                    padding: '6px 0 0',
+                    height: 32,
+                    display: 'flex',
+                    alignContent: 'center',
+                    justifyContent: 'center',
+                  }}
                 >
-                  <img
-                    style={{width: 32, height: 32}}
-                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/youtube.svg'}
-                  />
-                </a>
-                <a
-                  style={{margin: 3}}
-                  href={'https://www.instagram.com/trafikito/'}
-                  target={'_blank'}
-                >
-                  <img
-                    style={{width: 32, height: 32}}
-                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/instagram.svg'}
-                  />
-                </a>
-                <a
-                  style={{margin: 3}}
-                  href={'https://twitter.com/trafikito'}
-                  target={'_blank'}
-                >
-                  <img
-                    style={{width: 32, height: 32}}
-                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/twitter.svg'}
-                  />
-                </a>
-                <a
-                  style={{margin: 3}}
-                  href={'https://www.facebook.com/Trafikito/'}
-                  target={'_blank'}
-                >
-                  <img
-                    style={{width: 32, height: 32}}
-                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/facebook.svg'}
-                  />
-                </a>
-                <a
-                  style={{margin: 3}}
-                  href={'https://www.linkedin.com/company/trafikito/'}
-                  target={'_blank'}
-                >
-                  <img
-                    style={{width: 32, height: 32}}
-                    src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/linkedin.svg'}
-                  />
-                </a>
+                  <a
+                    style={{margin: 3}}
+                    href={'https://www.youtube.com/channel/UCofioaADtesyD75204ngeoQ'}
+                    target={'_blank'}
+                  >
+                    <img
+                      style={{width: 32, height: 32}}
+                      src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/youtube.svg'}
+                    />
+                  </a>
+                  <a
+                    style={{margin: 3}}
+                    href={'https://www.instagram.com/trafikito/'}
+                    target={'_blank'}
+                  >
+                    <img
+                      style={{width: 32, height: 32}}
+                      src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/instagram.svg'}
+                    />
+                  </a>
+                  <a
+                    style={{margin: 3}}
+                    href={'https://twitter.com/trafikito'}
+                    target={'_blank'}
+                  >
+                    <img
+                      style={{width: 32, height: 32}}
+                      src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/twitter.svg'}
+                    />
+                  </a>
+                  <a
+                    style={{margin: 3}}
+                    href={'https://www.facebook.com/Trafikito/'}
+                    target={'_blank'}
+                  >
+                    <img
+                      style={{width: 32, height: 32}}
+                      src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/facebook.svg'}
+                    />
+                  </a>
+                  <a
+                    style={{margin: 3}}
+                    href={'https://www.linkedin.com/company/trafikito/'}
+                    target={'_blank'}
+                  >
+                    <img
+                      style={{width: 32, height: 32}}
+                      src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/linkedin.svg'}
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            style={{
-              padding: '12px 0',
-              borderTop: `1px solid ${blueGrey[100]}`,
-              display: 'flex',
-              flexWrap: 'wrap',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-            }}
-          >
-            <Typography component={'div'} variant={'caption'}>
-              Copyright © Trafikito.com All rights reserved.
-            </Typography>
-            <Breadcrumbs separator="|" arial-label="Footer links">
-              <Link href={'https://trafikito.com/tos?view=tos'}>
-                <Typography variant={'caption'}>Terms of Service</Typography>
-              </Link>
-              <Link href={'https://trafikito.com/tos?view=privacy'}>
-                <Typography variant={'caption'}>Privacy Policy</Typography>
-              </Link>
-              <Link href={'https://trafikito.com/servers'}>
-                <Typography variant={'caption'}>Dashboard</Typography>
-              </Link>
-              <Link href={'https://trafikito.com/user'}>
-                <Typography variant={'caption'}>Your Account</Typography>
-              </Link>
-            </Breadcrumbs>
+            <div
+              style={{
+                padding: '12px 0',
+                borderTop: `1px solid ${blueGrey[100]}`,
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+              }}
+            >
+              <Typography component={'div'} variant={'caption'}>
+                Copyright © Trafikito.com All rights reserved.
+              </Typography>
+              <Breadcrumbs separator="|" arial-label="Footer links">
+                <Link href={'https://trafikito.com/tos?view=tos'}>
+                  <Typography variant={'caption'}>Terms of Service</Typography>
+                </Link>
+                <Link href={'https://trafikito.com/tos?view=privacy'}>
+                  <Typography variant={'caption'}>Privacy Policy</Typography>
+                </Link>
+                <Link href={'https://trafikito.com/servers'}>
+                  <Typography variant={'caption'}>Dashboard</Typography>
+                </Link>
+                <Link href={'https://trafikito.com/user'}>
+                  <Typography variant={'caption'}>Your Account</Typography>
+                </Link>
+              </Breadcrumbs>
+            </div>
           </div>
         </div>
-      </div>
+      </MuiThemeProvider>
     );
   }
 }

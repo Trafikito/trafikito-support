@@ -32,6 +32,7 @@ class TopMenu extends React.Component {
                 Help & Support
               </Link>
             </Typography>
+
             <Search/>
 
             <a className="lnu a-white" href={'https://trafikito.com/user/account/update-details'}>

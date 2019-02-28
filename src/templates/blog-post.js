@@ -6,9 +6,12 @@ import Footer from '../components/Footer';
 import SearchResultsArticles from '../components/Search/partials/articles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
+import Button from '@material-ui/core/Button';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import addWikiLinks from '../utils/wiki';
+
+const {fireEvent} = require('../utils/state');
 
 const removeMd = require('remove-markdown');
 
@@ -56,6 +59,15 @@ class BlogPostTemplate extends React.Component {
               searchQuery={''}
               articles={relatedArticles}
             />
+            <div style={{textAlign: 'center', margin: 12}}>
+              <Button
+                variant={'contained'}
+                color={'secondary'}
+                onClick={() => fireEvent({type: 'SEARCH_SHOW'})}
+              >
+                Open search
+              </Button>
+            </div>
           </div>
         </Layout>
         <Footer post={post}/>

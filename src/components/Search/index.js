@@ -4,6 +4,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import SearchRender from './render';
 
 const {blurRemove, blurAdd} = require('../../utils/blur');
+const {subscribeToChanges, unsubscribeFromChanges} = require('../../utils/state');
 
 // const ls = require('localstorage-ttl');
 const ajaxGet = require('../../utils/ajax/get');
@@ -20,23 +21,22 @@ class Search extends React.Component {
   }
 
   componentDidMount() {
-    // const searchableData = ls.get('searchable-data');
-    // const searchableData = this.state.searchableData;
-    // if (searchableData) {
-    //   try {
-    //     let json = JSON.parse(searchableData);
-    //     if (json) {
-    //       this.setState({searchableData: json});
-    //     }
-    //   } catch (e) {
-    //     // it was an invalid json.
-    //     localStorage.removeItem('searchable-data');
-    //   }
-    // }
-
     this.dataPreload = setTimeout(() => {
       this.preload();
     }, 100);
+
+    subscribeToChanges({
+      id: 'search_comp', fn: ({type}) => {
+        if (type === 'SEARCH_SHOW' && this.state.open === false) {
+          this.setState({open: true});
+        }
+      },
+    });
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.dataPreload);
+    unsubscribeFromChanges({id: 'search_comp'});
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
@@ -47,10 +47,6 @@ class Search extends React.Component {
         blurRemove();
       }
     }
-  }
-
-  componentWillUnmount() {
-    clearTimeout(this.dataPreload);
   }
 
   async preload() {
