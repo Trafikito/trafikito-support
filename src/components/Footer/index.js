@@ -59,6 +59,7 @@ class Footer extends React.Component {
                     target={'_blank'}
                   >
                     <img
+                      alt={'YouTube'}
                       style={{width: 32, height: 32}}
                       src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/youtube.svg'}
                     />
@@ -69,6 +70,7 @@ class Footer extends React.Component {
                     target={'_blank'}
                   >
                     <img
+                      alt={'Instagram'}
                       style={{width: 32, height: 32}}
                       src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/instagram.svg'}
                     />
@@ -79,6 +81,7 @@ class Footer extends React.Component {
                     target={'_blank'}
                   >
                     <img
+                      alt={'Twitter'}
                       style={{width: 32, height: 32}}
                       src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/twitter.svg'}
                     />
@@ -89,6 +92,7 @@ class Footer extends React.Component {
                     target={'_blank'}
                   >
                     <img
+                      alt={'Facebook'}
                       style={{width: 32, height: 32}}
                       src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/facebook.svg'}
                     />
@@ -99,6 +103,7 @@ class Footer extends React.Component {
                     target={'_blank'}
                   >
                     <img
+                      alt={'LinkedIn'}
                       style={{width: 32, height: 32}}
                       src={'https://d4o5fxgxpjzlh.cloudfront.net/images/social/linkedin.svg'}
                     />
