@@ -20,10 +20,8 @@ class Layout extends React.Component {
         </Helmet>
         <Typography component={'div'} className={css.main_holder}>
           <TopMenu/>
-          <div className={css.content_holder}>
-            <div style={{padding: '24px 6px'}}>
-              <main>{this.props.children}</main>
-            </div>
+          <div style={{padding: '24px 0'}}>
+            {this.props.children}
           </div>
         </Typography>
       </MuiThemeProvider>

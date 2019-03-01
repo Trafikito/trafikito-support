@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Typography from '@material-ui/core/Typography';
 import Footer from '../components/Footer';
+import layoutCss from '../components/Layout/style.module.scss';
 
 const removeMd = require('remove-markdown');
 
@@ -14,19 +15,20 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges;
 
     return (
-      <>
-        <Layout location={this.props.location} title={siteTitle}>
-          <SEO
-            title="Help & Support"
-            keywords={[`knowledge`, `help`, `support`, `trafikito`, `monitoring`]}
-          />
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title="Help & Support"
+          keywords={[`knowledge`, `help`, `support`, `trafikito`, `monitoring`]}
+        />
+
+        <div className={layoutCss.content_holder}>
 
           {posts.map(({node}) => {
             const url = `/${node.frontmatter.uri}.html`;
             const title = node.frontmatter.title || url;
             return (
               <div style={{margin: 6}} key={node.frontmatter.uri}>
-                <Typography variant={'h5'} >
+                <Typography variant={'h5'}>
                   <Link style={{boxShadow: `none`}} to={url}>
                     {title}
                   </Link>
@@ -37,9 +39,9 @@ class BlogIndex extends React.Component {
               </div>
             );
           })}
-        </Layout>
+        </div>
         <Footer/>
-      </>
+      </Layout>
     );
   }
 }

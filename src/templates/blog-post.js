@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import addWikiLinks from '../utils/wiki';
+import layoutCss from '../components/Layout/style.module.scss';
 
 const {fireEvent} = require('../utils/state');
 
@@ -37,9 +38,9 @@ class BlogPostTemplate extends React.Component {
     }
 
     return (
-      <>
-        <Layout location={this.props.location} title={siteTitle}>
-          <SEO title={post.frontmatter.title} description={removeMd(post.excerpt)}/>
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO title={post.frontmatter.title} description={removeMd(post.excerpt)}/>
+        <div className={layoutCss.content_holder}>
           <Card>
             <CardHeader
               title={post.frontmatter.title}
@@ -69,9 +70,9 @@ class BlogPostTemplate extends React.Component {
               </Button>
             </div>
           </div>
-        </Layout>
+        </div>
         <Footer post={post}/>
-      </>
+      </Layout>
     );
   }
 }
