@@ -6,6 +6,7 @@ import Breadcrumbs from '@material-ui/lab/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 import {MuiThemeProvider} from '@material-ui/core/styles';
 import theme from './../Layout/theme';
+import css from './style.module.scss';
 
 const _get = require('lodash/get');
 
@@ -37,17 +38,23 @@ class Footer extends React.Component {
                   flexWrap: 'wrap',
                 }}
               >
-                <div style={{padding: '24px 0 0'}}>
-                  <Breadcrumbs separator="›" arial-label="Breadcrumb">
-                    <Link color="inherit" href={'https://trafikito.com'}>Trafikito</Link>
-                    <Link color="inherit" href={'https://trafikito.com/support'}>Support</Link>
-                    <Typography color="textPrimary">{last}</Typography>
-                  </Breadcrumbs>
+                <div
+                  style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    alignItems: 'center',
+                    padding: '6px 3px',
+                  }}
+                >
+                  <Link color="inherit" href={'https://trafikito.com'}>Trafikito</Link>
+                  <div style={{margin: '0 6px'}}>›</div>
+                  <Link color="inherit" href={'https://trafikito.com/support'}>Support</Link>
+                  <div style={{margin: '0 6px'}}>›</div>
+                  <Typography color="textPrimary">{last}</Typography>
                 </div>
                 <div
                   style={{
                     padding: '6px 0 0',
-                    height: 32,
                     display: 'flex',
                     alignContent: 'center',
                     justifyContent: 'center',
@@ -124,20 +131,26 @@ class Footer extends React.Component {
               <Typography component={'div'} variant={'caption'}>
                 Copyright © Trafikito.com All rights reserved.
               </Typography>
-              <Breadcrumbs separator="|" arial-label="Footer links">
-                <Link href={'https://trafikito.com/tos?view=tos'}>
-                  <Typography variant={'caption'}>Terms of Service</Typography>
-                </Link>
-                <Link href={'https://trafikito.com/tos?view=privacy'}>
-                  <Typography variant={'caption'}>Privacy Policy</Typography>
-                </Link>
-                <Link href={'https://trafikito.com/servers'}>
-                  <Typography variant={'caption'}>Dashboard</Typography>
-                </Link>
-                <Link href={'https://trafikito.com/user'}>
-                  <Typography variant={'caption'}>Your Account</Typography>
-                </Link>
-              </Breadcrumbs>
+              <div>
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                  <Link href={'https://trafikito.com/servers'}>
+                    <Typography variant={'caption'} style={{whiteSpace: 'nowrap'}}>Dashboard</Typography>
+                  </Link>
+                  <div style={{margin: '0 3px'}}>|</div>
+                  <Link href={'https://trafikito.com/user'}>
+                    <Typography variant={'caption'} style={{whiteSpace: 'nowrap'}}>Your Account</Typography>
+                  </Link>
+                </div>
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                  <Link href={'https://trafikito.com/tos?view=tos'}>
+                    <Typography variant={'caption'} style={{whiteSpace: 'nowrap'}}>Terms of Service</Typography>
+                  </Link>
+                  <div style={{margin: '0 3px'}}>|</div>
+                  <Link href={'https://trafikito.com/tos?view=privacy'}>
+                    <Typography variant={'caption'} style={{whiteSpace: 'nowrap'}}>Privacy Policy</Typography>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>

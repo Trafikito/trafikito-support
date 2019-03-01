@@ -6,13 +6,11 @@ import Footer from '../components/Footer';
 import SearchResultsArticles from '../components/Search/partials/articles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
-import Button from '@material-ui/core/Button';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import addWikiLinks from '../utils/wiki';
 import layoutCss from '../components/Layout/style.module.scss';
 
-const {fireEvent} = require('../utils/state');
 
 const removeMd = require('remove-markdown');
 
@@ -53,22 +51,14 @@ class BlogPostTemplate extends React.Component {
               </div>
             </CardContent>
           </Card>
-          <div style={{margin: '0 12px'}}>
+          <div style={{margin: '0 12px 48px'}}>
             <Typography variant={'h6'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
             <SearchResultsArticles
               variant={'compact'}
               searchQuery={''}
               articles={relatedArticles}
+              showOpenSearchButton
             />
-            <div style={{textAlign: 'center', margin: 12}}>
-              <Button
-                variant={'contained'}
-                color={'secondary'}
-                onClick={() => fireEvent({type: 'SEARCH_SHOW'})}
-              >
-                Open search
-              </Button>
-            </div>
           </div>
         </div>
         <Footer post={post}/>

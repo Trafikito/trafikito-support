@@ -2,12 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import {withPrefix} from 'gatsby';
-
-import Grow from '@material-ui/core/Grow';
 import Button from '@material-ui/core/Button';
-
+import Grow from '@material-ui/core/Grow';
 import css from './../style.module.scss';
 
+const {fireEvent} = require('../../../utils/state');
 const fuzzysort = require('fuzzysort');
 const removeMd = require('remove-markdown');
 
@@ -17,6 +16,7 @@ class SearchResultsArticles extends React.Component {
     variant: PropTypes.oneOf(['compact']),
     articles: PropTypes.array.isRequired,
     searchQuery: PropTypes.string,
+    showOpenSearchButton: PropTypes.bool,
   };
 
   constructor(props) {
@@ -121,6 +121,19 @@ class SearchResultsArticles extends React.Component {
       <div>
         {rows}
         {bottom}
+        {
+          this.props.showOpenSearchButton && thereAreMore === 0 ? (
+            <div style={{textAlign: 'center'}}>
+              <Button
+                variant={'contained'}
+                color={'primary'}
+                onClick={() => fireEvent({type: 'SEARCH_SHOW'})}
+              >
+                Open search
+              </Button>
+            </div>
+          ) : null
+        }
       </div>
     );
   }
