@@ -1,9 +1,11 @@
 ---
+id: 3382f794-9b36-4f84-b908-e3a6393ef883
 layout: post
 title:  "How to choose the best pricing plan?"
 categories: trafikito users
-permalink: /how-to-choose-the-best-pricing-plan/
+uri: blog/how-to-choose-the-best-pricing-plan
 featured_image: trafikito-visibility-vs-market-standard.jpg
+tags: [blog]
 ---
 
 

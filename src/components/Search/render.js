@@ -8,7 +8,7 @@ import Dialog from '@material-ui/core/Dialog';
 import SearchResultsVideos from './partials/videos';
 import SearchResultsArticles from './partials/articles';
 
-import css from './style.module.scss';
+// import css from './style.module.scss';
 import DelayedButton from '../DelayedButton';
 
 const fuzzysort = require('fuzzysort');
@@ -165,7 +165,7 @@ class SearchRender extends React.Component {
           </DelayedButton>
         </div>
         <DialogContent
-          style={{padding: 12}}
+          style={{padding: '12px 12px 48px'}}
           onScroll={(e) => {
             const topOffset = e.currentTarget.getBoundingClientRect().top;
             const scrollOffset = e.currentTarget.firstChild.getBoundingClientRect().top;

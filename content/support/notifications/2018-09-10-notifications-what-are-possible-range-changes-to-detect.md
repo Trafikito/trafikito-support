@@ -6,7 +6,7 @@ uri: what-are-possible-range-changes-to-detect
 tags: [notifications]
 ---
 
-You can detect any possible value of a selected variable range change. You can select these ranges in the when case options while editing [notifications](f7277d70-7b35-489b-b378-009a690e0a3f).
+You can detect any possible value of a selected variable range change. You can select these ranges in the when case options while editing <wiki>notifications</wiki>.
 
 <!-- more -->
 

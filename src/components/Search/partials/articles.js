@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import {withPrefix} from 'gatsby';
+import {Link} from 'gatsby';
 import Button from '@material-ui/core/Button';
 import Grow from '@material-ui/core/Grow';
 import css from './../style.module.scss';
 
+const {blurRemove} = require('../../../utils/blur');
 const {fireEvent} = require('../../../utils/state');
 const fuzzysort = require('fuzzysort');
 const removeMd = require('remove-markdown');
@@ -66,8 +67,10 @@ class SearchResultsArticles extends React.Component {
             delay={350}
           >
             <div style={{marginBottom: 28}}>
-              <a style={{margin: '4px 0', display: 'block', cursor: 'pointer'}}
-                 href={`${withPrefix(article.uri)}.html`}>
+              <Link
+                onClick={() => blurRemove()}
+                style={{margin: '4px 0', display: 'block', cursor: 'pointer'}} to={`/${article.uri}.html`}
+              >
                 <Typography
                   style={{color: 'inherit', fontSize: 17}}
                   className={css.results_match}
@@ -76,7 +79,7 @@ class SearchResultsArticles extends React.Component {
                 >
                   <div dangerouslySetInnerHTML={{__html: titleWithHighlights}}/>
                 </Typography>
-              </a>
+              </Link>
               <Typography variant={'caption'}>
                 {removeMd(article.excerpt)}
               </Typography>

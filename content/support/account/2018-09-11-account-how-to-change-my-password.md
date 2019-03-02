@@ -7,10 +7,10 @@ uri: how-to-change-my-password
 tags: [account]
 ---
 
-To change your password, you must login to Trafikito client and navigate here: [Change password](https://trafikito.com/user/account/password-change)
+To change your password, you must login to Trafikito client and navigate here: <wiki>Change password</wiki>
 
 <!--more-->
 
 Just enter the current password, then the new password and click the Save new password button. 
 
-If you lost your password and want to recover, use this link: [Recover](https://trafikito.com/user/recover)
+If you lost your password and want to recover, use this link: <wiki>Recover</wiki>

@@ -4,7 +4,7 @@ id: 2604162f-3a0f-482d-b6c2-6cdc7f8d2b69
 layout: blog
 sort: 1
 title:  "What is a workspace?"
-uri: what-is-a-workspace
+uri: blog/what-is-a-workspace
 tags: [workspace]
 ---
 

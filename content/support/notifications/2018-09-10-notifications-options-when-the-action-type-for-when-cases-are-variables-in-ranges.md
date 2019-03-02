@@ -25,8 +25,8 @@ While creating notifications you have to add some _when_ cases. When cases defin
     11.  Any → warn
     12.  Any → error
     13.  Any → any
-3.  **Stay in range** - how long to wait for a value to stay in a new range. A value may fluctuate but to avoid short peak values you can use this option. You can select not to wait and fire [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) immediately or wait a few minutes.
+3.  **Stay in range** - how long to wait for a value to stay in a new range. A value may fluctuate but to avoid short peak values you can use this option. You can select not to wait and fire <wiki>notifications</wiki> immediately or wait a few minutes.
 4.  **Wait before firing again** - you can select this if you want to fire this action several times when a value continuously stays in a new range or just fire once.
 5.  **Allow case to fire at any time** - if it is turned on it will require other when cases to be fired on the same variable before this case can be fired again. It is useful in a scenario when a value jumps from a normal range to a warning or an error, stays there for a very short time and jumps back to a normal range. 
 
-[Notifications](f7277d70-7b35-489b-b378-009a690e0a3f) about being in the warning/error ranges is not triggered because with stay in range it is set to wait for longer timeframes. So the value jumped back to a normal range and if it is allowed to be fired at any time, it would fire the notification that the value is in the normal range again. Though it would be valid information it’s not necessarily needed since it was just a small value change in a short time.
+<wiki>Notifications</wiki> about being in the warning/error ranges is not triggered because with stay in range it is set to wait for longer timeframes. So the value jumped back to a normal range and if it is allowed to be fired at any time, it would fire the notification that the value is in the normal range again. Though it would be valid information it’s not necessarily needed since it was just a small value change in a short time.

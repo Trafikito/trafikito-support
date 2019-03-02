@@ -6,7 +6,7 @@ uri: how-to-delete-notifications
 tags: [notifications]
 ---
 
-You can delete one or more [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) at the same time. To remove a single [notification](f7277d70-7b35-489b-b378-009a690e0a3f) follow these steps:
+You can delete one or more <wiki>notifications</wiki> at the same time. To remove a single <wiki>notification</wiki> follow these steps:
 
 <!-- more -->
 
@@ -19,6 +19,6 @@ You can delete one or more [notifications](f7277d70-7b35-489b-b378-009a690e0a3f)
 7.  Scroll down and click **Delete** under all notification settings
 8.  Confirm deletion and it is done.
 
-You can also delete several [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) at once. 
+You can also delete several <wiki>notifications</wiki> at once. 
 
-To do this, go to the notification list and check several [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) simultaneously by using the checkboxes in front of the notifications name that you wish to delete. After at least one [notification](f7277d70-7b35-489b-b378-009a690e0a3f) is checked, mass action options will be revealed above the list. One of the option is to delete all selected notifications.
+To do this, go to the notification list and check several <wiki>notifications</wiki> simultaneously by using the checkboxes in front of the notifications name that you wish to delete. After at least one <wiki>notification</wiki> is checked, mass action options will be revealed above the list. One of the option is to delete all selected notifications.

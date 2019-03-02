@@ -6,4 +6,4 @@ uri: what-happens-if-i-delete-a-notification
 tags: [notifications]
 ---
 
-**There’s no side effects.** You will just lose that particular [notification](f7277d70-7b35-489b-b378-009a690e0a3f)   and it will be deleted permanently. Also, the logs will be deleted and you will not be able to see them.
+**There’s no side effects.** You will just lose that particular <wiki>notification</wiki>   and it will be deleted permanently. Also, the logs will be deleted and you will not be able to see them.

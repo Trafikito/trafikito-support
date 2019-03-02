@@ -1,9 +1,11 @@
 ---
+id: b4b1981e-93f9-4efa-ac17-4ed9d00f259c
 layout: post
 title:  "Dashboard Redesign"
 categories: trafikito design
-permalink: /trafikito-redesign/
+uri: blog/trafikito-redesign
 featured_image: trafikito-redesign.png
+tags: [blog]
 ---
 
 <p>

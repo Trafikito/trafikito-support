@@ -1,9 +1,11 @@
 ---
+id: 78b80d3f-31d1-4ad8-9c61-a9d1d45a8b98
 layout: post
 title:  "It is possible to monitor the output of any command"
 categories: trafikito
-permalink: /possible-to-monitor-output-of-any-command/
+uri: blog/possible-to-monitor-output-of-any-command
 featured_image: possible-to-monitor-output-of-any-command.png
+tags: [blog]
 ---
 
 

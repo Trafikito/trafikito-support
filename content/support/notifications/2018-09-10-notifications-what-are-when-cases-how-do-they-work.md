@@ -14,6 +14,6 @@ When cases are a set of options that define situations when notifications should
 2.  **Getting data** - situations when Trafikito starts getting data from your server. Not getting data event must be fired first.
 3.  **Not getting data** - situations when Trafikito stops getting data from your server. Use it together with getting data type to get notifications when Trafikito starts getting data again.
 
-A single [notification](f7277d70-7b35-489b-b378-009a690e0a3f) may have one or more when cases. A [notification](f7277d70-7b35-489b-b378-009a690e0a3f) is triggered when any when cases are positive.
+A single <wiki>notification</wiki> may have one or more when cases. A <wiki>notification</wiki> is triggered when any when cases are positive.
 
 **Getting data event will never fire if not getting data event is not fired first.** Always define both when cases _when_ building notifications.

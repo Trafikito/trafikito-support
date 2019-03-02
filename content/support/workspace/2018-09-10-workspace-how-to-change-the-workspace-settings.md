@@ -17,4 +17,4 @@ Basic workspace settings can be found by following these steps:
 
 #### Note:
 
-To change workspace settings, including the billing profile, [notification](f7277d70-7b35-489b-b378-009a690e0a3f) email, members, pricing, servers, data sources, dashboard layout, notifications - You need to have an **admin** or **owner** role.
+To change workspace settings, including the billing profile, <wiki>notification</wiki> email, members, pricing, servers, data sources, dashboard layout, notifications - You need to have an **admin** or **owner** role.

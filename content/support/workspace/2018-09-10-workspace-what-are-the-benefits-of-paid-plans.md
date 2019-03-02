@@ -12,4 +12,4 @@ For most, the main differences between the free and paid plans are:
 
 *   You get more visibility. Free plan gives 24 hours while the paid plans may provide up to 2 weeks
 *   With the paid plan you can add members to the workspace and manage roles
-*   With the paid plans you can monitor more commands, set up more [notification](f7277d70-7b35-489b-b378-009a690e0a3f) rules, monitor more servers, send bigger output per minute to Trafikito
+*   With the paid plans you can monitor more commands, set up more <wiki>notification</wiki> rules, monitor more servers, send bigger output per minute to Trafikito

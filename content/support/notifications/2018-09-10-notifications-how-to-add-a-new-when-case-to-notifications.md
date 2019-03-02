@@ -6,7 +6,7 @@ uri: how-to-add-a-new-when-case-to-notifications
 tags: [notifications]
 ---
 
-Each [notification](f7277d70-7b35-489b-b378-009a690e0a3f) must have at least one _when_ case to be fired. Trafikito recommends adding several _when_ cases for each notification call; so you will not need to configure the same notification action several times. To add a _when_ case to notifications follow these steps:
+Each <wiki>notification</wiki> must have at least one _when_ case to be fired. Trafikito recommends adding several _when_ cases for each notification call; so you will not need to configure the same notification action several times. To add a _when_ case to notifications follow these steps:
 
 <!-- more -->
 
@@ -15,8 +15,8 @@ Each [notification](f7277d70-7b35-489b-b378-009a690e0a3f) must have at least one
 3.  In the servers list find the server you want to edit and click **Open** next to it
 4.  On the top right click **Settings**
 5.  Make sure **Notifications** are expanded
-6.  Expand the [notification](f7277d70-7b35-489b-b378-009a690e0a3f) to edit
+6.  Expand the <wiki>notification</wiki> to edit
 7.  After all the current _when_ cases click the button “**Add when case**”
 8.  Adjust the new _when_ case settings
-9.  Save the [notification](f7277d70-7b35-489b-b378-009a690e0a3f) with the button “**Save Notification**” under all notification settings
+9.  Save the <wiki>notification</wiki> with the button “**Save Notification**” under all notification settings
 

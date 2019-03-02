@@ -12,4 +12,4 @@ You can send any text to API endpoint. To send JSON, use raw body type and add h
 
 #### Note:
 
-You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be replaced with actual value on a fly. Below all configuration options for [notifications](f7277d70-7b35-489b-b378-009a690e0a3f), you will find all your variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces like this: `{{ram_used}}`
+You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be replaced with actual value on a fly. Below all configuration options for <wiki>notifications</wiki>, you will find all your variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces like this: `{{ram_used}}`

@@ -10,8 +10,8 @@ An [email template](604ae469-aa4d-476f-80d8-6994f8ff4c76) is a 1-click solution 
 
 <!-- more -->
 
-If you add text to the body input, you will see that text in the grey box below the [notification](f7277d70-7b35-489b-b378-009a690e0a3f) itself.
+If you add text to the body input, you will see that text in the grey box below the <wiki>notification</wiki> itself.
 
 #### Note:
 
-You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be replaced with actual value on a fly. Below all configuration options for [notifications](f7277d70-7b35-489b-b378-009a690e0a3f), you will find all your variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces like this: `{{ram_used}}`
+You can use any variable placeholders inside the body, URL or header value fields. Placeholders will be replaced with actual value on a fly. Below all configuration options for <wiki>notifications</wiki>, you will find all your variables from all data sources. Click on any to copy. Variables must be surrounded by pairs of curly braces like this: `{{ram_used}}`

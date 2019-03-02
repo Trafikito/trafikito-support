@@ -12,4 +12,4 @@ Warning and error range settings define when numeric value of a variable is in n
 
 Each range has **from** and **to** values. You can use these ranges in the notifications settings. E.g. if you want to get an email when the average load of the server is in a warning range, you have to have data source to get this information, variable to hold specific number from the output, numeric display type and warning range defined.
 
-Then you can use such variable in [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) setting to send emails when a value is in a warning or error range for defined count of minutes.
+Then you can use such variable in <wiki>notifications</wiki> setting to send emails when a value is in a warning or error range for defined count of minutes.

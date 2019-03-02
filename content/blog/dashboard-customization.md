@@ -1,9 +1,11 @@
 ---
+id: aefd2b09-041c-4650-930e-3b818d01b343
 layout: post
 title:  "Dashboard Customization"
 categories: trafikito users
-permalink: /dashboard-customization/
+uri: blog/dashboard-customization
 featured_image: dashboard-customization.jpg
+tags: [blog]
 ---
 
 

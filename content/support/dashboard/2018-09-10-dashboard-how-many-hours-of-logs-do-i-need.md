@@ -12,7 +12,7 @@ For hobby projects 12 hours is more than enough. With 12 hours you can see what 
 
 There are many cases when people push updates on a Friday and everything seems ok but suddenly something crashes the 
 server on a Saturday and on Monday It’s hard to tell what happened without the 3 days of logs because nobody reacted
-to [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) over the weekend.
+to <wiki>notifications</wiki> over the weekend.
 
 More than 3 days of logs is great to compare stats with previous days or weeks. When you deploy new performance updates,
  you must have statistics to measure the effectiveness of the update.

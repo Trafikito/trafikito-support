@@ -8,11 +8,20 @@ import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import addWikiLinks from '../utils/wiki';
 import layoutCss from '../components/Layout/style.module.scss';
-
+import rehypeReact from 'rehype-react';
+import Warn from '../components/markdown/warn';
+import Wiki from '../components/markdown/wiki';
 
 const removeMd = require('remove-markdown');
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: {
+    'warn': Warn,
+    'wiki': Wiki,
+  },
+}).Compiler;
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -45,7 +54,11 @@ class BlogPostTemplate extends React.Component {
               subheader=""
             />
             <CardContent>
-              <div dangerouslySetInnerHTML={{__html: addWikiLinks({html: post.html})}} style={{minHeight: 200}}/>
+              <div style={{minHeight: 200}}>
+                {
+                  renderAst(post.htmlAst)
+                }
+              </div>
               <div>
                 <div style={{height: 220}} id="emojics-root"/>
               </div>
@@ -81,6 +94,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160, format: PLAIN)
       html
+      htmlAst
       frontmatter {
         id
         title

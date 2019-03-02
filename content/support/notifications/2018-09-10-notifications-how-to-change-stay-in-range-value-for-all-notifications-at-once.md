@@ -6,7 +6,7 @@ uri: how-to-change-stay-in-range-value-for-all-notifications-at-once
 tags: [notifications]
 ---
 
-In the [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) list you can see an overview of all when cases and stay in range values. Note that not all when cases in the [notification](f7277d70-7b35-489b-b378-009a690e0a3f) may have a save value of “stay in range”.
+In the <wiki>notifications</wiki> list you can see an overview of all when cases and stay in range values. Note that not all when cases in the <wiki>notification</wiki> may have a save value of “stay in range”.
 
 <!-- more -->
 
@@ -15,5 +15,5 @@ In the [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) list you can see an
 3.  In the servers list find the server you want to edit and click **Open** next to it
 4.  On the top right click **Settings**
 5.  Make sure **Notifications** are expanded
-6.  Use the **checkbox** next to the name of the notification to select the [notifications](f7277d70-7b35-489b-b378-009a690e0a3f) to update
-7.  Use **mass action above the list** to update all selected [notifications](f7277d70-7b35-489b-b378-009a690e0a3f)
+6.  Use the **checkbox** next to the name of the notification to select the <wiki>notifications</wiki> to update
+7.  Use **mass action above the list** to update all selected <wiki>notifications</wiki>

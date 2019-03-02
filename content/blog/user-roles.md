@@ -1,9 +1,11 @@
 ---
+id: 79d9beda-7226-4c3a-b931-0190140a40e8
 layout: post
 title:  "User Roles"
 categories: trafikito users
-permalink: /user-roles/
+uri: blog/user-roles
 featured_image: user-roles.png
+tags: [blog]
 ---
 
 {% include image.html file="user-roles.png" alt="User roles" %}

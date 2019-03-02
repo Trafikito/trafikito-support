@@ -1,9 +1,11 @@
 ---
+id: 5093e1e5-ef97-48f6-a068-82012dd28bfd
 layout: post
 title:  "Trafikito can monitor Android servers. Track output of any command & take automated action."
 categories: trafikito
-permalink: /trafikito-monitor-output-of-any-android-command-take-automated-action-termux/
+uri: blog/trafikito-monitor-output-of-any-android-command-take-automated-action-termux
 featured_image: trafikito-android-monitoring.png
+tags: [blog]
 ---
 
 {% include image.html file="trafikito-android-monitoring.png" alt="Trafikito runs on Android" %}

@@ -9,7 +9,7 @@ tags: [account]
 
 This is a 3 steps process which starts here: 
 
-[Recover password](https://trafikito.com/user/recover)
+<wiki>Recover password</wiki>
 
 <!--more-->
 

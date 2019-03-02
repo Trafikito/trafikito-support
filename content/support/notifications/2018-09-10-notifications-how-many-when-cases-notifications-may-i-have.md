@@ -6,7 +6,7 @@ uri: how-many-when-cases-notifications-may-i-have
 tags: [notifications]
 ---
 
-There is no limit for the amount of _when_ cases each [notification](f7277d70-7b35-489b-b378-009a690e0a3f) may have but there is an overall limit for the amount of _when_ cases each server in a workspace may have. It depends on your current plan.
+There is no limit for the amount of _when_ cases each <wiki>notification</wiki> may have but there is an overall limit for the amount of _when_ cases each server in a workspace may have. It depends on your current plan.
 
 <!-- more -->
 

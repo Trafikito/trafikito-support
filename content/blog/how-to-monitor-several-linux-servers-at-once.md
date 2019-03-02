@@ -1,9 +1,11 @@
 ---
+id: 04b8a004-f4ce-4732-b7a3-ca87686f3078
 layout: post
 title:  "How to monitor several Linux servers at once?"
 categories: trafikito
-permalink: /how-to-monitor-several-linux-servers-at-once/
+uri: blog/how-to-monitor-several-linux-servers-at-once
 featured_image: how-to-monitor-several-linux-servers-at-once.gif
+tags: [blog]
 ---
 
 <p>
