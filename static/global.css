@@ -38,3 +38,8 @@ html, body, #root {
 .t-center {
   text-align: center;
 }
+
+ol li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}

@@ -10,7 +10,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import layoutCss from '../components/Layout/style.module.scss';
 import rehypeReact from 'rehype-react';
-import Warn from '../components/markdown/warn';
+import RangeNormal from '../components/markdown/range/normal';
+import RangeWarn from '../components/markdown/range/warn';
+import RangeError from '../components/markdown/range/error';
 import Wiki from '../components/markdown/wiki';
 
 const removeMd = require('remove-markdown');
@@ -18,7 +20,9 @@ const removeMd = require('remove-markdown');
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
-    'warn': Warn,
+    'range-normal': RangeNormal,
+    'range-warn': RangeWarn,
+    'range-error': RangeError,
     'wiki': Wiki,
   },
 }).Compiler;

@@ -8,7 +8,7 @@ uri: blog/what-is-a-workspace
 tags: [workspace]
 ---
 
-At Trafikito you can monitor several servers at once. Whether you have a database running on 3 servers, a web application on another, some caching on the next or maybe several projects and microservices running on different machines. The bottom line is <strong>you need to monitor several different machines at once</strong>. With Trafikito you can combine all servers in a single workspace and have a great overview of all your servers at once.
+At Trafikito you can monitor several servers at once. Whether you have a database running on 3 servers, a web application on another, some caching on the next or maybe several projects and microservices running on different machines. The bottom line is **you need to monitor several different machines at once**. With Trafikito you can combine all servers in a single workspace and have a great overview of all your servers at once.
 
 <!--more-->
 
@@ -25,21 +25,9 @@ Servers Management
 The Initial view of any workspace is your list of servers. In this list, you can see how all of your servers are doing. On the left, you can see the overall status and It may be:
 
 
-<div class="t-flex-align-center t-m6">
-    <div>1.</div>
-    <div class="t-range-normal t-mh6"></div>
-    <div>Everything's <strong class="t-mh3">ok</strong></div>
-</div>
-<div class="t-flex-align-center t-m6">
-    <div>2.</div>
-    <div class="t-range-warning t-mh6"></div>
-    <div>At least one monitored value is in the <strong class="t-mh3">warning</strong> range</div>
-</div>
-<div class="t-flex-align-center t-m6">
-    <div>3.</div>
-    <div class="t-range-error t-mh6"></div>
-    <div>At least one monitored value is in an <strong class="t-mh3">error</strong> range</div>
-</div>
+1. <range-normal></range-normal> Everything's **ok**
+2. <range-warn></range-warn> At least one monitored value is in the <range-warn>warning</range-warn> range
+3. <range-error></range-error> At least one monitored value is in an <range-error>error</range-error> range
 
 ![Workspaces at Trafikito (servers list)](../assets/img/blog/trafikito-workspace-servers-list-something-wrong.jpg)
 
