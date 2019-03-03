@@ -6,6 +6,7 @@ categories: trafikito users
 uri: blog/dashboard-customization
 featured_image: dashboard-customization.jpg
 tags: [blog]
+date: 2018-06-25
 ---
 
 

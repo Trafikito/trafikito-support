@@ -6,6 +6,7 @@ categories: trafikito
 uri: blog/how-to-monitor-several-linux-servers-at-once
 featured_image: how-to-monitor-several-linux-servers-at-once.gif
 tags: [blog]
+date: 2018-06-30
 ---
 
 With Trafikito you can monitor many Linux <wiki>servers</wiki> at once and organize them into <wiki>workspaces</wiki>. Even with the <wiki>free plan</wiki>, a single <wiki>workspace</wiki> can hold up to 10 <wiki>servers</wiki>. 

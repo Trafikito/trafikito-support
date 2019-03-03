@@ -6,6 +6,7 @@ categories: trafikito design
 uri: blog/trafikito-redesign
 featured_image: trafikito-redesign.png
 tags: [blog]
+date: 2018-05-29
 ---
 
 Weeks has flown by and a lot has been done. The most visible updates were changes for the color palette, many text alignments and layout issues fixed. The User Interface (UI) is now faster than ever. Plus the build is smaller, loads faster, fewer re-paints etc.etc.

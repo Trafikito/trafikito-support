@@ -6,6 +6,7 @@ categories: trafikito members
 uri: blog/member-roles
 featured_image: member-roles.png
 tags: [blog]
+date: 2018-06-22
 ---
 
 ![Member roles](../assets/img/blog/member-roles.png)

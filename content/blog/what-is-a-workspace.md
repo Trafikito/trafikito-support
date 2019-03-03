@@ -6,6 +6,7 @@ sort: 1
 title:  "What is a workspace?"
 uri: blog/what-is-a-workspace
 tags: [workspace]
+date: 2018-06-23
 ---
 
 At Trafikito you can monitor several servers at once. Whether you have a database running on 3 servers, a web application on another, some caching on the next or maybe several projects and microservices running on different machines. The bottom line is **you need to monitor several different machines at once**. With Trafikito you can combine all servers in a single workspace and have a great overview of all your servers at once.

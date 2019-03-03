@@ -6,6 +6,7 @@ categories: trafikito
 uri: blog/possible-to-monitor-output-of-any-command
 featured_image: possible-to-monitor-output-of-any-command.png
 tags: [blog]
+date: 2018-05-12
 ---
 
 

@@ -6,6 +6,7 @@ categories: trafikito members
 uri: blog/how-to-choose-the-best-pricing-plan
 featured_image: trafikito-visibility-vs-market-standard.jpg
 tags: [blog, members, pricing]
+date: 2018-07-12
 ---
 
 Trafikito logs data every minute while the market standard for free plans is 5-15 minutes interval. Why is this important for you? 
