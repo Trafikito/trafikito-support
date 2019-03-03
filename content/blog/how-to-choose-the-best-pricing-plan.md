@@ -34,7 +34,7 @@ You can clearly see the need to have more visibility with logs of every single m
 
 Trafikito solves this issue, as it possesses a higher density of logs. 
 
-<info>Your mind can be at ease because Trafikito provides 1-minute density for **all** plans. Including free.</info>
+<info>Your mind can be at ease because Trafikito provides 1-minute density for **all** <wiki>plans</wiki>. Including free.</info>
 
 How many logs will be available for you to browse?
 --------------------------------------------------
