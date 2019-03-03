@@ -22,6 +22,9 @@ const wiki = {
   'change password': 'how-to-change-my-password',
   'recover': 'https://trafikito.com/user/recover',
   'recover password': 'https://trafikito.com/user/recover',
+  'paid plans': 'https://trafikito.com/price',
+  'free plan': 'https://trafikito.com/price',
+  'plan': 'https://trafikito.com/price',
   'open source': 'https://github.com/Trafikito/agent',
   'when cases': 'what-are-when-cases-how-do-they-work',
 };
