@@ -1,21 +1,21 @@
 ---
 id: 79d9beda-7226-4c3a-b931-0190140a40e8
 layout: post
-title:  "User Roles"
-categories: trafikito users
-uri: blog/user-roles
-featured_image: user-roles.png
+title:  "Member Roles"
+categories: trafikito members
+uri: blog/member-roles
+featured_image: member-roles.png
 tags: [blog]
 ---
 
-![User roles](../assets/img/blog/user-roles.png)
+![Member roles](../assets/img/blog/member-roles.png)
 
 
-When you have several members working in the same workspace you may need to set specific user roles for your members. Without roles, everyone on the team would be admins and can change anything. We recommend giving minimum required permission for each member to avoid surprises. User roles are only available with the Medium or Roarr plans.
+When you have several members working in the same workspace you may need to set specific member roles for your members. Without roles, everyone on the team would be admins and can change anything. We recommend giving minimum required permission for each member to avoid surprises. Member roles are only available with the Medium or Roarr plans.
 
 <!--more-->
 
-There are 3 user roles available
+There are 3 member roles available
 
 1.  Owner
 2.  Admin
@@ -27,6 +27,7 @@ There are 3 user roles available
 
 Here is a detailed view of all permissions:
 
+
 Members Management
 ----------------
 
@@ -34,9 +35,9 @@ Members Management
 |----|----|-----|----|
 |Add member|<icon color='green'>check_circle_outline</icon>|<icon color='green'>check_circle_outline</icon>|<icon color='red'>block</icon>|
 |Change member role|<icon color='green'>check_circle_outline</icon>|<icon color='green'>check_circle_outline</icon>|<icon color='red'>block</icon>|
-|Turn member off|<icon color='green'>check_circle_outline</icon>|<icon color='green'>check_circle_outline</icon>|<icon color='red'>block</icon>|
+|Disable login|<icon color='green'>check_circle_outline</icon>|<icon color='green'>check_circle_outline</icon>|<icon color='red'>block</icon>|
 
-Only owner can set new owner. Owner can not be turned off.
+<info>Only owner can set new owner. Owner can not be disabled from login.</info>
 
 
 Servers Management

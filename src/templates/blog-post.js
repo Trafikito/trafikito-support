@@ -4,9 +4,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Footer from '../components/Footer';
 import SearchResultsArticles from '../components/Search/partials/articles';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import layoutCss from '../components/Layout/style.module.scss';
 import rehypeReact from 'rehype-react';
@@ -15,6 +13,10 @@ import RangeWarn from '../components/markdown/range/warn';
 import RangeError from '../components/markdown/range/error';
 import Wiki from '../components/markdown/wiki';
 import Icon from '../components/markdown/icon';
+import Info from '../components/markdown/info';
+import Quote from '../components/markdown/quote';
+import Gif from '../components/markdown/gif';
+import Code from '../components/markdown/code';
 
 const removeMd = require('remove-markdown');
 
@@ -26,6 +28,10 @@ const renderAst = new rehypeReact({
     'range-error': RangeError,
     'wiki': Wiki,
     'icon': Icon,
+    'info': Info,
+    'quote': Quote,
+    'gif': Gif,
+    'code': Code,
   },
 }).Compiler;
 
@@ -54,22 +60,16 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={removeMd(post.excerpt)}/>
         <div className={layoutCss.content_holder}>
-          <Card>
-            <CardHeader
-              title={post.frontmatter.title}
-              subheader=""
-            />
-            <CardContent>
-              <div style={{minHeight: 200}}>
-                {
-                  renderAst(post.htmlAst)
-                }
-              </div>
+          <Paper style={{padding: 24, margin: '3px 6px'}}>
+            <Typography component={'div'} variant={'h2'}>{post.frontmatter.title}</Typography>
+            <Typography style={{padding: '12px'}} component={'div'} variant={'body1'}>
               <div>
+                <div style={{minHeight: 200}}>{renderAst(post.htmlAst)}</div>
                 <div style={{height: 220}} id="emojics-root"/>
               </div>
-            </CardContent>
-          </Card>
+            </Typography>
+
+          </Paper>
           <div style={{margin: '0 12px 48px'}}>
             <Typography variant={'h6'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
             <SearchResultsArticles

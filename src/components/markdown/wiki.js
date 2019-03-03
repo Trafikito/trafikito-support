@@ -14,6 +14,7 @@ const wiki = {
   'api': 'what-is-an-api-call',
   'email template': 'what-is-email-templates',
   'email templates': 'what-is-email-templates',
+  'working with a team': 'blog/member-roles',
   'variable': 'what-are-variables',
   'variables': 'what-are-variables',
   'data source': 'what-are-data-sources',
@@ -21,6 +22,8 @@ const wiki = {
   'change password': 'how-to-change-my-password',
   'recover': 'https://trafikito.com/user/recover',
   'recover password': 'https://trafikito.com/user/recover',
+  'open source': 'https://github.com/Trafikito/agent',
+  'when cases': 'what-are-when-cases-how-do-they-work',
 };
 
 export default class Wiki extends React.Component {

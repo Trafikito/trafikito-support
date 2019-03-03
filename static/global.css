@@ -21,6 +21,7 @@ a:hover {
 html, body, #root {
   height: 100%;
   background: #FAFAFA;
+  font-size: 16px;
 }
 
 * {
@@ -42,6 +43,14 @@ html, body, #root {
 ol li {
   margin-top: 3px;
   margin-bottom: 3px;
+}
+
+/* img */
+
+img {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
 }
 
 /*table*/
@@ -73,4 +82,76 @@ table > tbody > tr {
 
 table > tbody > tr:hover {
   background-color: rgba(242, 242, 242, 0.5)
+}
+
+/* Fonts */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+}
+
+h2 {
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 2.3733333333rem 0 1.424rem 0;
+}
+
+h3 {
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+h4 {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 1.52rem 0 0.912rem 0;
+}
+
+h5 {
+  font-size: 1.15rem;
+  line-height: 110%;
+  margin: 1.0933333333rem 0 0.656rem 0;
+}
+
+h6 {
+  font-size: 1.1rem;
+  line-height: 110%;
+  margin: 0.7666666667rem 0 0.46rem 0;
+}
+
+html {
+  line-height: 1.5;
+  font-family: Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media only screen and (min-width: 0) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
 }

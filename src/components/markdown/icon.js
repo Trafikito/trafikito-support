@@ -10,8 +10,6 @@ export default class MdIcon extends React.Component {
   };
 
   render() {
-    console.log(`#jflkjkfwcolors `, green);
-
     const fontSize = this.props.fontSize || '24px';
     const marginTop = this.props.marginTop || '6px';
     let color = 'inherit';
