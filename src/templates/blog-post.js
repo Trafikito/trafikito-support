@@ -62,16 +62,17 @@ class BlogPostTemplate extends React.Component {
         <div className={layoutCss.content_holder}>
           <Paper style={{padding: 24, margin: '3px 6px'}}>
             <Typography component={'div'} variant={'h2'}>{post.frontmatter.title}</Typography>
-            <Typography style={{padding: '12px'}} component={'div'} variant={'body1'}>
+            <Typography component={'div'} style={{padding: '12px'}} variant={'body1'}>
               <div>
                 <div style={{minHeight: 200}}>{renderAst(post.htmlAst)}</div>
                 <div style={{height: 220}} id="emojics-root"/>
               </div>
             </Typography>
-
           </Paper>
           <div style={{margin: '0 12px 48px'}}>
-            <Typography variant={'h6'} style={{margin: '24px 0'}}>You may be also interested:</Typography>
+            <Typography component={'div'} variant={'h6'} style={{margin: '24px 0'}}>
+              You may be also interested:
+            </Typography>
             <SearchResultsArticles
               variant={'compact'}
               searchQuery={''}

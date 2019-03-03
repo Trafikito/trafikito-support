@@ -24,9 +24,24 @@ const wiki = {
   'recover password': 'https://trafikito.com/user/recover',
   'paid plans': 'https://trafikito.com/price',
   'free plan': 'https://trafikito.com/price',
+  'free': 'https://trafikito.com/price',
   'plan': 'https://trafikito.com/price',
   'open source': 'https://github.com/Trafikito/agent',
   'when cases': 'what-are-when-cases-how-do-they-work',
+  'selected server': '',
+  'default charts': '',
+  'any command': '',
+  'command': '',
+  'output': '',
+  'trafikito cloud': '',
+  'servers': '',
+  'servers list': '',
+  'overview': '',
+  'agent': '',
+  'trafikito agent': '',
+  'sending data': '',
+  'uninstall': '',
+  'install': '',
 };
 
 export default class Wiki extends React.Component {
@@ -48,6 +63,10 @@ export default class Wiki extends React.Component {
     }
 
     const href = wiki[keyword];
+    if (!href) {
+      console.debug(`#4kjglrg still waiting for the wiki link to ${keyword} `);
+      return this.props.children;
+    }
 
     if (href.indexOf('https://') === 0 || href.indexOf('http://') === 0) {
       // external link to new tab

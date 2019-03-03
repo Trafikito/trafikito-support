@@ -5,8 +5,9 @@ import Typography from '@material-ui/core/Typography';
 export default class Info extends React.Component {
   render() {
     return (
-      <div
+      <span
         style={{
+          display: 'block',
           backgroundColor: amber[200],
           padding: '12px 6px 12px 12px',
           borderLeft: `2px solid ${amber[600]}`,
@@ -14,10 +15,10 @@ export default class Info extends React.Component {
           margin: '24px 0',
         }}
       >
-        <Typography component={'dev'} variant={'body1'}>
+        <Typography component={'span'} variant={'body1'} style={{display: 'block'}}>
           {this.props.children}
         </Typography>
-      </div>
+      </span>
     );
   }
 }
