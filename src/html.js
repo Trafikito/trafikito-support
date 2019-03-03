@@ -22,6 +22,7 @@ export default function HTML(props) {
       }}/>
       {props.headComponents}
       <link rel="stylesheet" type="text/css" href={withPrefix('/global.css')}/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     </head>
     <body {...props.bodyAttributes}>
     <noscript>

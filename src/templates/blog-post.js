@@ -14,6 +14,7 @@ import RangeNormal from '../components/markdown/range/normal';
 import RangeWarn from '../components/markdown/range/warn';
 import RangeError from '../components/markdown/range/error';
 import Wiki from '../components/markdown/wiki';
+import Icon from '../components/markdown/icon';
 
 const removeMd = require('remove-markdown');
 
@@ -24,6 +25,7 @@ const renderAst = new rehypeReact({
     'range-warn': RangeWarn,
     'range-error': RangeError,
     'wiki': Wiki,
+    'icon': Icon,
   },
 }).Compiler;
 
