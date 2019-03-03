@@ -21,6 +21,7 @@ a:hover {
 html, body, #root {
   height: 100%;
   background: #FAFAFA;
+  font-size: 16px;
 }
 
 * {
@@ -37,4 +38,180 @@ html, body, #root {
 
 .t-center {
   text-align: center;
+}
+
+ol li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* img */
+
+img {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 3px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/*table*/
+
+table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+}
+
+td,
+th {
+  padding: 15px 5px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 2px
+}
+
+table > tbody > tr {
+  -webkit-transition: background-color .25s ease;
+  transition: background-color .25s ease
+}
+
+table > tbody > tr:hover {
+  background-color: rgba(242, 242, 242, 0.5)
+}
+
+/* Fonts */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 3.56rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+}
+
+h2 {
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 2.3733333333rem 0 1.424rem 0;
+}
+
+h3 {
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+h4 {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 1.52rem 0 0.912rem 0;
+}
+
+h5 {
+  font-size: 1.15rem;
+  line-height: 110%;
+  margin: 1.0933333333rem 0 0.656rem 0;
+}
+
+h6 {
+  font-size: 1.1rem;
+  line-height: 110%;
+  margin: 0.7666666667rem 0 0.46rem 0;
+}
+
+html {
+  line-height: 1.5;
+  font-family: Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media only screen and (min-width: 0) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Ribbons */
+
+/* common */
+.ribbon {
+  width: 65px;
+  height: 85px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #546E7A;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 163px;
+  padding: 4px 0;
+  background-color: #607D8B;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+
+.ribbon-top-right::after {
+  bottom: 20px;
+  right: 0;
+}
+
+.ribbon-top-right span {
+  left: -40px;
+  top: 10px;
+  transform: rotate(45deg);
 }
