@@ -32,6 +32,7 @@
     "history": "^4.7.2",
     "localstorage-ttl": "^1.0.2",
     "lodash": "^4.17.11",
+    "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "prismjs": "^1.15.0",
     "query-string": "^6.2.0",

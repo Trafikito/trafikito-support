@@ -1,11 +1,10 @@
 ---
 id: 79d9beda-7226-4c3a-b931-0190140a40e8
-layout: post
-title:  "Member Roles"
-categories: trafikito members
-uri: blog/member-roles
 featured_image: member-roles.png
-tags: [blog]
+layout: blog
+title:  "Member Roles"
+uri: blog/member-roles
+tags: [members, roles]
 date: 2018-06-22
 ---
 

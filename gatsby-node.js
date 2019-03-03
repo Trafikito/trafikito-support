@@ -77,9 +77,12 @@ exports.onPostBuild = async ({graphql}) => {
               node {
                 frontmatter {
                   id
+                  featured_image
+                  layout
                   title
                   uri
                   tags
+                  date
                 }
                 excerpt(format: PLAIN)
               }

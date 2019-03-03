@@ -1,11 +1,10 @@
 ---
 id: b4b1981e-93f9-4efa-ac17-4ed9d00f259c
-layout: post
-title:  "Dashboard Redesign"
-categories: trafikito design
-uri: blog/trafikito-redesign
 featured_image: trafikito-redesign.png
-tags: [blog]
+layout: blog
+title:  "Dashboard Redesign"
+uri: blog/trafikito-redesign
+tags: [release, design]
 date: 2018-05-29
 ---
 

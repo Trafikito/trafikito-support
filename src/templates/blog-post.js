@@ -6,7 +6,8 @@ import Footer from '../components/Footer';
 import SearchResultsArticles from '../components/Search/partials/articles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import layoutCss from '../components/Layout/style.module.scss';
+import Chip from '@material-ui/core/Chip';
+import layoutCss from './style.module.scss';
 import rehypeReact from 'rehype-react';
 import RangeNormal from '../components/markdown/range/normal';
 import RangeWarn from '../components/markdown/range/warn';
@@ -19,6 +20,7 @@ import Gif from '../components/markdown/gif';
 import Code from '../components/markdown/code';
 
 const removeMd = require('remove-markdown');
+const moment = require('moment');
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -38,6 +40,7 @@ const renderAst = new rehypeReact({
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
+    const frontmatter = this.props.data.markdownRemark.frontmatter;
     const siteTitle = this.props.data.site.siteMetadata.title;
     const {related} = this.props.pageContext;
 
@@ -56,12 +59,35 @@ class BlogPostTemplate extends React.Component {
       });
     }
 
+    let date = null;
+
+    if (frontmatter.date) {
+      date = moment(new Date(frontmatter.date)).format('YYYY-MM-DD');
+    }
+
+    const tags = [];
+    if (frontmatter.layout === 'blog') {
+      tags.push(<Chip key={'blog'} label={'blog'} style={{margin: 3}}/>);
+    }
+
+    frontmatter.tags.forEach((tag) => {
+      tags.push(<Chip key={tag} label={tag} style={{margin: 3}}/>);
+    });
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={removeMd(post.excerpt)}/>
         <div className={layoutCss.content_holder}>
           <Paper style={{padding: 24, margin: '3px 6px'}}>
             <Typography component={'div'} variant={'h2'}>{post.frontmatter.title}</Typography>
+            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+              <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>{tags}</div>
+              {date && (
+                <Typography variant={'caption'}>
+                  {date}
+                </Typography>
+              )}
+            </div>
             <Typography component={'div'} style={{padding: '12px'}} variant={'body1'}>
               <div>
                 <div style={{minHeight: 200}}>{renderAst(post.htmlAst)}</div>
@@ -104,9 +130,12 @@ export const pageQuery = graphql`
       htmlAst
       frontmatter {
         id
+        featured_image
+        layout
         title
         uri
         tags
+        date
       }
     }
   }

@@ -1,23 +1,16 @@
 ---
 id: 78b80d3f-31d1-4ad8-9c61-a9d1d45a8b98
-layout: post
-title:  "Monitor the output of any command"
-categories: trafikito
-uri: blog/possible-to-monitor-output-of-any-command
 featured_image: possible-to-monitor-output-of-any-command.png
-tags: [blog]
+layout: blog
+title:  "Monitor the output of any command"
+uri: blog/possible-to-monitor-output-of-any-command
+tags: [trafikito, release]
 date: 2018-05-12
 ---
 
-
+Trafikito v1.0 is available for everyone.
 
 Trafikito is a monitoring system which allows you to track any output of any command and take automatic action when things happen.
-
-
-<!--more-->
-
-Trafikito is available for everyone
-------------------------------
 
 Trafikito is the game changer in monitoring. All tools allow you to monitor specific things and with Trafikito you can literally monitor <wiki>output</wiki> of any <wiki>command</wiki> running on your linux machine.
 

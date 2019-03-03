@@ -1,11 +1,10 @@
 ---
-featured_image: trafikito-what-is-a-workspace.png
 id: 2604162f-3a0f-482d-b6c2-6cdc7f8d2b69
+featured_image: trafikito-what-is-a-workspace.png
 layout: blog
-sort: 1
 title:  "What is a workspace?"
 uri: blog/what-is-a-workspace
-tags: [workspace]
+tags: [workspace, servers]
 date: 2018-06-23
 ---
 

@@ -157,3 +157,61 @@ html {
     font-size: 15px;
   }
 }
+
+/* Ribbons */
+
+/* common */
+.ribbon {
+  width: 65px;
+  height: 85px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #546E7A;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 163px;
+  padding: 4px 0;
+  background-color: #607D8B;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+
+.ribbon-top-right::after {
+  bottom: 20px;
+  right: 0;
+}
+
+.ribbon-top-right span {
+  left: -40px;
+  top: 10px;
+  transform: rotate(45deg);
+}
