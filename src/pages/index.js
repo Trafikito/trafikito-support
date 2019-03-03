@@ -1,7 +1,8 @@
 import React from 'react';
-import {Link, graphql} from 'gatsby';
+import {Link, graphql, withPrefix} from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Footer from '../components/Footer';
 import layoutCss from '../components/Layout/style.module.scss';
@@ -24,19 +25,35 @@ class BlogIndex extends React.Component {
         <div className={layoutCss.content_holder}>
 
           {posts.map(({node}) => {
-            const url = `/${node.frontmatter.uri}.html`;
-            const title = node.frontmatter.title || url;
+            const frontmatter = node.frontmatter;
+            const url = `/${frontmatter.uri}.html`;
+            const title = frontmatter.title || url;
+            const featuredImage = frontmatter.featured_image || null;
+            const isBlog = frontmatter.layout === 'blog';
+
             return (
-              <div style={{margin: 6}} key={node.frontmatter.uri}>
+              <Paper style={{width: 300, padding: 12, margin: 6, position: 'relative'}} key={frontmatter.uri}>
+                {isBlog && <div className="ribbon ribbon-top-right"><span>Blog</span></div>}
                 <Typography variant={'h5'}>
                   <Link style={{boxShadow: `none`}} to={url}>
                     {title}
                   </Link>
                 </Typography>
+                {
+                  featuredImage && (
+                    <div style={{textAlign: 'center'}}>
+                      <img
+                        style={{width: 'calc(100% - 12px)'}}
+                        src={withPrefix(`/featured-image/${featuredImage}`)}
+                        alt={title}
+                      />
+                    </div>
+                  )
+                }
                 <Typography variant={'body2'} component={'div'}>
                   <p dangerouslySetInnerHTML={{__html: removeMd(node.excerpt)}}/>
                 </Typography>
-              </div>
+              </Paper>
             );
           })}
         </div>
@@ -55,14 +72,18 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___sort], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date,frontmatter___sort], order: DESC }) {
       edges {
         node {
           excerpt(format: PLAIN)
           frontmatter {
+            id
+            featured_image
+            layout
             title
             uri
             tags
+            date
           }
         }
       }

@@ -2,11 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import blueGrey from '@material-ui/core/colors/blueGrey';
-import Breadcrumbs from '@material-ui/lab/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 import {MuiThemeProvider} from '@material-ui/core/styles';
 import theme from './../Layout/theme';
-import css from './style.module.scss';
+// import css from './style.module.scss';
 
 const _get = require('lodash/get');
 
