@@ -6,6 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Footer from '../components/Footer';
 import layoutCss from '../components/Layout/style.module.scss';
+import Grow from '@material-ui/core/Grow';
 
 const removeMd = require('remove-markdown');
 
@@ -24,36 +25,47 @@ class BlogIndex extends React.Component {
 
         <div className={layoutCss.content_holder}>
 
-          {posts.map(({node}) => {
+          {posts.map(({node}, index) => {
             const frontmatter = node.frontmatter;
             const url = `/${frontmatter.uri}.html`;
             const title = frontmatter.title || url;
             const featuredImage = frontmatter.featured_image || null;
             const isBlog = frontmatter.layout === 'blog';
+            const timeout = index * 250 > 3000 ? 3000 : index * 250;
 
             return (
-              <Paper style={{width: 300, padding: 12, margin: 6, position: 'relative'}} key={frontmatter.uri}>
-                {isBlog && <div className="ribbon ribbon-top-right"><span>Blog</span></div>}
-                <Typography variant={'h5'}>
-                  <Link style={{boxShadow: `none`}} to={url}>
-                    {title}
-                  </Link>
-                </Typography>
-                {
-                  featuredImage && (
-                    <div style={{textAlign: 'center'}}>
-                      <img
-                        style={{width: 'calc(100% - 12px)'}}
-                        src={withPrefix(`/featured-image/${featuredImage}`)}
-                        alt={title}
-                      />
-                    </div>
-                  )
-                }
-                <Typography variant={'body2'} component={'div'}>
-                  <p dangerouslySetInnerHTML={{__html: removeMd(node.excerpt)}}/>
-                </Typography>
-              </Paper>
+              <Grow
+                in={true}
+                style={{transformOrigin: '0 0 0'}}
+                timeout={timeout}
+                key={frontmatter.uri}
+              >
+                <Paper style={{width: 300, padding: 12, margin: 6, position: 'relative'}}>
+                  {isBlog && <div className="ribbon ribbon-top-right"><span>Blog</span></div>}
+                  <Typography variant={'h5'}>
+                    <Link style={{boxShadow: `none`}} to={url}>
+                      {title}
+                    </Link>
+                  </Typography>
+                  {
+                    featuredImage && (
+                      <div style={{textAlign: 'center'}}>
+                        <Link style={{boxShadow: `none`}} to={url}>
+                          <img
+                            style={{width: 'calc(100% - 12px)'}}
+                            src={withPrefix(`/featured-image/${featuredImage}`)}
+                            alt={title}
+                          />
+                        </Link>
+
+                      </div>
+                    )
+                  }
+                  <Typography variant={'body2'} component={'div'}>
+                    <p dangerouslySetInnerHTML={{__html: removeMd(node.excerpt)}}/>
+                  </Typography>
+                </Paper>
+              </Grow>
             );
           })}
         </div>

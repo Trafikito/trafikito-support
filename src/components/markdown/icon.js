@@ -24,6 +24,8 @@ export default class MdIcon extends React.Component {
       case 'red':
         color = red[500];
         break;
+      default:
+        color = 'inherit';
     }
 
     return (
