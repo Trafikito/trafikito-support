@@ -6,7 +6,6 @@ import SearchRender from './render';
 const {blurRemove, blurAdd} = require('../../utils/blur');
 const {subscribeToChanges, unsubscribeFromChanges} = require('../../utils/state');
 
-// const ls = require('localstorage-ttl');
 const ajaxGet = require('../../utils/ajax/get');
 
 class Search extends React.Component {

@@ -13,8 +13,6 @@ import DelayedButton from '../DelayedButton';
 
 const fuzzysort = require('fuzzysort');
 
-// const ls = require('localstorage-ttl');
-
 class SearchRender extends React.Component {
   static propTypes = {
     handleClose: PropTypes.func.isRequired,
