@@ -1,5 +1,5 @@
-// // this file is helper file which is used to run through all the files and edit something there. E.g. add uuid for each
-// // it is modified for a task, ran once and commented out.
+// this file is helper file which is used to run through all the files and edit something there. E.g. add uuid for each
+// it is modified for a task, ran once and commented out.
 //
 // const uuid = require('uuid');
 // var fs = require('fs');
@@ -23,13 +23,20 @@
 //     // DO THE MAGIC
 //     // DO THE MAGIC
 //
-//     contents = contents.split('---');
-//     contents = contents.join('---');
-//     console.log(`#contents `, contents);
+//     // contents = contents.split('---');
+//     // contents = contents.join('---');
+//     // console.log(`#contents `, contents);
 //
 //     // MAGIC IS OVER
 //     // MAGIC IS OVER
 //     // MAGIC IS OVER
-//     fs.writeFileSync(file, contents);
+//
+//     // if (file.indexOf('./account/') === 0) {
+//     //   console.log(`#kfelwkf file `, file);
+//     //   newfile = file.replace('account/account-', 'account/');
+//     //   fs.writeFileSync(newfile, contents);
+//     //   fs.unlink(file);
+//     // }
+//
 //   });
 // });
