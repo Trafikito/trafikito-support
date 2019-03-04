@@ -17,6 +17,24 @@ const theme = createMuiTheme({
   },
   typography: {
     useNextVariants: true,
+    h1: {
+      fontSize: '3.56rem',
+    },
+    h2: {
+      fontSize: '2.92rem',
+    },
+    h3: {
+      fontSize: '2.28rem',
+    },
+    h4: {
+      fontSize: '1.64rem',
+    },
+    h5: {
+      fontSize: '1.15rem',
+    },
+    h6: {
+      fontSize: '1.1rem',
+    },
   },
 });
 
