@@ -4,7 +4,7 @@ layout: post
 title:  "How many hours of logs do I need?"
 uri: how-many-hours-of-logs-do-i-need
 tags: [dashboard]
- date: 2018-09-10
+date: 2018-09-10
 ---
 For hobby projects 12 hours is more than enough. With 12 hours you can see what happened while you were sleeping.
  However, for most **businesses 3 days is a must-have.**

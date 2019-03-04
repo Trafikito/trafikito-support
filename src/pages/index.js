@@ -27,7 +27,10 @@ class BlogIndex extends React.Component {
   }
 
   getInitialTab() {
-    const selected = localStorage && localStorage.getItem('support_index_tab') || 'blog';
+    let selected = 'blog';
+    if (typeof localStorage !== 'undefined') {
+      selected = localStorage.getItem('support_index_tab');
+    }
     if (possibleTabs.includes(selected)) {
       return selected;
     }
@@ -37,7 +40,7 @@ class BlogIndex extends React.Component {
   handleTabChange({tab}) {
     if (possibleTabs.includes(tab)) {
       this.setState({tab});
-      if (localStorage) {
+      if (typeof localStorage !== 'undefined') {
         localStorage.setItem('support_index_tab', tab);
       }
     }

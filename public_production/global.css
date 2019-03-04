@@ -99,38 +99,56 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
   font-size: 3.56rem;
-  line-height: 110%;
-  margin: 2.8rem 0 1.68rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.00833em;
 }
 
 h2 {
   font-size: 2.92rem;
-  line-height: 110%;
-  margin: 2.3733333333rem 0 1.424rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 104%;
+  letter-spacing: 0;
 }
 
 h3 {
   font-size: 2.28rem;
-  line-height: 110%;
-  margin: 1.9466666667rem 0 1.168rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0.00735em;
 }
 
 h4 {
   font-size: 1.64rem;
-  line-height: 110%;
-  margin: 1.52rem 0 0.912rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 0;
 }
 
 h5 {
   font-size: 1.15rem;
-  line-height: 110%;
-  margin: 1.0933333333rem 0 0.656rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 0;
 }
 
 h6 {
   font-size: 1.1rem;
-  line-height: 110%;
-  margin: 0.7666666667rem 0 0.46rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.0075em;
 }
 
 html {
@@ -168,15 +186,6 @@ html {
   position: absolute;
 }
 
-.ribbon::before,
-.ribbon::after {
-  position: absolute;
-  z-index: -1;
-  content: '';
-  display: block;
-  border: 5px solid #546E7A;
-}
-
 .ribbon span {
   position: absolute;
   display: block;
@@ -192,22 +201,6 @@ html {
 .ribbon-top-right {
   top: -3px;
   right: -3px;
-}
-
-.ribbon-top-right::before,
-.ribbon-top-right::after {
-  border-top-color: transparent;
-  border-right-color: transparent;
-}
-
-.ribbon-top-right::before {
-  top: 0;
-  left: 0;
-}
-
-.ribbon-top-right::after {
-  bottom: 20px;
-  right: 0;
 }
 
 .ribbon-top-right span {
